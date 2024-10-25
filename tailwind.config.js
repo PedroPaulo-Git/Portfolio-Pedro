@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'gray-main': '#212529',
-        'gray-light': '#6c757d', // Adicionando a cor personalizada
+        'gray-light': '#495057',
+        'gray-fulllight': '#ced4da', // Adicionando a cor personalizada
       },
     },
   },
