@@ -3,15 +3,15 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="flex flex-1 items-center justify-end md:justify-between px-16 py-12">
-        <nav aria-label="Global" className="hidden md:block border-black">
+      <div className="flex flex-1 items-center justify-between px-16 py-12">
+        <nav aria-label="Global" className=" md:block border-black">
           <div className="flex items-center gap-2 text-xs">
-            <p>
+            <p className="hidden md:block">
               receberpedro09
               <span className="font-serif font-semibold">@</span>gmail.com
             </p>
-            <span className="w-[100px] py-3.5 border rounded-full text-center">Copiar</span>
-            <span className="w-[100px] py-3.5 border rounded-full text-center">CV</span>
+            <span className="w-[100px] py-3.5 border rounded-full text-center bg-white">Copiar</span>
+            <span className="w-[100px] py-3.5 border rounded-full text-center  bg-white">CV</span>
           </div>
         </nav>
 
