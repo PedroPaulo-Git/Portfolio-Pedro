@@ -14,7 +14,13 @@ const Services = () => {
           Stack
         </>
       ),
-      subtitle: "Criando solucoes completas e fluidas para web e mobile",
+      subtitle: (
+        <>
+          Criando Solu<span className="Acentuacoes">ç</span>
+          <span className="Acentuacoes">õ</span>es completas fluidas para web e
+          mobile
+        </>
+      ),
       icon: IconDeveloper,
     },
     {
@@ -32,42 +38,50 @@ const Services = () => {
       image: IconWeb,
       title: (
         <>
-         Landing Pages <span className="font-sans">&</span> Conversao
+          Landing Pages <span className="font-sans">&</span> Conversao
         </>
       ),
-      subtitle: "Designs estrategicos que engajam e convertem visitantes em clientes.",
-      icon: IconDesign,
-    }
-    ,
-    {
-      image:IconSoftware,
-      title: (
-        <>
-         Software <span className="font-sans">&</span> Solucoes
-        </>
-      ),
-      subtitle: "Sistemas personalizados que simplificam processos e geram resultados.",
+      subtitle:
+        "Designs estrategicos que engajam e convertem visitantes em clientes.",
       icon: IconDesign,
     },
-
+    {
+      image: IconSoftware,
+      title: (
+        <>
+          Software <span className="font-sans">&</span> Solu
+          <span className="Acentuacoes">ç</span>
+          <span className="Acentuacoes">õ</span>es
+        </>
+      ),
+      subtitle:
+        "Sistemas personalizados que simplificam processos e geram resultados.",
+      icon: IconDesign,
+    },
   ];
   return (
-    <div className="m-[2rem] lg:mx-[26rem]">
-      <div className="flex flex-col text-center  text-4xl lg:text-3xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
+    <div className="mx-auto mt-20">
+      <div className="flex flex-col text-center text-2xl  sm:text-2xl lg:text-4xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
         <span className="leading-tight">
-          Colaboro com empresas para criar experiencias
+          Colaboro com empresas para criar experi<span className="Acentuacoes">ê</span>ncias
         </span>
         <span className="leading-tight">digitais de alto impacto</span>
       </div>
       <div class="">
-        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-36">
           <h2 class="text-2xl font-bold tracking-tight text-gray-900">
-            Customers also purchased
+            <span className="relative flex justify-center">
+              <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
+
+              <span className="relative z-10 bg-white text-xs lg:text-sm p-3 px-8  lg:p-3 lg:px-8 rounded-full text-gray-light -rotate-12">
+                Servi<span className="Acentuacoes">ç</span>os
+              </span>
+            </span>
           </h2>
 
           <div class="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {services.map((service, index) => (
-              <div key={index} className="group relative">
+              <div key={index} className="group relative flex items-start">
                 <div className="mt-4 flex flex-col">
                   <h3 className="text-sm text-gray-700">
                     <a href="#">
@@ -82,7 +96,7 @@ const Services = () => {
                       />
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm font-bold text-gray-main">
+                  <p className="mt-1 text-lg font-medium text-gray-main">
                     {service.title}
                   </p>
                   <p className="mt-1 text-sm text-gray-700 max-w-52">
