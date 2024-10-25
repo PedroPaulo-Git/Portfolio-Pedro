@@ -9,7 +9,7 @@ export default {
       colors: {
         'gray-main': '#212529',
         'gray-light': '#495057',
-        'gray-fulllight': '#ced4da', // Adicionando a cor personalizada
+        'gray-fulllight': '#dee2e6', // Adicionando a cor personalizada
       },
     },
   },
