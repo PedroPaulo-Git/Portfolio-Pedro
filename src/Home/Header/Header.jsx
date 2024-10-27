@@ -10,9 +10,9 @@ const Header = () => {
               receberpedro09
               <span className="font-serif font-semibold">@</span>gmail.com
             </p>
-            <span className="w-[90px] py-3.5 border rounded-full text-center hidden sm:block bg-white">Copiar</span>
-            <span className="w-[90px] py-3.5 border rounded-full text-center bg-gray-main sm:hidden text-white">Email</span>
-            <span className="w-[90px] py-3.5 border rounded-full text-center  bg-white">CV</span>
+            <span className="w-[90px] py-3.5 border rounded-full text-center font-semibold hidden sm:block bg-white">Copiar</span>
+            <span className="w-[90px] py-3.5 border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white">Email</span>
+            <span className="w-[90px] py-3.5 border rounded-full text-center font-semibold  bg-white">CV</span>
           </div>
         </nav>
 
