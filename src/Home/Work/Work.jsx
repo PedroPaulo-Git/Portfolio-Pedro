@@ -13,6 +13,7 @@ const features = [
   {
     image: WorkImageExemple,
     name: "SSL certificates",
+    social:<IoLogoGithub />,
     where: "Projeto pessoal",
     date: "Agosto 2023",
     description:
@@ -21,6 +22,7 @@ const features = [
   {
     image: WorkImageExemple,
     name: "Simple queues",
+    social:<IoLogoGithub />,
     where: "Projeto pessoal",
     date: "Agosto 2023",
     description:
@@ -29,6 +31,7 @@ const features = [
   {
     image: WorkImageExemple,
     name: "Advanced security",
+    social:<IoLogoGithub />,
     where: "Projeto pessoal",
     date: "Agosto 2023",
     description:
