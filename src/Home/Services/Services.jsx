@@ -3,6 +3,8 @@ import IconDeveloper from "../../assets/Services/dev.png";
 import IconDesign from "../../assets/Services/design.png"; // add other icons as needed
 import IconWeb from "../../assets/Services/web-page.png"; // add other icons as needed
 import IconSoftware from "../../assets/Services/software-development.png";
+import './backgroundServices.css'
+
 const Services = () => {
   const services = [
     {
@@ -60,7 +62,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="mx-auto mt-20">
+    <div className="Services mx-auto mt-20 rounded-b-[90px] relative z-10">
       <div className="flex flex-col text-center text-2xl  sm:text-2xl lg:text-4xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
         <span className="leading-tight">
           Colaboro com empresas para criar experi<span className="Acentuacoes">ê</span>ncias

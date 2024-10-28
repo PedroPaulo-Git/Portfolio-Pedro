@@ -62,7 +62,7 @@ const Work = () => {
               >
                 <div className="group relative">
                   <img src={feature.image} className="rounded-2xl" alt="" />
-                  <button className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                  <button className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity">
                     Ver Projeto
                   </button>
                 </div>
