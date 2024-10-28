@@ -26,7 +26,7 @@ const Header = () => {
   
   };
     const phoneNumber = '5581999049803'; // Seu número com código do país
-    const message = encodeURIComponent('Gostária de entrar em contato !'); // Mensagem a ser enviada
+    const message = encodeURIComponent('Gostaria de entrar em contato !'); // Mensagem a ser enviada
  
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
