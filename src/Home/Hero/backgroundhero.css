@@ -2,3 +2,29 @@
   background-color: #efefef;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23d9d9d9' fill-opacity='0.69' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   }
+  @keyframes kick-animation {
+    0%, 100% {
+      transform: translateY(0) rotate(-12deg);
+    }
+    50% {
+      transform: translateY(20px) rotate(-12deg); /* Mover uniformemente para baixo */
+    }
+  }
+  
+  @keyframes fixed-rotation {
+
+    0%, 100% {
+      transform:
+      rotate(-15deg)
+    }
+   
+  }
+  
+  
+  .fixed-rotation {
+    animation: fixed-rotation 1.5s ease-in-out infinite;
+  }
+  
+  .animate-kick {
+    animation: kick-animation 8s ease-in-out infinite;
+  }
