@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex flex-1 items-center justify-between px-4 py-12 sm:px-16 sm:py-12 ">
         <nav aria-label="Global" className=" md:block border-black">
           <div className="flex items-center gap-2 text-xs">
-            <p className="hidden md:block">
+            <p className="hidden md:block text-gray-light">
               receberpedro09
               <span className="font-serif font-semibold">@</span>gmail.com
             </p>
@@ -18,12 +18,12 @@ const Header = () => {
 
         <div className="flex items-center gap-4 text-sm">
           <div className="sm:flex">
-            <div className="flex sm:gap-2">
-              <p>LinkedIn</p>
+            <div className="flex sm:gap-2 text-gray-light">
+              <a className="cursor-pointer">LinkedIn</a>
               <span className="font-serif">/</span>
-              <p>Git Hub</p>
+              <a className="cursor-pointer">Git Hub</a>
               <span className="font-serif">/</span>
-              <p>Instagram</p>
+              <a className="cursor-pointer">Instagram</a>
             </div>
           </div>
         </div>

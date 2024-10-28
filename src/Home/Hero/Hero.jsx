@@ -20,7 +20,7 @@ const Hero = () => {
           <span className=" w-36 absolute p-4 top-0 mt-5 ml-10 bg-white text-xs rounded-full animate-kick shadow-md">Ol<span className="font-sans font-semibold">á</span>, sou Pedro 👋🏽</span>
         </div>
 
-        <div className="flex flex-col  text-4xl lg:text-[3.4rem] xl:text-[3.4rem] font-semibold bg-gradient-to-l from-gray-light to-gray-main bg-clip-text text-transparent">
+        <div className="flex flex-col  text-4xl lg:text-[3.4rem] xl:text-[3.4rem] font-semibold bg-gradient-to-l from-[#7c7878] to-black-main bg-clip-text text-transparent">
           <span className="leading-tight">Design e tecnologia</span>
           <span className="leading-tight">para impulsionar marcas</span>
           <span className="leading-tight">e negocios.</span>
