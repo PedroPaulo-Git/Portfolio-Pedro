@@ -28,13 +28,17 @@ const Footer = () => {
         </span>
         <div className="flex gap-3">
           <EmailButton />
-          <span
+          <a
             onClick={handleClick}
-            className="w-[110px] py-3 border-4 border-gray-fulllight rounded-full text-center font-normal text-sm bg-white leading-normal flex justify-center items-center gap-1"
+            className="w-[110px] relative cursor-pointer py-3 border-4 border-gray-fulllight rounded-full text-center font-normal text-sm bg-white leading-normal flex justify-center items-center gap-1"
           >
-            {" "}
+            {" "}  <div className="flex items-center gap-1 relative group">
             <PiWhatsappLogoDuotone className="text-base" /> Whatsapp{" "}
-          </span>
+          <span className="absolute right-2 -bottom-1 w-5/6  h-[2px] bg-gray-light scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+        </div>
+          
+          
+          </a>
         </div>
       </div>
 
