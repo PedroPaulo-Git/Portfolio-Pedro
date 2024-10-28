@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        'inner-deep': 'inset 0 2px 12px rgba(0, 0, 0, 0.2)', // Exemplo de sombra interna mais profunda
+        'inner-deep': 'inset 2px 2px 12px rgba(0, 0, 0, 0.1)',
+       'grid': '0 2px 60px -15px rgba(0, 0, 0, 0.3)',
       },
+      
       colors: {
         'gray-main': '#212529',
         'black-main': '#0b090a',
