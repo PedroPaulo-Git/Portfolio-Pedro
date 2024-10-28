@@ -22,7 +22,7 @@ const Hero = () => {
             </span>
         </div>
 
-        <div className="flex flex-col  text-4xl lg:text-[3.4rem] xl:text-[3.4rem] font-semibold bg-gradient-to-l from-[#7c7878] to-black-main bg-clip-text text-transparent">
+        <div className="flex flex-col  text-[32px] lg:text-[3.4rem] xl:text-[3.4rem] font-semibold bg-gradient-to-l from-[#7c7878] to-black-main bg-clip-text text-transparent">
           <span className="leading-tight">Design e tecnologia</span>
           <span className="leading-tight">para impulsionar marcas</span>
           <span className="leading-tight">e negocios.</span>
@@ -31,7 +31,7 @@ const Hero = () => {
           href=""
           className="rounded-full flex items-center bg-gray-main p-5 px-6 mt-4 text-white text-sm"
         >
-          Trabalhos Recentes
+          Entrar em contato
           <PiArrowLineUpRight className="ml-2 text-lg" />
         </a>
       </div>
