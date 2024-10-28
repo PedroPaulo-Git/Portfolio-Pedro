@@ -7,52 +7,60 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 
-
-
-
 const Header = () => {
-  const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", { successDuration: 1000 });
+  const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", {
+    successDuration: 1000,
+  });
   const [copyMessage, setCopyMessage] = useState("Copiar");
 
   const handleCopy = () => {
     setCopied();
     setTimeout(() => {
-      setCopyMessage(<span>Copiado<span className="font-sans">!</span></span>);
+      setCopyMessage(
+        <span>
+          Copiado<span className="font-sans">!</span>
+        </span>
+      );
     }, 100);
     setCopyMessage("...");
     setTimeout(() => {
       setCopyMessage("Copiar");
     }, 2000);
-  
   };
-    const phoneNumber = '5581999049803'; // Seu número com código do país
-    const message = encodeURIComponent('Gostaria de entrar em contato !'); // Mensagem a ser enviada
- 
+  const phoneNumber = "5581999049803"; // Seu número com código do país
+  const message = encodeURIComponent("Gostaria de entrar em contato !"); // Mensagem a ser enviada
+
   const handleClick = () => {
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
   return (
     <div>
       <div className="flex flex-1 items-center justify-between px-4 py-12 sm:px-16 sm:py-12 ">
         <nav aria-label="Global" className=" md:block border-black">
           <div className="flex items-center gap-2 text-xs">
-            <p className="hidden md:block text-gray-light">
-              receberpedro09
-              <span className="font-serif font-semibold">@</span>gmail.com
-            </p>
+            <div className="flex border rounded-full pr-0.5 pl-0.5 lg:pl-4 items-center ">
+              <p className="hidden md:block text-gray-light">
+                receberpedro09
+                <span className="font-serif font-semibold">@</span>gmail.com
+              </p>
 
-            <span
-              onClick={handleCopy}
-              className="w-[90px] my-1 py-3 cursor-pointer border rounded-full text-center font-semibold hidden sm:block bg-white"
-            >
-              {copyMessage}
-            </span>
-            <span onClick = {handleClick}
-            className="w-[90px] py-3 cursor-pointer border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white">
-              Whatsapp
-            </span>
-           
-            <DownloadCVButton/>
+              <span
+                onClick={handleCopy}
+                className="w-[90px] my-1 py-3 lg:py-4 cursor-pointer border rounded-full text-center font-semibold hidden sm:block bg-white"
+              >
+                {copyMessage}
+              </span>
+            </div>
+
+            <div className="flex border rounded-full p-0.5">
+              <span
+                onClick={handleClick}
+                className="w-[90px] py-3  cursor-pointer border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white"
+              >
+                Whatsapp
+              </span>
+            </div>
+            <DownloadCVButton />
           </div>
         </nav>
 
@@ -88,16 +96,28 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className='flex lg:hidden '>
-            <a className='p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
-                <FaInstagram/>
-            </a>
-            <a className='p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
-                <FaGithub/>
-            </a>
-            <a className='p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
-                <FaLinkedin/>
-            </a>
+        <div className="flex lg:hidden ">
+          <a
+            href="https://www.instagram.com/portsoftware/"
+            target="blank"
+            className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://github.com/PedroPaulo-Git"
+            target="blank"
+            className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pedro-paulodev/"
+            target="blank"
+            className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
+          >
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </div>

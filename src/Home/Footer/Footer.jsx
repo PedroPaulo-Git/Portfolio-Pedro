@@ -45,7 +45,7 @@ const Footer = () => {
       <span className="bg-gray-600 h-2 w-90"></span>
       <div className="border-t-2 w-11/12 mx-auto flex justify-between text-center py-8">
         <span className=" my-auto text-gray-light text-sm">
-          © 2025 All rights reserved.
+          © 202<span className="font-sans">4 </span>All rights reserved.
         </span>
         <div className="flex gap-1">
           <a

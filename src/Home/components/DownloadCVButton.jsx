@@ -5,15 +5,17 @@ const DownloadCVButton = () => {
     const driveLink = "https://drive.google.com/file/d/1bMqwD7C8z7Utdl4OmmYnWXkT-jWKmCvR/view"; // Link do seu CV no Google Drive
 
   return (
+    <div  className="flex border rounded-full p-0.5">
     <a
-    className="flex"
+    className="flex border-black rounded-full"
       href={driveLink} // Link para o arquivo do CV
       download="Pedro CV.pdf" // Nome do arquivo ao ser baixado
     >
-      <span className="w-[90px] py-3 cursor-pointer border rounded-full text-center font-semibold  bg-white">
+      <span className="w-[90px] py-3 lg:py-4 cursor-pointer border rounded-full text-center font-semibold  bg-white">
         CV
       </span>
     </a>
+    </div>
   );
 };
 
