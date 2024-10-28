@@ -62,7 +62,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="Services mx-auto mt-20 rounded-b-[90px] relative z-10">
+    <div className="Services mx-auto mt-20 pb-20 rounded-b-[90px] relative z-10">
       <div className="flex flex-col text-center text-2xl  sm:text-2xl lg:text-4xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
         <span className="leading-tight">
           Colaboro com empresas para criar experi<span className="Acentuacoes">ê</span>ncias
