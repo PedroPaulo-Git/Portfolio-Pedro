@@ -7,6 +7,9 @@
   src:url('../src/fonts/otterco-regular.otf');
   font-weight:normal;
  }
+ html{
+  overflow-x: hidden;
+ }
  :root{
 
  font-family:'Otterco Display Medium';

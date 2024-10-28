@@ -3,6 +3,13 @@ import React, { useEffect, useState } from "react";
 import useClipboard from "react-use-clipboard";
 import { LuArrowDownToLine } from "react-icons/lu";
 import DownloadCVButton from "../components/DownloadCVButton";
+import { FaInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+
+
+
+
 const Header = () => {
   const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", { successDuration: 1000 });
   const [copyMessage, setCopyMessage] = useState("Copiar");
@@ -49,7 +56,7 @@ const Header = () => {
           </div>
         </nav>
 
-        <div className="flex items-center gap-4 text-sm">
+        <div className="hidden lg:flex items-center gap-4 text-sm">
           <div className="sm:flex">
             <div className="flex sm:gap-2 text-gray-light">
               <a
@@ -80,6 +87,17 @@ const Header = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className='flex lg:hidden '>
+            <a className='p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
+                <FaInstagram/>
+            </a>
+            <a className='p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
+                <FaGithub/>
+            </a>
+            <a className='p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
+                <FaLinkedin/>
+            </a>
         </div>
       </div>
     </div>
