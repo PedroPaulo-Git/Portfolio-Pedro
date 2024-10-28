@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="Hero relative w-full rounded-b-[90px] h-[32rem] lg:h-[37rem] z-30 border-solid border-b-2 border-gray-fulllight">
       <div className="flex flex-col items-center text-center gap-5 my-2">
-        <div className="relative bg-gradient-to-t from-[#efefef] to-white rounded-full mt-10">
+        <div className="relative bg-gradient-to-t from-[#efefef] to-[#f8f7f7] rounded-full mt-10">
           <img
             src={Avatar}
             className="rounded-full w-[8rem] lg:w-[8rem] m-1 "

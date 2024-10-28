@@ -22,12 +22,12 @@ const marquee = [
     Javascript
 ]
   return (
-    <div className="bg-white flex border-solid border-b-2 border-gray-fulllight rounded-b-[90px] text-6xl h-80 items-center pt-10 -mt-20 overflow-x-hidden saturate-0">
+    <div className="bg-[#f8f9fa] flex border-solid border-b-2 border-gray-fulllight rounded-b-[90px] text-6xl h-[23rem] items-center pt-10 -mt-20 overflow-x-hidden saturate-0">
       <motion.div
         initial={{ x: 0 }}
         animate={{ x: "-100%" }}
         transition={{ duration: 30,repeat:Infinity,ease:'linear' }}
-        className="flex items-center gap-20 flex-shrink-0 pr-20 text-gray-main mt-12"
+        className="flex items-center gap-20 flex-shrink-0 pr-20 text-gray-main"
       >
        {marquee.map((image,index)=>{
         return <img src={image} className="w-60"/>
@@ -37,7 +37,7 @@ const marquee = [
         initial={{ x: 0 }}
         animate={{ x: "-100%" }}
         transition={{ duration: 30,repeat:Infinity,ease:'linear' }}
-        className="flex items-center gap-20 flex-shrink-0 pr-20 text-gray-main mt-12"
+        className="flex items-center gap-20 flex-shrink-0 pr-20 text-gray-main "
       >
        {marquee.map((image,index)=>{
         return <img src={image} className="w-60"/>
