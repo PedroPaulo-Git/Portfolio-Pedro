@@ -1,6 +1,8 @@
 import { span } from "framer-motion/client";
 import React, { useEffect, useState } from "react";
 import useClipboard from "react-use-clipboard";
+import { LuArrowDownToLine } from "react-icons/lu";
+import DownloadCVButton from "../components/DownloadCVButton";
 const Header = () => {
   const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", { successDuration: 1000 });
   const [copyMessage, setCopyMessage] = useState("Copiar");
@@ -15,6 +17,12 @@ const Header = () => {
       setCopyMessage("Copiar");
     }, 2000);
   
+  };
+    const phoneNumber = '5581999049803'; // Seu número com código do país
+    const message = encodeURIComponent('Gostária de entrar em contato !'); // Mensagem a ser enviada
+ 
+  const handleClick = () => {
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
   return (
     <div>
@@ -32,12 +40,12 @@ const Header = () => {
             >
               {copyMessage}
             </span>
-            <span className="w-[90px] py-3.5 cursor-pointer border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white">
-              Email
+            <span onClick = {handleClick}
+            className="w-[90px] py-3.5 cursor-pointer border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white">
+              Whatsapp
             </span>
-            <span className="w-[90px] py-3.5 cursor-pointer border rounded-full text-center font-semibold  bg-white">
-              CV
-            </span>
+           
+            <DownloadCVButton/>
           </div>
         </nav>
 
