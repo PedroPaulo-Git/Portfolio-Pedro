@@ -1,41 +1,53 @@
 import WorkImageExemple from "../../assets/Works/workexemple.jpg";
+import IdealTemplate from "../../assets/Works/IdealTemplete.png";
+import Template2 from "../../assets/Works/Templete3.png";
+import Template5 from "../../assets/Works/Templete5.png";
+import Template3 from "../../assets/Works/Templeteport.png";
 import { IoLogoGithub } from "react-icons/io5";
 const features = [
   {
-    image: WorkImageExemple,
-    name: "Push to deploy",
-    social:<IoLogoGithub />,
-    where: "Projeto pessoal",
-    date: "Agosto 2023",
+    image: IdealTemplate,
+    name: "Plataforma de Restaurante",
+    social: <IoLogoGithub />,
+    where: "Solução Empresarial",
+    date: <span>Novembro 202<span className="font-sans">4</span></span>,
+    href:'https://ideal-restaurante.vercel.app/',
+    github:'https://github.com/PedroPaulo-Git/PortSoftware',
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "Desenvolvimento de plataforma completa para restaurantes, com integração Stripe para pagamentos, dashboard administrativo e tecnologias modernas como React, Axios, Prisma e PostgreSQL para garantir alta performance e segurança.",
   },
   {
-    image: WorkImageExemple,
-    name: "SSL certificates",
-    social:<IoLogoGithub />,
-    where: "Projeto pessoal",
-    date: "Agosto 2023",
+    image: Template2,
+    name: "Landing Page Profissional",
+    social: <IoLogoGithub />,
+    where: "Desenvolvimento Profissional",
+    date: <span>Agosto 202<span className="font-sans">4</span></span>,
+    href:'',
+    github:'https://github.com/PedroPaulo-Git/PortSoftware',
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
   },
   {
-    image: WorkImageExemple,
-    name: "Simple queues",
-    social:<IoLogoGithub />,
-    where: "Projeto pessoal",
-    date: "Agosto 2023",
+    image: Template3,
+    name: "Portfolio Profissional",
+    social: <IoLogoGithub />,
+    where: "Projeto de Software House",
+    date:<span>Junho 202<span className="font-sans">4</span></span>,
+    href:'',
+    github:'https://github.com/PedroPaulo-Git/PortSoftware',
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
   },
   {
-    image: WorkImageExemple,
-    name: "Advanced security",
-    social:<IoLogoGithub />,
-    where: "Projeto pessoal",
-    date: "Agosto 2023",
+    image: Template5,
+    name: "Sistema de Gerenciamento de Pets",
+    social: <IoLogoGithub />,
+    where: "Processo Seletivo",
+    date:<span>Dezembro 202<span className="font-sans">3</span></span>,
+    href:'',
+    github:'https://github.com/PedroPaulo-Git/PortSoftware',
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Desenvolvimento de um sistema completo de gerenciamento de pets com funcionalidades CRUD, utilizando Next.js. O projeto foi criado para um processo seletivo, demonstrando experiência em desenvolvimento backend e frontend com foco em performance e escalabilidade.",
   },
 ];
 
@@ -62,14 +74,16 @@ const Work = () => {
               >
                 <div className="group relative">
                   <img src={feature.image} className="rounded-2xl" alt="" />
-                  <button className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity">
+                  <a 
+                  href={feature.href}
+                  className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity">
                     Ver Projeto
-                  </button>
+                  </a>
                 </div>
 
                 <dt className="text-2xl font-semibold leading-7 py-2 pt-4 text-gray-main justify-between flex">
                   {feature.name}
-                  <span className=" mr-1 cursor-pointer hover:text-gray-light trans"> {feature.social} </span>
+                  <a href={feature.github} className=" mr-1 cursor-pointer hover:text-gray-light trans"> {feature.social} </a>
                  
                 </dt>
                 <dt className="text-base font-semibold  text-gray-main">
