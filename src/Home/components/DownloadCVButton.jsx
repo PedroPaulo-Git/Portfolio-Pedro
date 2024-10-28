@@ -10,7 +10,7 @@ const DownloadCVButton = () => {
       href={driveLink} // Link para o arquivo do CV
       download="Pedro CV.pdf" // Nome do arquivo ao ser baixado
     >
-      <span className="w-[90px] py-3.5 cursor-pointer border rounded-full text-center font-semibold  bg-white">
+      <span className="w-[90px] py-3 cursor-pointer border rounded-full text-center font-semibold  bg-white">
         CV
       </span>
     </a>

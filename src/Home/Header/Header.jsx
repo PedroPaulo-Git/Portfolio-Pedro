@@ -43,12 +43,12 @@ const Header = () => {
 
             <span
               onClick={handleCopy}
-              className="w-[90px] my-1 py-3.5 cursor-pointer border rounded-full text-center font-semibold hidden sm:block bg-white"
+              className="w-[90px] my-1 py-3 cursor-pointer border rounded-full text-center font-semibold hidden sm:block bg-white"
             >
               {copyMessage}
             </span>
             <span onClick = {handleClick}
-            className="w-[90px] py-3.5 cursor-pointer border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white">
+            className="w-[90px] py-3 cursor-pointer border rounded-full text-center font-semibold bg-gray-main sm:hidden text-white">
               Whatsapp
             </span>
            
@@ -89,13 +89,13 @@ const Header = () => {
           </div>
         </div>
         <div className='flex lg:hidden '>
-            <a className='p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
+            <a className='p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
                 <FaInstagram/>
             </a>
-            <a className='p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
+            <a className='p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
                 <FaGithub/>
             </a>
-            <a className='p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
+            <a className='p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg'>
                 <FaLinkedin/>
             </a>
         </div>
