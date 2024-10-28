@@ -83,7 +83,7 @@ const Services = () => {
 
           <div class="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {services.map((service, index) => (
-              <div key={index} className="group relative flex items-start">
+              <div key={index} className="group relative flex items-start ">
                 <div className="mt-4 flex flex-col">
                   <h3 className="text-sm text-gray-700">
                     <a href="#">
