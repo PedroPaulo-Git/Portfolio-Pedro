@@ -7,6 +7,12 @@ import { HiArrowUturnRight } from "react-icons/hi2";
 import "./backgroundhero.css";
 
 const Hero = () => {
+  const phoneNumber = "5581999049803"; // Seu número com código do país
+  const message = encodeURIComponent("Gostaria de entrar em contato !"); // Mensagem a ser enviada
+
+  const handleClick = () => {
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+  };
   return (
     <div className="Hero relative w-full rounded-b-[90px] h-[32rem] lg:h-[37rem] z-30 border-solid border-b-2 border-gray-fulllight">
       <div className="flex flex-col items-center text-center gap-5 my-2">
@@ -28,6 +34,7 @@ const Hero = () => {
           <span className="leading-tight">e negocios.</span>
         </div>
         <a
+        onClick={handleClick}
           href=""
           className="rounded-full flex items-center bg-gray-main p-5 px-6 mt-4 text-white text-sm"
         >

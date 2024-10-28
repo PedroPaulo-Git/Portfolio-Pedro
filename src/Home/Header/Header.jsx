@@ -97,13 +97,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex lg:hidden ">
-          <a
-            href="https://www.instagram.com/portsoftware/"
-            target="blank"
-            className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
-          >
-            <FaInstagram />
-          </a>
+          
           <a
             href="https://github.com/PedroPaulo-Git"
             target="blank"
@@ -117,6 +111,13 @@ const Header = () => {
             className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
           >
             <FaLinkedin />
+          </a>
+          <a
+            href="https://www.instagram.com/portsoftware/"
+            target="blank"
+            className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
+          >
+            <FaInstagram />
           </a>
         </div>
       </div>

@@ -7,7 +7,8 @@
   src:url('../src/fonts/otterco-regular.otf');
   font-weight:normal;
  }
- html{
+ 
+ body,html{
   overflow-x: hidden;
  }
  :root{
