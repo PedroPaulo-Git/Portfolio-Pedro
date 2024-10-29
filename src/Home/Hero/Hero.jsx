@@ -26,6 +26,7 @@ const Hero = () => {
   >
         <div className="relative bg-gradient-to-t from-[#efefef] to-[#f8f7f7] rounded-full mt-10">
           <img
+          draggable="false"
             src={Avatar}
             className="rounded-full w-[8rem] lg:w-[8rem] m-1 "
             alt=""

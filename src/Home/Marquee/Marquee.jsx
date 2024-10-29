@@ -31,7 +31,7 @@ const marquee = [
         className="flex items-center gap-20 flex-shrink-0 pr-20 text-gray-main"
       >
        {marquee.map((image,index)=>{
-        return <img src={image} className="w-60"/>
+        return <img draggable="false" src={image} className="w-60"/>
        })}
       </motion.div>
       <motion.div
@@ -41,7 +41,7 @@ const marquee = [
         className="flex items-center gap-20 flex-shrink-0 pr-20 text-gray-main "
       >
        {marquee.map((image,index)=>{
-        return <img src={image} className="w-60"/>
+        return <img draggable="false" src={image} className="w-60"/>
        })}
       </motion.div>
     </div>
