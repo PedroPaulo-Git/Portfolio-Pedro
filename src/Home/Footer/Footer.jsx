@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+
 import HandShake from "../../assets/handshake.png";
 import { FaInstagram } from "react-icons/fa6";
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
@@ -6,7 +7,16 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import EmailButton from "../components/EmailButton";
 
+import { useInView } from "framer-motion";
+import { motion } from "framer-motion";
 const Footer = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  useEffect(() => {
+    console.log(isInView);
+  }, [isInView]);
+
   const phoneNumber = "5581999049803"; // Seu número com código do país
   const message = encodeURIComponent("Gostaria de entrar em contato !"); // Mensagem a ser enviada
 
@@ -15,29 +25,62 @@ const Footer = () => {
   };
   return (
     <footer className="bg-white rounded-t-[90px] ">
-      <div className="mx-auto w-full text-center flex flex-col items-center py-20 ">
-        <img
-          src={HandShake}
-          className="w-36 rounded-full p-1 bg-gradient-to-b from-[#f0f0f0] to-white"
-          alt=""
-        />
-        <span className="my-6 w-[25rem]  text-4xl sm:text-5xl sm:w-[40rem]  lg:text-6xl lg:w-[50rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
-          Me fale sobre seu proximo projeto
-        </span>
+      <div
+        ref={ref}
+        className="mx-auto gap-10 w-full text-center flex flex-col items-center py-20 "
+      >
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, x: 30 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate={isInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <img
+            src={HandShake}
+            className="w-36 mx-auto rounded-full p-1 bg-gradient-to-b from-[#f0f0f0] to-white"
+            alt=""
+          />
+        </motion.div>
+        <motion.div
+        className="w-[25rem]  text-4xl sm:text-5xl sm:w-[40rem]  lg:text-6xl lg:w-[50rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent"
+          variants={{
+            hidden: { opacity: 0, x: 30 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate={isInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <span className="my-6  ">
+            Me fale sobre seu proximo projeto
+          </span>
+        </motion.div>
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, x: 30 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate={isInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.6 }}
+        >
         <div className="flex gap-3">
           <EmailButton />
           <a
             onClick={handleClick}
             className="w-[110px] relative cursor-pointer py-3 border-4 border-gray-fulllight rounded-full text-center font-normal text-sm bg-white leading-normal flex justify-center items-center gap-1"
           >
-            {" "}  <div className="flex items-center gap-1 relative group">
-            <PiWhatsappLogoDuotone className="text-base" /> Whatsapp{" "}
-          <span className="absolute right-2 -bottom-1 w-5/6  h-[2px] bg-gray-light scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-        </div>
-          
-          
+            {" "}
+            <div className="flex items-center gap-1 relative group">
+              <PiWhatsappLogoDuotone className="text-base" /> Whatsapp{" "}
+              <span className="absolute right-2 -bottom-1 w-5/6  h-[2px] bg-gray-light scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+            </div>
           </a>
         </div>
+        </motion.div>
       </div>
 
       <span className="bg-gray-600 h-2 w-90"></span>

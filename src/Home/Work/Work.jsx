@@ -1,10 +1,12 @@
-
+import React,{useRef,useEffect} from "react";
 import IdealTemplate from "../../assets/Works/IdealTemplete.png";
 import Template2 from "../../assets/Works/Templete3.png";
 import Template3 from "../../assets/Works/Templeteport.png";
 import Template4 from "../../assets/Works/Templete34.png";
 import Template5 from "../../assets/Works/Templete5.png";
 import Template6 from "../../assets/Works/TemplateGame.png";
+import { useInView } from "framer-motion";
+import { motion } from "framer-motion"
 
 import { IoLogoGithub } from "react-icons/io5";
 const features = [
@@ -80,6 +82,15 @@ const features = [
 ];
 
 const Work = () => {
+  const ref = useRef(null)
+  const isInView = useInView(ref,{once:true})
+
+
+useEffect(()=>{
+  console.log(isInView)
+},[isInView]);
+
+
   return (
     <div className=" py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -93,40 +104,45 @@ const Work = () => {
             dos meus melhores resultados.
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+        <div ref={ref}  className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            {features.map((feature) => (
-              <div
+          {features.map((feature, index) => (
+              <motion.div
+              
                 key={feature.name}
-                className={`relative p-4 bg-white rounded-xl ${feature.mobileOnly ? 'block sm:hidden' : 'block'}`}
+                className={`relative p-4 bg-white rounded-xl`}
+                initial={{ opacity: 0, y: 20 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{
+                  duration: 0.5,
+                  delay: index * 0.5, // Atraso progressivo para cada cartão
+                }}
               >
                 <div className="group relative">
                   <img src={feature.image} className="rounded-2xl" alt="" />
                   <a 
-                  href={feature.href}
-                  target="blank"
-                  className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity">
+                    href={feature.href}
+                    target="blank"
+                    className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity">
                     Ver Projeto
                   </a>
                 </div>
 
                 <dt className="text-2xl font-semibold leading-7 py-2 pt-4 text-gray-main justify-between flex">
                   {feature.name}
-                  <a href={feature.github} className=" mr-1 cursor-pointer hover:text-gray-light trans"> {feature.social} </a>
-                 
+                  <a href={feature.github} className="mr-1 cursor-pointer hover:text-gray-light trans"> {feature.social} </a>
                 </dt>
-                <dt className="text-base font-semibold  text-gray-main">
+                <dt className="text-base font-semibold text-gray-main">
                   {feature.where}
                 </dt>
                 <dt className="text-sm font-normal leading-7 text-gray-midlight">
                   {feature.date}
                 </dt>
 
-                <dd className="mt-2 text-sm  text-gray-midlight">
+                <dd className="mt-2 text-sm text-gray-midlight">
                   {feature.description}
                 </dd>
-               
-              </div>
+              </motion.div>
             ))}
           </dl>
         </div>

@@ -1,11 +1,36 @@
-import React from "react";
+import React,{useRef,useEffect} from "react";
 import programming from "../../../assets/About/tec.png"; // add other icons as needed
 import IconCodingStudy from "../../../assets/About/coding-book.png"; // add other icons as needed
 import IconBook from "../../../assets/About/book.png";
 import IconSuccess from "../../../assets/About/success.png";
+import { useInView } from "framer-motion";
+import { motion } from "framer-motion"
+
+
+
 const GridSkils = () => {
+  
+  const ref = useRef(null)
+  const isInView = useInView(ref,{once:true})
+
+
+useEffect(()=>{
+  console.log(isInView)
+},[isInView]);
+
+
+
   return (
-    <div className="lg:w-[30rem] sm:w-[10rem] md:w-[30rem]">
+    <motion.div
+    variants = {{
+      hidden:{ opacity: 0, x:30},
+      visible:{ opacity: 1, x:0},
+    }}
+  initial="hidden"
+  animate={isInView ? { opacity: 1, x: 0 } : {}}
+  transition={{ duration: 0.5,delay:0.2}}
+>
+    <div ref={ref} className="lg:w-[30rem] sm:w-[10rem] md:w-[30rem]">
      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 lg:w-full">
   <div className="h-32 z-10 flex justify-center items-center bg-white shadow-lg border-b">
     <img className="w-[4rem] object-contain" src={IconSuccess} alt="Ícone de Troféu" />
@@ -53,6 +78,7 @@ const GridSkils = () => {
 </div>
 
     </div>
+    </motion.div>
   );
 };
 export default GridSkils;
