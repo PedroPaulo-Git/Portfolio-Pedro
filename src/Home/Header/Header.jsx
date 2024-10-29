@@ -1,4 +1,4 @@
-import { span } from "framer-motion/client";
+
 import React, { useEffect, useState } from "react";
 import useClipboard from "react-use-clipboard";
 import { LuArrowDownToLine } from "react-icons/lu";
