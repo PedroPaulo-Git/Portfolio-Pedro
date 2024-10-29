@@ -37,8 +37,8 @@ const Header = () => {
     <div>
       <div className="flex flex-1 items-center justify-between pr-4 py-12 sm:px-16 sm:py-12 ">
         <nav aria-label="Global" className=" md:block border-black">
-          <div className="flex items-center gap-2 text-xs">
-            <div className="flex border rounded-full pr-0.5 pl-0.5 lg:pl-4 items-center ">
+          <div className="flex items-center gap-0 text-xs">
+            <div className="flex border rounded-full pr-0.5 pl-0.5 lg:pl-1 items-center ">
               <p className="hidden md:block text-gray-light px-4">
                 receberpedro09
                 <span className="font-serif font-semibold">@</span>gmail.com
