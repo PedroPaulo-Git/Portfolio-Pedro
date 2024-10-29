@@ -21,7 +21,7 @@ const Footer = () => {
           className="w-36 rounded-full p-1 bg-gradient-to-b from-[#f0f0f0] to-white"
           alt=""
         />
-        <span className="my-6 w-72 text-4xl sm:text-5xl sm:w-96  lg:text-6xl lg:w-2/4 font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
+        <span className="my-6 w-[25rem]  text-4xl sm:text-5xl sm:w-[40rem]  lg:text-6xl lg:w-[50rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
           Me fale sobre seu proximo projeto
         </span>
         <div className="flex gap-3">

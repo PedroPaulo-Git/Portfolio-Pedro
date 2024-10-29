@@ -35,8 +35,12 @@ const Hero = () => {
           href=""
           className="rounded-full flex items-center bg-gray-main p-5 px-6 mt-4 text-white text-sm"
         >
+           <div className="flex items-center gap-1 relative group">
           Entrar em contato
           <PiArrowLineUpRight className="ml-2 text-lg" />
+          <span className="absolute left-0 -bottom-1 w-[80%] h-[2px] bg-gray-fulllight  scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+          </div>
+          
         </a>
       </div>
     </div>

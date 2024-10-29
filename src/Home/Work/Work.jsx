@@ -12,7 +12,7 @@ const features = [
     social: <IoLogoGithub />,
     where: "Solução Empresarial",
     date: <span>Novembro 202<span className="font-sans">4</span></span>,
-    href:'https://ideal-restaurante.vercel.app/',
+    href:'https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/',
     github:'https://github.com/PedroPaulo-Git/IdealRestaurante',
     description:
       "Desenvolvimento de plataforma completa para restaurantes, com integração Stripe para pagamentos, dashboard administrativo e tecnologias modernas como React, Axios, Prisma e PostgreSQL para garantir alta performance e segurança.",

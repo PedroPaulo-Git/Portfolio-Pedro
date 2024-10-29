@@ -22,3 +22,25 @@
   .Acentuacoes{
     font-family:  Arial, sans-serif;
   }
+  @layer utilities {
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(145, 144, 144) rgb(41, 41, 41);
+  }
+
+  /* WebKit Browsers (Chrome, Safari, Edge) */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+}
