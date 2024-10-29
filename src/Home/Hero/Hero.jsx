@@ -21,7 +21,7 @@ const Hero = () => {
           />
           
           <span className=" w-32 absolute py-4 top-0 mt-5 ml-10 bg-white text-xs rounded-full animate-kick shadow-md">
-            Ol<span className="font-sans font-semibold">á</span>, sou Pedro 👋🏽
+            Ol<span className="font-sans font-normal">á</span>, sou Pedro 👋🏽
             </span>
         </div>
 

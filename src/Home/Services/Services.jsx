@@ -29,7 +29,7 @@ const Services = () => {
       image: IconDesign,
       title: (
         <>
-          Design <span className="font-sans">&</span> Criatividade
+          Design <span className="font-sans text-base font-medium">&</span> Criatividade
         </>
       ),
       subtitle: "Designs que conectam marcas e pessoas",
@@ -40,7 +40,7 @@ const Services = () => {
       image: IconWeb,
       title: (
         <>
-          Landing Pages <span className="font-sans">&</span> Conversao
+          Landing Pages <span className="font-sans text-base font-medium">&</span> Conversao
         </>
       ),
       subtitle:
@@ -51,7 +51,7 @@ const Services = () => {
       image: IconSoftware,
       title: (
         <>
-          Software <span className="font-sans">&</span> Solu
+          Software <span className="font-sans text-base font-medium">&</span> Solu
           <span className="Acentuacoes">ç</span>
           <span className="Acentuacoes">õ</span>es
         </>
