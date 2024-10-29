@@ -89,6 +89,7 @@ const Work = () => {
                   <img src={feature.image} className="rounded-2xl" alt="" />
                   <a 
                   href={feature.href}
+                  target="blank"
                   className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white font-semibold px-4 py-2 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity">
                     Ver Projeto
                   </a>

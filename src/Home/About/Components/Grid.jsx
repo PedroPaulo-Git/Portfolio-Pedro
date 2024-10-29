@@ -1,9 +1,8 @@
 import React from "react";
-import IconApi from "../../../assets/About/api.png"; // add other icons as needed
-import IconCertificate from "../../../assets/About/certificate.png"; // add other icons as needed
+import programming from "../../../assets/About/tec.png"; // add other icons as needed
+import IconCodingStudy from "../../../assets/About/coding-book.png"; // add other icons as needed
 import IconBook from "../../../assets/About/book.png";
 import IconSuccess from "../../../assets/About/success.png";
-import IconWeb from "../../../assets/About/web.png";
 const GridSkils = () => {
   return (
     <div className="lg:w-[30rem] sm:w-[10rem] md:w-[30rem]">
@@ -14,25 +13,25 @@ const GridSkils = () => {
  
   <div className="h-32 p-2 text-center flex items-center bg-gray-50 shadow-lg border-b">
       <div className="text-xl w-full">
-        <span className="font-bold">80<span className="font-sans">+</span></span><br></br>
-        <span className="text-base text-gray-light">Projetos Concluídos</span>
+        <span className="font-bold">25<span className="font-sans">+</span></span><br></br>
+        <span className="text-base text-gray-light">Projetos Conclu<span className="font-sans">í</span>dos</span>
       </div>
   </div>
 
   <div className="h-32 flex justify-center items-center bg-white shadow-lg z-10">
-    <img className="w-[4rem] object-contain" src={IconCertificate} alt="Ícone de Certificado" />
+    <img className="w-[4rem] object-contain" src={programming} alt="Ícone de Certificado" />
   </div>
 
   <div className="h-32 p-2 text-center flex items-center bg-gray-50">
       <div className="text-xl w-full">
         <span className="font-bold">15<span className="font-sans">+</span></span><br></br>
-        <span className="text-base text-gray-light">Certificações</span>
+        <span className="text-base text-gray-light">Tecnologias Dominadas</span>
       </div>
   </div>
 
   <div className="h-32 p-2 text-center flex items-center bg-gray-50 shadow-lg border-b">
       <div className="text-xl w-full">
-        <span className="font-bold">200<span className="font-sans">+</span></span><br></br>
+        <span className="font-bold">21.900<span className="font-sans">+</span></span><br></br>
         <span className="text-base text-gray-light">Horas de Cursos</span>
       </div>
   </div>
@@ -43,13 +42,13 @@ const GridSkils = () => {
   
   <div className="h-32 p-2 text-center flex items-center bg-gray-50">
       <div className="text-xl w-full">
-        <span className="font-bold">2.5<span className="font-sans">+</span></span><br></br>
+        <span className="font-bold">3.5<span className="font-sans">+</span></span><br></br>
         <span className="text-base text-gray-light">Anos de Estudos</span>
       </div>
   </div>
 
   <div className="h-32 flex justify-center items-center bg-white shadow-lg z-10">
-    <img className="w-[4rem] object-contain" src={IconWeb} alt="Ícone de Web" />
+    <img className="w-[3.2rem] object-contain" src={IconCodingStudy} alt="Ícone de Web" />
   </div>
 </div>
 
