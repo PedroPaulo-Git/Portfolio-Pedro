@@ -1,9 +1,11 @@
 
 import IdealTemplate from "../../assets/Works/IdealTemplete.png";
 import Template2 from "../../assets/Works/Templete3.png";
-import Template5 from "../../assets/Works/Templete5.png";
 import Template3 from "../../assets/Works/Templeteport.png";
 import Template4 from "../../assets/Works/Templete34.png";
+import Template5 from "../../assets/Works/Templete5.png";
+import Template6 from "../../assets/Works/TemplateGame.png";
+
 import { IoLogoGithub } from "react-icons/io5";
 const features = [
   {
@@ -56,12 +58,25 @@ const features = [
     social: <IoLogoGithub />,
     where: "Projeto Pessoal",
     date: <span>Dezembro 2023</span>,
-    href:'https://pedropaulo-git.github.io/MoviesRating/',
+    href:'https://github.com/PedroPaulo-Git/MoviesRating',
     github:'https://github.com/PedroPaulo-Git/MoviesRating',
     description:
       "Desenvolvimento de uma aplicação que realiza chamadas GET em uma API externa de filmes utilizando Axios. A aplicação exibe informações detalhadas sobre os filmes, incluindo avaliações por estrelas e dados relevantes, proporcionando uma experiência interativa e informativa ao usuário.",
-      mobileOnly: true,
+    
   },
+  {
+    image: Template6,
+    name: "Jogo Pixelado",
+    social: <IoLogoGithub />,
+    where: "Projeto Pessoal",
+    date: <span>Dezembro 2023</span>,
+    href: 'https://github.com/PedroPaulo-Git/CoinClick',
+    github: 'https://github.com/PedroPaulo-Git/CoinClick',
+    description:
+    "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
+   
+}
+
 ];
 
 const Work = () => {

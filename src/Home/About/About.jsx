@@ -24,7 +24,7 @@ const About = () => {
               <p>
                 Especialista em desenvolvimento de aplicacoes completas, com
                 forte enfase em interfaces dinamicas utilizando React e
-                habilidades robustas em back-end com Node.js e Postgres. Conclui
+                habilidades robustas em back<span className="font-sans font-semibold">-</span>end com Node.js e Postgres. Conclui
                 o curso de Analise e Desenvolvimento de Sistemas na UNINASSAU
                em dezembro de 2023.
               </p>
