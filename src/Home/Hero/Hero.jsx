@@ -1,9 +1,6 @@
 import React from "react";
 import Avatar from "../../assets/avatar.png";
-import { MdOutlineArrowOutward } from "react-icons/md";
-import { HiMiniArrowTrendingUp } from "react-icons/hi2";
 import { PiArrowLineUpRight } from "react-icons/pi";
-import { HiArrowUturnRight } from "react-icons/hi2";
 import "./backgroundhero.css";
 
 const Hero = () => {

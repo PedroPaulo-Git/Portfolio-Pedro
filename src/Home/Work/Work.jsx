@@ -1,4 +1,4 @@
-import WorkImageExemple from "../../assets/Works/workexemple.jpg";
+
 import IdealTemplate from "../../assets/Works/IdealTemplete.png";
 import Template2 from "../../assets/Works/Templete3.png";
 import Template5 from "../../assets/Works/Templete5.png";

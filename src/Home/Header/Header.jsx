@@ -39,7 +39,7 @@ const Header = () => {
         <nav aria-label="Global" className=" md:block border-black">
           <div className="flex items-center gap-2 text-xs">
             <div className="flex border rounded-full pr-0.5 pl-0.5 lg:pl-4 items-center ">
-              <p className="hidden md:block text-gray-light">
+              <p className="hidden md:block text-gray-light px-4">
                 receberpedro09
                 <span className="font-serif font-semibold">@</span>gmail.com
               </p>

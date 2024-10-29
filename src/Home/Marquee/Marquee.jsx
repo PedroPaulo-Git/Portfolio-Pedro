@@ -1,5 +1,4 @@
 import React from "react";
-
 import { motion } from "framer-motion";
 import Git from '../../assets/git.png'
 import PostgreSQL from '../../assets/postgres.png'
@@ -11,7 +10,7 @@ import Javascript from '../../assets/js.png'
 
 
 const Marquee = () => {
-    
+    // vercel /vite 
 const marquee = [
     Git,
     PostgreSQL,

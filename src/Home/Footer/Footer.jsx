@@ -1,9 +1,7 @@
 import React from "react";
 import HandShake from "../../assets/handshake.png";
-import { AiTwotoneMail } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa6";
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
-import { FaWhatsapp } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import EmailButton from "../components/EmailButton";

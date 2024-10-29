@@ -1,7 +1,7 @@
 import React from "react";
 import IconDeveloper from "../../assets/Services/dev.png";
-import IconDesign from "../../assets/Services/design.png"; // add other icons as needed
-import IconWeb from "../../assets/Services/web-page.png"; // add other icons as needed
+import IconDesign from "../../assets/Services/design.png";
+import IconWeb from "../../assets/Services/web-page.png"; 
 import IconSoftware from "../../assets/Services/software-development.png";
 import './backgroundServices.css'
 
