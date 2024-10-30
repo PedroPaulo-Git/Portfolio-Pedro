@@ -60,7 +60,7 @@ const features = [
     social: <IoLogoGithub />,
     where: "Projeto Pessoal",
     date: <span>Dezembro 2023</span>,
-    href:'https://github.com/PedroPaulo-Git/MoviesRating',
+    href:'https://pedropaulo-git.github.io/MoviesRating/',
     github:'https://github.com/PedroPaulo-Git/MoviesRating',
     description:
       "Desenvolvimento de uma aplicação que realiza chamadas GET em uma API externa de filmes utilizando Axios. A aplicação exibe informações detalhadas sobre os filmes, incluindo avaliações por estrelas e dados relevantes, proporcionando uma experiência interativa e informativa ao usuário.",
