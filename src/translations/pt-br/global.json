@@ -1,8 +1,15 @@
 {
-    "header":{
-        "contact_copy":"Copiar"
-    },
-    "hero":{
-        "icon_hello":"Olá,sou Pedro"
-    }
+  "header": {
+    "contact_copy": "Copiar"
+  },
+  "hero": {
+    "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>,sou Pedro 👋🏽",
+    "button": "Entrar em contato",
+    "title": [
+        "Design e tecnologia",
+        "para impulsionar marcas",
+        "e negocios."
+      ]
+  }
+  
 }

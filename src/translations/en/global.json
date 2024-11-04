@@ -3,6 +3,12 @@
         "contact_copy":"Copy"
     },
     "hero":{
-        "icon_hello":"Hello,I'm Pedro"
+        "icon_hello":"Hello,I am Pedro 👋🏽",
+        "button": "Get in touch",
+       "title": [
+    "Tech and design",
+    "to boost brands and",
+    "grow businesses."
+]
     }
 }
