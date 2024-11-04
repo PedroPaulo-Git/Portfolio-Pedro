@@ -74,12 +74,12 @@
   },
   "work": {
   "work_title": "Trabalhos Selecionados",
-  "work_subtitle": "Uma coleção dos projetos mais impactantes, escolhidos para representar a qualidade e dedicação em cada detalhe. Explore alguns dos meus melhores resultados.",
+  "work_subtitle": "Uma cole<span class='Acentuacoes font-sans '>çã</span>o dos projetos mais impactantes, escolhidos para representar a qualidade e dedica<span class='Acentuacoes font-sans '>çã</span>o em cada detalhe. Explore alguns dos meus melhores resultados.",
   "projects": [
     {
       "name": "Plataforma de Restaurante",
       "description": "Desenvolvimento de plataforma completa para restaurantes, com integração Stripe para pagamentos, dashboard administrativo e tecnologias modernas como React, Axios, Prisma e PostgreSQL para garantir alta performance e segurança.",
-      "where": "Solução Empresarial",
+      "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
       "date": "Novembro 2023",
       "href": "https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/",
       "github": "https://github.com/PedroPaulo-Git/IdealRestaurante"

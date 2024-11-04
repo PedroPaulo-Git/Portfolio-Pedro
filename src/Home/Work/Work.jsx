@@ -21,13 +21,13 @@ const Work = () => {
 const features = [
   {
     image: IdealTemplate,
-    name: t('work.projects.0.name'), // "Plataforma de Restaurante"
+    name: t('work.projects.0.name'),
     social: <IoLogoGithub />,
-    where: t('work.projects.0.where'), // "Solução Empresarial"
-    date: <span>{t('work.projects.0.date')}</span>, // "Novembro 2023"
+    where:  <span dangerouslySetInnerHTML={{ __html: t('work.projects.0.where') }} />,
+    date: <span>{t('work.projects.0.date')}</span>,
     href: 'https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/',
     github: 'https://github.com/PedroPaulo-Git/IdealRestaurante',
-    description: t('work.projects.0.description'), // Descrição do projeto
+    description: t('work.projects.0.description'),
   },
   {
     image: Template2,
@@ -37,7 +37,7 @@ const features = [
     date: <span>{t('work.projects.1.date')}</span>, // "Agosto 2023"
     href: 'https://pedropaulo-git.github.io/Geison-Fisioterapeuta/',
     github: 'https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta',
-    description: t('work.projects.1.description'), // Descrição do projeto
+    description: t('work.projects.1.description'),
   },
   {
     image: Template3,
@@ -47,7 +47,7 @@ const features = [
     date: <span>{t('work.projects.2.date')}</span>, // "Junho 2023"
     href: 'https://pedropaulo-git.github.io/PortSoftware/',
     github: 'https://github.com/PedroPaulo-Git/PortSoftware',
-    description: t('work.projects.2.description'), // Descrição do projeto
+    description: t('work.projects.2.description'), 
   },
   {
     image: Template5,
@@ -57,7 +57,7 @@ const features = [
     date: <span>{t('work.projects.3.date')}</span>, // "Dezembro 2023"
     href: 'https://github.com/PedroPaulo-Git/desafio-junior-1',
     github: 'https://github.com/PedroPaulo-Git/desafio-junior-1',
-    description: t('work.projects.3.description'), // Descrição do projeto
+    description: t('work.projects.3.description'), 
   },
   {
     image: Template4,
@@ -67,7 +67,7 @@ const features = [
     date: <span>{t('work.projects.4.date')}</span>, // "Dezembro 2023"
     href: 'https://pedropaulo-git.github.io/MoviesRating/',
     github: 'https://github.com/PedroPaulo-Git/MoviesRating',
-    description: t('work.projects.4.description'), // Descrição do projeto
+    description: t('work.projects.4.description'), 
   },
   {
     image: Template6,
@@ -77,7 +77,7 @@ const features = [
     date: <span>{t('work.projects.5.date')}</span>, // "Dezembro 2023"
     href: 'https://github.com/PedroPaulo-Git/CoinClick',
     github: 'https://github.com/PedroPaulo-Git/CoinClick',
-    description: t('work.projects.5.description'), // Descrição do projeto
+    description: t('work.projects.5.description'), 
     mobileOnly: true,
   },
   {
@@ -88,7 +88,7 @@ const features = [
     date: <span>{t('work.projects.6.date')}</span>, // "Dezembro 2023"
     href: 'https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog',
     github: 'https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog',
-    description: t('work.projects.6.description'), // Descrição do projeto
+    description: t('work.projects.6.description'), 
   },
 ];
   const ref = useRef(null)
@@ -111,7 +111,7 @@ useEffect(()=>{
             representar a qualidade e dedicação em cada detalhe. Explore alguns
             dos meus melhores resultados.
           </p> */}
-          <p className="mt-6 text-lg leading-8 text-gray-main">{t('work.work_subtitle')}</p> 
+          <p className="mt-6 text-lg leading-8 text-gray-main" dangerouslySetInnerHTML={{ __html: t('work.work_subtitle') }}/>
         </div>
         <div ref={ref}  className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
