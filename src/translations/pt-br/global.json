@@ -5,11 +5,32 @@
   "hero": {
     "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>,sou Pedro 👋🏽",
     "button": "Entrar em contato",
-    "title": [
-        "Design e tecnologia",
-        "para impulsionar marcas",
-        "e negocios."
-      ]
+    "title": ["Design e tecnologia", "para impulsionar marcas", "e negocios."]
+  },
+  "section_services": {
+    "intro": "Colaboro com empresas para criar experi<span class='Acentuacoes'>ê</span>ncias digitais de alto impacto",
+    "services_title": "Servi<span class='Acentuacoes font-sans '>ç</span>os",
+    "services": [
+      {
+        "name": "Desenvolvimento Full<span class='font-sans'>-</span>Stack",
+        "description": "Criando Solu<span class='Acentuacoes description'>ç</span><span class='Acentuacoes'>õ</span>es completas fluidas para web e mobile",
+        "icon": "service_icon"
+      },
+      {
+        "name": "Design <span class='font-sans'>&</span> Criatividade",
+        "description": "Designs que conectam marcas e pessoas",
+        "icon": "service_icon"
+      },
+      {
+        "name": "Landing Pages <span class='font-sans'>&</span> Convers<span class='Acentuacoes description'>ã</span>o",
+        "description": "Designs estratégicos que engajam e convertem visitantes em clientes.",
+        "icon": "service_icon"
+      },
+      {
+        "name": "Software <span class='font-sans'>&</span> Solu<span class='Acentuacoes description'>ç</span><span class='Acentuacoes'>õ</span>es",
+        "description": "Sistemas personalizados que simplificam processos e geram resultados.",
+        "icon": "service_icon"
+      }
+    ]
   }
-  
 }

@@ -10,5 +10,31 @@
     "to boost brands and",
     "grow businesses."
 ]
-    }
+    },
+    "section_services": {
+    "intro": "I collaborate with companies to create high<span class='Acentuacoes'>-</span>impact digital experiences",
+    "services_title": "Services",
+    "services": [
+      {
+        "name": "Full<span class='font-sans'>-</span>Stack Development",
+        "description": "Creating complete and seamless solutions for web and mobile",
+        "icon": "service_icon"
+      },
+      {
+        "name": "Design <span class='font-sans'>&</span>  Creativity",
+        "description": "Designs that connect brands and people",
+        "icon": "service_icon"
+      },
+      {
+        "name": "Landing Pages <span class='font-sans'>&</span> Conversion",
+        "description": "Strategic designs that engage and turn visitors into customers.",
+        "icon": "service_icon"
+      },
+      {
+        "name": "Software <span class='font-sans'>&</span> Solutions",
+        "description": "Custom systems that simplify processes and deliver results.",
+        "icon": "service_icon"
+      }
+    ]
+  }
 }

@@ -6,11 +6,11 @@ import IconSoftware from "../../assets/Services/software-development.png";
 import './backgroundServices.css'
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion"
-
+import { useTranslation } from "react-i18next";
 
 
 const Services = () => {
-
+  const [t, i18n] = useTranslation("global");
   const ref = useRef(null)
   const isInView = useInView(ref,{once:true})
 
@@ -20,61 +20,29 @@ useEffect(()=>{
 },[isInView]);
 
 
-  const services = [
-    {
-      image: IconDeveloper,
-      title: (
-        <>
-          Desenvolvimento Full
-          <span className="font-sans">-</span>
-          Stack
-        </>
-      ),
-      subtitle: (
-        <>
-          Criando Solu<span className="Acentuacoes">ç</span>
-          <span className="Acentuacoes">õ</span>es completas fluidas para web e
-          mobile
-        </>
-      ),
-      icon: IconDeveloper,
-    },
-    {
-      image: IconDesign,
-      title: (
-        <>
-          Design <span className="font-sans text-base font-medium">&</span> Criatividade
-        </>
-      ),
-      subtitle: "Designs que conectam marcas e pessoas",
-      icon: IconDesign,
-    },
-    ,
-    {
-      image: IconWeb,
-      title: (
-        <>
-          Landing Pages <span className="font-sans text-base font-medium">&</span> Conversao
-        </>
-      ),
-      subtitle:
-        "Designs estrategicos que engajam e convertem visitantes em clientes.",
-      icon: IconDesign,
-    },
-    {
-      image: IconSoftware,
-      title: (
-        <>
-          Software <span className="font-sans text-base font-medium">&</span> Solu
-          <span className="Acentuacoes">ç</span>
-          <span className="Acentuacoes">õ</span>es
-        </>
-      ),
-      subtitle:
-        "Sistemas personalizados que simplificam processos e geram resultados.",
-      icon: IconDesign,
-    },
-  ];
+const services = [
+  {
+    image: IconDeveloper,
+    title: t("section_services.services.0.name"),
+    subtitle: t("section_services.services.0.description"),
+  },
+  {
+    image: IconDesign,
+    title: t("section_services.services.1.name"),
+    subtitle: t("section_services.services.1.description"),
+  },
+  {
+    image: IconWeb,
+    title: t("section_services.services.2.name"),
+    subtitle: t("section_services.services.2.description"),
+  },
+  {
+    image: IconSoftware,
+    title: t("section_services.services.3.name"),
+    subtitle: t("section_services.services.3.description"),
+  },
+];
+
   return (
     <div className="Services mx-auto mt-20 pb-20 rounded-b-[90px] relative z-10">
      <motion.div
@@ -87,10 +55,13 @@ useEffect(()=>{
     transition={{ duration: 0.5,delay:0.2}}
   >
       <div  className="flex flex-col text-center text-2xl  sm:text-2xl lg:text-4xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
-        <span className="leading-tight">
-          Colaboro com empresas para criar experi<span className="Acentuacoes">ê</span>ncias
-        </span>
-        <span className="leading-tight">digitais de alto impacto</span>
+      <span
+                className="leading-tight w-[20rem]  sm:w-[30rem] lg:w-[50rem] mx-auto"
+                dangerouslySetInnerHTML={{
+                  __html: t("section_services.intro"),
+                }}
+              />
+        {/* <span className="leading-tight">digitais de alto impacto</span> */}
       </div>
       </motion.div>
       <div class="">
@@ -99,9 +70,12 @@ useEffect(()=>{
             <span className="relative flex justify-center">
               <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
 
-              <span className="relative z-10 bg-white text-xs lg:text-sm p-3 px-8  lg:p-3 lg:px-8 rounded-full text-gray-light -rotate-12">
-                Servi<span className="Acentuacoes">ç</span>os
-              </span>
+              <span
+                className="relative z-10 bg-white text-xs lg:text-sm p-3 px-8 lg:p-3 lg:px-8 rounded-full text-gray-light -rotate-12"
+                dangerouslySetInnerHTML={{
+                  __html: t("section_services.services_title"),
+                }}
+              />
             </span>
           </h2>
 
@@ -128,12 +102,14 @@ useEffect(()=>{
                     />
                   </a>
                 </h3>
-                <p className="mt-1 text-lg font-medium text-gray-main">
-                  {service.title}
-                </p>
-                <p className="mt-1 text-sm text-gray-700 max-w-52">
-                  {service.subtitle}
-                </p>
+                <p
+                    className="mt-1 text-lg font-medium text-gray-main"
+                    dangerouslySetInnerHTML={{ __html: service.title }}
+                  />
+                  <p
+                    className="mt-1 text-sm text-gray-700 max-w-52"
+                    dangerouslySetInnerHTML={{ __html: service.subtitle }} 
+                  />
               </div>
             </motion.div>
           ))}
