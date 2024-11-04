@@ -39,7 +39,7 @@ const About = () => {
   Com uma forte base em tecnologias Front<span className="font-sans font-semibold">-</span>end e Back<span className="font-sans font-semibold">-</span>end, estou sempre em busca de
   solucoes que unam funcionalidade e estetica. Acredito que a tecnologia deve servir para melhorar a experiencia do usuario e estou aqui para fazer isso acontecer.
 </p> */}
-            <p dangerouslySetInnerHTML={{ __html: t('about.about_description') }} />
+            <p dangerouslySetInnerHTML={{ __html: t('about.about_description_below') }} />
             </div>
           </div>
         </div>

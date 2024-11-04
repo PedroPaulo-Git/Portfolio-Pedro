@@ -37,7 +37,10 @@
 
   "about": {
     "about_title": "Professional Journey",
+   
     "about_subtitle": "About Me",
+    "about_description_below": "With a solid foundation in technology and design, I am always striving for innovation and skill improvement to deliver high-quality solutions. My focus is to combine functionality and aesthetics in every project.",
+
     "about_description": "I am a specialist in developing comprehensive applications, with a strong emphasis on dynamic interfaces using React. I possess robust skills in back<span class='Acentuacoes font-sans'>-</span>end development with Node.js and PostgreSQL. I completed my degree in Systems Analysis and Development at UNINASSAU in December 2023.",
 
     "about_skills": [
