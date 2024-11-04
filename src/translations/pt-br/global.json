@@ -18,17 +18,17 @@
         "icon": "service_icon"
       },
       {
-        "name": "Design <span class='font-sans'>&</span> Criatividade",
+        "name": "Design <span class='font-sans text-base'>&</span> Criatividade",
         "description": "Designs que conectam marcas e pessoas",
         "icon": "service_icon"
       },
       {
-        "name": "Landing Pages <span class='font-sans'>&</span> Convers<span class='Acentuacoes description'>ã</span>o",
+        "name": "Landing Pages <span class='font-sans text-base'>&</span> Convers<span class='Acentuacoes description'>ã</span>o",
         "description": "Designs estratégicos que engajam e convertem visitantes em clientes.",
         "icon": "service_icon"
       },
       {
-        "name": "Software <span class='font-sans'>&</span> Solu<span class='Acentuacoes description'>ç</span><span class='Acentuacoes'>õ</span>es",
+        "name": "Software <span class='font-sans text-base'>&</span> Solu<span class='Acentuacoes description'>ç</span><span class='Acentuacoes'>õ</span>es",
         "description": "Sistemas personalizados que simplificam processos e geram resultados.",
         "icon": "service_icon"
       }
@@ -70,7 +70,7 @@
     "value2": "15<span class='font-sans'>+</span>",
     "label2": "Tecnologias Dominadas",
     "value3": "3.5<span class='font-sans'>+</span>",
-    "label3": "Anos de Estudo",
+    "label3": "Anos de Estudos",
     "value4": "21.900<span class='font-sans'>+</span>",
     "label4": "Horas de Cursos"
   },

@@ -22,6 +22,12 @@
   .Acentuacoes{
     font-family:  Arial, sans-serif;
   }
+  .bold{
+    font-weight: 700;
+  }
+  .semi-bold{
+    font-weight: 500;
+  }
   @layer utilities {
   /* Firefox */
   * {

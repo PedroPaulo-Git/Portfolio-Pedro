@@ -18,17 +18,17 @@
         "icon": "service_icon"
       },
       {
-        "name": "Design <span class='font-sans'>&</span>  Creativity",
+        "name": "Design <span class='font-sans text-base'>&</span>  Creativity",
         "description": "Designs that connect brands and people",
         "icon": "service_icon"
       },
       {
-        "name": "Landing Pages <span class='font-sans'>&</span> Conversion",
+        "name": "Landing Pages <span class='font-sans text-base'>&</span> Conversion",
         "description": "Strategic designs that engage and turn visitors into customers.",
         "icon": "service_icon"
       },
       {
-        "name": "Software <span class='font-sans'>&</span> Solutions",
+        "name": "Software <span class='font-sans text-base'>&</span> Solutions",
         "description": "Custom systems that simplify processes and deliver results.",
         "icon": "service_icon"
       }
@@ -39,17 +39,17 @@
     "about_title": "Professional Journey",
    
     "about_subtitle": "About Me",
-    "about_description_below": "With a solid foundation in technology and design, I am always striving for innovation and skill improvement to deliver high-quality solutions. My focus is to combine functionality and aesthetics in every project.",
+    "about_description_below": "With a solid foundation in technology and design, I am always striving for innovation and skill improvement to deliver high<span class='font-sans bold'>-</span>quality solutions. My focus is to combine functionality and aesthetics in every project.",
 
     "about_description": "I am a specialist in developing comprehensive applications, with a strong emphasis on dynamic interfaces using React. I possess robust skills in back<span class='Acentuacoes font-sans'>-</span>end development with Node.js and PostgreSQL. I completed my degree in Systems Analysis and Development at UNINASSAU in December 2023.",
 
     "about_skills": [
       {
         "title": "React and Interactive Interfaces: ",
-        "description": "Building responsive UI<span class='font-sans font-semibold'>/</span>UX designs focused on usability and engagement."
+        "description": "Building responsive UI<span class='font-sans semi-bold'>/</span>UX designs focused on usability and engagement."
       },
       {
-        "title": "Back-End Technologies: ",
+        "title": "Back<span class='font-sans bold'>-</span>End Technologies: ",
         "description": "Experience with Node.js, Express, and PostgreSQL for developing robust APIs."
       },
       {
