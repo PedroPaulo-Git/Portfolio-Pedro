@@ -24,7 +24,8 @@ const Header = () => {
     setTimeout(() => {
       setCopyMessage(
         <span>
-          Copiado<span className="font-sans">!</span>
+          {t("header.contact_copied")}<span className="font-sans">!</span>
+
         </span>
       );
     }, 100);

@@ -1,6 +1,7 @@
 {
     "header":{
-        "contact_copy":"Copy"
+        "contact_copy":"Copy",
+         "contact_copied": "Copied"
     },
     "hero":{
         "icon_hello":"Hello,I am Pedro 👋🏽",
