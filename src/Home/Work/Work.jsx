@@ -130,7 +130,7 @@ useEffect(()=>{
                 }}
               >
                 <div className="group relative">
-                  <img src={feature.image} className="rounded-2xl" alt="" />
+                  <img src={feature.image} className="rounded-2xl lg:h-[300px] lg:w-full" alt="" />
                   <a 
                     href={feature.href}
                     target="blank"
