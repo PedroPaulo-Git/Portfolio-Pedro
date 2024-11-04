@@ -7,13 +7,21 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
+import buttonEua from '../../assets/usa.png'
+import buttonBr from '../../assets/br.png'
 
 const Header = () => {
   const [t,i18n] = useTranslation('global')
 
   const handleChangeLanguage = (lang)=>{
     i18n.changeLanguage(lang);
+    const newLang = linguage === 'pt-br' ? 'en' : 'pt-br';
+    setLinguage(newLang);
   }
+  const [linguage, setLinguage] = useState('pt-br');
+
+
+
   const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", {
     successDuration: 1000,
   });
@@ -46,7 +54,7 @@ const Header = () => {
   };
   return (
     <div>
-      <div className="flex flex-1 items-center justify-between pr-4 py-12 sm:px-16 sm:py-12 ">
+      <div className="flex flex-1 items-center justify-between pr-4 py-8 sm:px-16 sm:py-12 ">
         <nav aria-label="Global" className=" md:block border-black">
           <div className="flex items-center gap-0 text-xs">
             <div className="flex border rounded-full pr-0.5 pl-0.5 lg:pl-1 items-center ">
@@ -108,10 +116,15 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <button onClick={()=> handleChangeLanguage("en")}>EN</button>
-          <button onClick={()=> handleChangeLanguage("ptbr")}>PT</button>
+      
+          {linguage === 'pt-br' ?  
+          <button onClick={()=> handleChangeLanguage("en")}> <img className="w-5" src={buttonEua} alt="" /> </button>
+           : 
+           <button onClick={()=> handleChangeLanguage("ptbr")}> <img className="w-5" src={buttonBr} alt="" /> </button>
+           }
+     
         </div>
-        <div className="flex lg:hidden ">
+        <div className="flex lg:hidden relative ">
           
           <a
             href="https://github.com/PedroPaulo-Git"
@@ -130,10 +143,17 @@ const Header = () => {
           <a
             href="https://www.instagram.com/portsoftware/"
             target="blank"
-            className="p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
+            className=" p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
           >
             <FaInstagram />
           </a>
+          <div className="absolute right-0 -top-6">
+          {linguage === 'pt-br' ?  
+          <button onClick={()=> handleChangeLanguage("en")}> <img className="w-5" src={buttonEua} alt="" /> </button>
+           : 
+           <button onClick={()=> handleChangeLanguage("ptbr")}> <img className="w-5" src={buttonBr} alt="" /> </button>
+           }
+           </div>
         </div>
       </div>
     </div>
