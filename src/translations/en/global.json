@@ -1,18 +1,14 @@
 {
-    "header":{
-        "contact_copy":"Copy",
-         "contact_copied": "Copied"
-    },
-    "hero":{
-        "icon_hello":"Hello,I am Pedro 👋🏽",
-        "button": "Get in touch",
-       "title": [
-    "Tech and design",
-    "to boost brands and",
-    "grow businesses."
-]
-    },
-    "section_services": {
+  "header": {
+    "contact_copy": "Copy",
+    "contact_copied": "Copied"
+  },
+  "hero": {
+    "icon_hello": "Hello,I am Pedro 👋🏽",
+    "button": "Get in touch",
+    "title": ["Tech and design", "to boost brands and", "grow businesses."]
+  },
+  "section_services": {
     "intro": "I collaborate with companies to create high<span class='Acentuacoes'>-</span>impact digital experiences",
     "services_title": "Services",
     "services": [
@@ -37,5 +33,45 @@
         "icon": "service_icon"
       }
     ]
+  },
+
+  "about": {
+    "about_title": "Professional Journey",
+    "about_subtitle": "About Me",
+    "about_description": "I am a specialist in developing comprehensive applications, with a strong emphasis on dynamic interfaces using React. I possess robust skills in back<span class='Acentuacoes font-sans'>-</span>end development with Node.js and PostgreSQL. I completed my degree in Systems Analysis and Development at UNINASSAU in December 2023.",
+
+    "about_skills": [
+      {
+        "title": "React and Interactive Interfaces: ",
+        "description": "Building responsive UI<span class='font-sans font-semibold'>/</span>UX designs focused on usability and engagement."
+      },
+      {
+        "title": "Back-End Technologies: ",
+        "description": "Experience with Node.js, Express, and PostgreSQL for developing robust APIs."
+      },
+      {
+        "title": "API Integration: ",
+        "description": "Utilizing Axios for efficient communication between front-end and back-end."
+      },
+      {
+        "title": "Design and Landing Pages: ",
+        "description": "Creating layouts that maximize conversion rates and enhance user experience."
+      },
+      {
+        "title": "Technical Training: ",
+        "description": "Degree in Systems Analysis and Development, with a focus on market practices."
+      }
+    ]
+  },
+  "about_grid": {
+    "value1": "25<span class='font-sans'>+</span>",
+    "label1": "Concluded Projects",
+    "value2": "15<span class='font-sans'>+</span>",
+    "label2": "Mastered Technologies",
+    "value3": "3.5<span class='font-sans'>+</span>",
+    "label3": "Years of Study",
+    "value4": "21,900<span class='font-sans'>+</span>",
+    "label4": "Course Hours"
   }
+  
 }

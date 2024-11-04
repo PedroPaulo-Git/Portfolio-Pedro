@@ -1,7 +1,7 @@
 {
   "header": {
     "contact_copy": "Copiar",
-     "contact_copied": "Copiado"
+    "contact_copied": "Copiado"
   },
   "hero": {
     "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>,sou Pedro 👋🏽",
@@ -33,5 +33,43 @@
         "icon": "service_icon"
       }
     ]
+  },
+  "about": {
+    "about_title": "Percurso Profissional",
+    "about_subtitle": "Sobre Mim",
+    "about_description": "Especialista em desenvolvimento de aplicacoes completas, com forte enfase em interfaces dinamicas utilizando React e habilidades robustas em back<span class='font-sans font-semibold'>-</span>end com Node.js e Postgres. Conclui o curso de Analise e Desenvolvimento de Sistemas na UNINASSAU em dezembro de 2023.",
+
+    "about_skills": [
+      {
+        "title": "React e Interfaces Interativas: ",
+        "description": "Construcao de UI<span class='font-sans font-semibold'>/</span>UX responsivas focadas em usabilidade e engajamento."
+      },
+      {
+        "title": "Tecnologias de Back<span class='font-sans font-semibold'>-</span>end: ",
+        "description": "Experiencia com Node.js, Express e Postgres para desenvolvimento de APIs robustas."
+      },
+      {
+        "title": "Integracao de APIs: ",
+        "description": "Utilizacao de Axios para comunicacao eficiente entre Front<span class='font-sans font-semibold'>-</span>end e Back<span class='font-sans font-semibold'>-</span>end."
+      },
+      {
+        "title": "Design e Landing Pages: ",
+        "description": "Criacao de layouts que maximizam conversao e experiencia do usuario."
+      },
+      {
+        "title": "Formacao Tecnica: ",
+        "description": "Curso de Analise e Desenvolvimento de Sistemas, com enfase em praticas de mercado."
+      }
+    ]
+  },
+  "about_grid": {
+    "value1": "25<span class='font-sans'>+</span>",
+    "label1": "Projetos Concluídos",
+    "value2": "15<span class='font-sans'>+</span>",
+    "label2": "Tecnologias Dominadas",
+    "value3": "3.5<span class='font-sans'>+</span>",
+    "label3": "Anos de Estudo",
+    "value4": "21.900<span class='font-sans'>+</span>",
+    "label4": "Horas de Cursos"
   }
 }
