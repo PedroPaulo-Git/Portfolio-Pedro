@@ -1,14 +1,16 @@
-import React,{useRef,useEffect} from "react";
+import React,{useRef,useEffect,useState} from "react";
 import IdealTemplate from "../../assets/Works/IdealTemplete.png";
 import Template2 from "../../assets/Works/Templete3.png";
 import Template3 from "../../assets/Works/Templeteport.png";
 import Template4 from "../../assets/Works/Templete34.png";
 import Template5 from "../../assets/Works/Templete5.png";
 import Template6 from "../../assets/Works/TemplateGame.png";
+import Template7 from "../../assets/Works/TemplateDog.png";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion"
 
 import { IoLogoGithub } from "react-icons/io5";
+// const [isMobile,setIsMobile] = useState()
 const features = [
   {
     image: IdealTemplate,
@@ -40,6 +42,7 @@ const features = [
     date:<span>Junho 202<span className="font-sans">4</span></span>,
     href:'https://pedropaulo-git.github.io/PortSoftware/',
     github:'https://github.com/PedroPaulo-Git/PortSoftware',
+
     description:
       "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
   },
@@ -76,7 +79,22 @@ const features = [
     github: 'https://github.com/PedroPaulo-Git/CoinClick',
     description:
     "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
-   
+    mobileOnly: true,
+}
+,
+{
+  image: Template7,
+name: "Dog Breed Matcher",
+social: <IoLogoGithub />,
+where: "Projeto Pessoal",
+date: <span>Dezembro 2023</span>,
+href: 'https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog',
+github: 'https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog',
+description:
+  "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
+// isMobile: true,
+
+  
 }
 
 ];
@@ -106,11 +124,13 @@ useEffect(()=>{
         </div>
         <div ref={ref}  className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+         
           {features.map((feature, index) => (
+           
               <motion.div
-              
+              // ${isMobile ? "block" : "hidden md:block"}
                 key={feature.name}
-                className={`relative p-4 bg-white rounded-xl`}
+                className={`relative p-4 bg-white rounded-xl  ${feature.mobileOnly ? 'block sm:hidden' : 'block'}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{
@@ -143,6 +163,7 @@ useEffect(()=>{
                   {feature.description}
                 </dd>
               </motion.div>
+            
             ))}
           </dl>
         </div>
