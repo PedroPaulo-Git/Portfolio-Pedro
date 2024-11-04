@@ -9,9 +9,14 @@ import EmailButton from "../components/EmailButton";
 
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
+
+import { useTranslation } from "react-i18next";
+
+
 const Footer = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+  const [t, i18n] = useTranslation("global");
 
   useEffect(() => {
     console.log(isInView);
@@ -45,7 +50,7 @@ const Footer = () => {
           />
         </motion.div>
         <motion.div
-        className="w-[25rem]  text-4xl sm:text-5xl sm:w-[40rem]  lg:text-6xl lg:w-[50rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent"
+        className="w-[25rem]  text-4xl sm:text-5xl sm:w-[35rem]  lg:text-6xl lg:w-[44rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent"
           variants={{
             hidden: { opacity: 0, x: 30 },
             visible: { opacity: 1, x: 0 },
@@ -55,7 +60,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <span className="my-6  ">
-            Me fale sobre seu proximo projeto
+           {t('footer.text')}
           </span>
         </motion.div>
         <motion.div
