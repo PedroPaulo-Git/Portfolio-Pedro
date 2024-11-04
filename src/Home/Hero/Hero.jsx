@@ -2,9 +2,12 @@ import React from "react";
 import { motion } from "framer-motion"
 import Avatar from "../../assets/avatar.png";
 import { PiArrowLineUpRight } from "react-icons/pi";
+import { useTranslation } from "react-i18next";
 import "./backgroundhero.css";
 
 const Hero = () => {
+  const [t,i18n] = useTranslation('global')
+
   const phoneNumber = "5581999049803"; // Seu número com código do país
   const message = encodeURIComponent("Gostaria de entrar em contato !"); // Mensagem a ser enviada
 
@@ -33,6 +36,7 @@ const Hero = () => {
           />
           
           <span className=" w-32 absolute py-4 top-0 mt-5 ml-10 bg-white text-xs rounded-full animate-kick shadow-md">
+          {t("header.contact_copy")}
             Ol<span className="font-sans font-normal">á</span>, sou Pedro 👋🏽
             </span>
         </div>

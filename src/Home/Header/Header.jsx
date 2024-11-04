@@ -6,13 +6,19 @@ import DownloadCVButton from "../components/DownloadCVButton";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const [t,i18n] = useTranslation('global')
+
+  const handleChangeLanguage = (lang)=>{
+    i18n.changeLanguage(lang);
+  }
   const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", {
     successDuration: 1000,
   });
-  const [copyMessage, setCopyMessage] = useState("Copiar");
-
+  const [copyMessage, setCopyMessage] = useState(t("header.contact_copy"));
+  
   const handleCopy = () => {
     setCopied();
     setTimeout(() => {
@@ -24,9 +30,13 @@ const Header = () => {
     }, 100);
     setCopyMessage("...");
     setTimeout(() => {
-      setCopyMessage("Copiar");
+      setCopyMessage(t("header.contact_copy"));
     }, 2000);
   };
+  useEffect(() => {
+    setCopyMessage(t("header.contact_copy"));
+  }, [t]);
+
   const phoneNumber = "5581999049803"; // Seu número com código do país
   const message = encodeURIComponent("Gostaria de entrar em contato !"); // Mensagem a ser enviada
 
@@ -42,12 +52,14 @@ const Header = () => {
               <p className="hidden md:block text-gray-light px-4">
                 receberpedro09
                 <span className="font-serif font-semibold">@</span>gmail.com
+              
               </p>
 
               <span
                 onClick={handleCopy}
                 className="w-[90px] my-1 py-3 lg:py-4 cursor-pointer border rounded-full text-center font-semibold hidden sm:block bg-white"
               >
+               
                 {copyMessage}
               </span>
             </div>
@@ -95,6 +107,8 @@ const Header = () => {
               </a>
             </div>
           </div>
+          <button onClick={()=> handleChangeLanguage("en")}>EN</button>
+          <button onClick={()=> handleChangeLanguage("ptbr")}>PT</button>
         </div>
         <div className="flex lg:hidden ">
           

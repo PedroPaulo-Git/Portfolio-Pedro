@@ -2,7 +2,7 @@ import React from "react";
 // import cvFile from "../../assets/CurriculoPedro-2.pdf"; // Substitua pelo caminho do seu CV
 
 const DownloadCVButton = () => {
-    const driveLink = "https://drive.google.com/file/d/1bMqwD7C8z7Utdl4OmmYnWXkT-jWKmCvR/view"; 
+    const driveLink = "https://drive.google.com/file/d/15YOd7zJ_w-p2ya4q2eocqa6IYDpTW2yh/view?usp=sharing"; 
 
   return (
     <div  className="flex border rounded-full p-0.5">
