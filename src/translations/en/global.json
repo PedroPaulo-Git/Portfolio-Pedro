@@ -54,7 +54,7 @@
       },
       {
         "title": "API Integration: ",
-        "description": "Utilizing Axios for efficient communication between front-end and back-end."
+        "description": "Utilizing Axios for efficient communication between front<span class='font-sans font-semibold'>-</span>end and back<span class='font-sans font-semibold'>-</span>end."
       },
       {
         "title": "Design and Landing Pages: ",
@@ -67,7 +67,7 @@
     ]
   },
   "about_grid": {
-    "value1": "25<span class='font-sans'>+</span>",
+    "value1": "35<span class='font-sans'>+</span>",
     "label1": "Concluded Projects",
     "value2": "15<span class='font-sans'>+</span>",
     "label2": "Mastered Technologies",
