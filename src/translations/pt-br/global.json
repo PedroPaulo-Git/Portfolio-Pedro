@@ -75,69 +75,76 @@
     "label4": "Horas de Cursos"
   },
   "work": {
-  "work_title": "Trabalhos Selecionados",
-  "work_subtitle": "Uma cole<span class='Acentuacoes font-sans '>çã</span>o dos projetos mais impactantes, escolhidos para representar a qualidade e dedica<span class='Acentuacoes font-sans '>çã</span>o em cada detalhe. Explore alguns dos meus melhores resultados.",
-  "projects": [
-    {
-      "name": "Plataforma de Restaurante",
-      "description": "Desenvolvimento de plataforma completa para restaurantes, com integração Stripe para pagamentos, dashboard administrativo e tecnologias modernas como React, Axios, Prisma e PostgreSQL para garantir alta performance e segurança.",
-      "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
-      "date": "Novembro 2023",
-      "href": "https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/",
-      "github": "https://github.com/PedroPaulo-Git/IdealRestaurante"
-    },
-    {
-      "name": "Landing Page Profissional",
-      "description": "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
-      "where": "Desenvolvimento Profissional",
-      "date": "Agosto 2023",
-      "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
-      "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta"
-    },
-    {
-      "name": "Portfolio Profissional",
-      "description": "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
-      "where": "Projeto de Software House",
-      "date": "Junho 2023",
-      "href": "https://pedropaulo-git.github.io/PortSoftware/",
-      "github": "https://github.com/PedroPaulo-Git/PortSoftware"
-    },
-    {
-      "name": "Sistema de Gerenciamento de Pets",
-      "description": "Desenvolvimento de um sistema completo de gerenciamento de pets com funcionalidades CRUD, utilizando Next.js. O projeto foi criado para um processo seletivo, demonstrando experiência em desenvolvimento backend e frontend com foco em performance e escalabilidade.",
-      "where": "Processo Seletivo",
-      "date": "Dezembro 2023",
-      "href": "https://github.com/PedroPaulo-Git/desafio-junior-1",
-      "github": "https://github.com/PedroPaulo-Git/desafio-junior-1"
-    },
-    {
-      "name": "Aplicacao de Filmes",
-      "description": "Desenvolvimento de uma aplicação que realiza chamadas GET em uma API externa de filmes utilizando Axios. A aplicação exibe informações detalhadas sobre os filmes, incluindo avaliações por estrelas e dados relevantes, proporcionando uma experiência interativa e informativa ao usuário.",
-      "where": "Projeto Pessoal",
-      "date": "Dezembro 2023",
-      "href": "https://pedropaulo-git.github.io/MoviesRating/",
-      "github": "https://github.com/PedroPaulo-Git/MoviesRating"
-    },
-    {
-      "name": "Jogo Pixelado",
-      "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
-      "where": "Projeto Pessoal",
-      "date": "Dezembro 2023",
-      "href": "https://github.com/PedroPaulo-Git/CoinClick",
-      "github": "https://github.com/PedroPaulo-Git/CoinClick"
-    },
-    {
-      "name": "Dog Breed Matcher",
-      "description": "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
-      "where": "Projeto Pessoal",
-      "date": "Dezembro 2023",
-      "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-      "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog"
-    }
-  ]
-},
-"footer": {
+    "work_title": "Trabalhos Selecionados",
+    "work_subtitle": "Uma cole<span class='Acentuacoes font-sans '>çã</span>o dos projetos mais impactantes, escolhidos para representar a qualidade e dedica<span class='Acentuacoes font-sans '>çã</span>o em cada detalhe. Explore alguns dos meus melhores resultados.",
+    "projects": [
+      {
+        "name": "Plataforma de Restaurante",
+        "description": "Desenvolvimento de uma plataforma completa para gestão de restaurantes, integrando Stripe para processamento de pagamentos seguros, autenticação com JWT para login seguro e painel administrativo robusto. Utiliza tecnologias modernas como React, Vite e Axios no front-end e Node.js, Express, PostgreSQL e Prisma no back-end para garantir alto desempenho, segurança e escalabilidade.",
+        "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
+        "date": "Junho 202<span class='font-sans '>4</span>",
+        "href": "https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/IdealRestaurante"
+      },
+      {
+        "name": "Landing Page Profissional",
+        "description": "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
+        "where": "Desenvolvimento Profissional",
+        "date": "Agosto 202<span class='font-sans '>4</span>",
+        "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
+        "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta"
+      },
+      {
+        "name": "Portfolio Profissional",
+        "description": "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
+        "where": "Projeto de Software House",
+        "date": "Junho 202<span class='font-sans '>4</span>",
+        "href": "https://pedropaulo-git.github.io/PortSoftware/",
+        "github": "https://github.com/PedroPaulo-Git/PortSoftware"
+      },
+      {
+        "name": "Sistema de Gerenciamento de Pets",
+        "description": "Desenvolvimento de um sistema completo de gerenciamento de pets com funcionalidades CRUD, utilizando Next.js. O projeto foi criado para um processo seletivo, demonstrando experiência em desenvolvimento backend e frontend com foco em performance e escalabilidade.",
+        "where": "Processo Seletivo",
+        "date": "Março 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/desafio-junior-1",
+        "github": "https://github.com/PedroPaulo-Git/desafio-junior-1"
+      },
+      {
+        "name": "Aplicacao de Filmes",
+        "description": "Desenvolvimento de uma aplicação que realiza chamadas GET em uma API externa de filmes utilizando Axios. A aplicação exibe informações detalhadas sobre os filmes, incluindo avaliações por estrelas e dados relevantes, proporcionando uma experiência interativa e informativa ao usuário.",
+        "where": "Projeto Pessoal",
+        "date": "Janeiro 202<span class='font-sans '>3</span>",
+        "href": "https://pedropaulo-git.github.io/MoviesRating/",
+        "github": "https://github.com/PedroPaulo-Git/MoviesRating"
+      },
+      {
+        "name": "Jogo Pixelado",
+        "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
+        "where": "Projeto Pessoal",
+        "date": "Janeiro 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/CoinClick",
+        "github": "https://github.com/PedroPaulo-Git/CoinClick"
+      },
+      {
+        "name": "Dog Breed Matcher",
+        "description": "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
+        "where": "Projeto Pessoal",
+        "date": "Dezembro 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+        "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog"
+      },
+      {
+        "name": "Landing Page de Psicologos",
+        "description": "Landing page responsiva para casal de psicólogos, com foco em conversão de clientes. Desenvolvida com React, TailwindCSS e componentes personalizados, oferece navegação intuitiva e apresentação otimizada dos serviços.",
+        "where": "Projeto de Landing Page para Psicologos",
+        "date": "Dezembro 202<span class='font-sans '>4</span>",
+        "href": "https://psicocasal.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/Psicologia"
+      }
+    ]
+  },
+  "footer": {
     "text": "Me fale sobre seu proximo projeto"
   }
-
 }
