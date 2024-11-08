@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import useClipboard from "react-use-clipboard";
 import { LuArrowDownToLine } from "react-icons/lu";
 import DownloadCVButton from "../components/DownloadCVButton";
+import DownloadCvEnglishButton from "../components/DownloadCvEnglishButton";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -81,7 +82,8 @@ const Header = () => {
                 Whatsapp
               </span>
             </div>
-            <DownloadCVButton />
+            {linguage === 'pt-br' ?<DownloadCVButton /> : <DownloadCvEnglishButton />}
+        
           </div>
         </nav>
 
