@@ -9,6 +9,7 @@ const DownloadCvEnglishButton = () => {
     <a
     className="flex border-black rounded-full"
       href={driveLink} 
+      target="blank"
       download="Pedro CV.pdf" 
     >
       <span className="w-[90px] py-3 lg:py-4 cursor-pointer border rounded-full text-center font-semibold  bg-white">
