@@ -80,7 +80,7 @@
     "projects": [
       {
         "name": "Plataforma de Restaurante",
-        "description": "Desenvolvimento de uma plataforma completa para gestão de restaurantes, integrando Stripe para processamento de pagamentos seguros, autenticação com JWT para login seguro e painel administrativo robusto. Utiliza tecnologias modernas como React, Vite e Axios no front-end e Node.js, Express, PostgreSQL e Prisma no back-end para garantir alto desempenho, segurança e escalabilidade.",
+        "description": "Desenvolvimento de uma plataforma completa para gestão de restaurantes, integrando Stripe para processamento de pagamentos seguros, autenticação com JWT para login seguro e painel administrativo robusto. Utiliza tecnologias modernas como React, Vite e Axios no front end e Node.js, Express, PostgreSQL e Prisma no back end para garantir alto desempenho, segurança e escalabilidade.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
         "date": "Junho 202<span class='font-sans '>4</span>",
         "href": "https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/",
