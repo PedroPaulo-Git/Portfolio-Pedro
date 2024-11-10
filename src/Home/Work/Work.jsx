@@ -30,7 +30,7 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.0.date") }} />
       ),
-      href: "https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/",
+      href: "https://ideal-restaurante-dp9tmki7a-pedropaulogits-projects.vercel.app/",
       github: "https://github.com/PedroPaulo-Git/IdealRestaurante",
       description: t("work.projects.0.description"),
     },
@@ -42,8 +42,8 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.7.date") }} />
       ),
-      href: "https://pedropaulo-git.github.io/PortSoftware/",
-      github: "https://github.com/PedroPaulo-Git/PortSoftware",
+      href: t("work.projects.7.href"),
+      github: t("work.projects.7.github"),
       description: t("work.projects.7.description"),
     },
     {
