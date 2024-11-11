@@ -142,6 +142,15 @@
         "href": "https://psicocasal.vercel.app/",
         "github": "https://github.com/PedroPaulo-Git/Psicologia"
       }
+      ,
+      {
+        "name": "Alavancagem de Vendas",
+        "description": "Aplicativo mobile desenvolvido com React Native, Expo e TypeScript, que organiza e apresenta atividades diárias para impulsionar vendas. Utiliza React Calendar para exibir tarefas e dicas específicas a serem feitas a cada dia, ajudando usuários a focarem em estratégias de crescimento. A integração com axios permite atualizações em tempo real das dicas e atividades.",
+       "where": "Aplicativo Mobile de Alavancagem de Vendas",
+        "date": "Setembro 202<span class='font-sans '>3</span>",
+        "href": "https://github.com/uninassau-students",
+        "github": "https://github.com/uninassau-students"
+      }
     ]
   },
   "footer": {

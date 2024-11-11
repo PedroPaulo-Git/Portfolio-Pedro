@@ -7,6 +7,7 @@ import Template5 from "../../assets/Works/Templete5.png";
 import Template6 from "../../assets/Works/TemplateGame.png";
 import Template7 from "../../assets/Works/TemplateDog.png";
 import Template8 from "../../assets/Works/TemplatePsico.png";
+import Template9 from "../../assets/Works/TemplateReactNative.png";
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -45,6 +46,7 @@ const Work = () => {
       href: t("work.projects.7.href"),
       github: t("work.projects.7.github"),
       description: t("work.projects.7.description"),
+      //mobileOnly: true,
     },
     {
       image: Template2,
@@ -58,7 +60,18 @@ const Work = () => {
       github: "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
       description: t("work.projects.1.description"),
     },
-
+ {
+      image: Template9,
+      name: t("work.projects.8.name"), // "React Native"
+      social: <IoLogoGithub />,
+      where: t("work.projects.8.where"), // "React Native"
+      date: (
+        <span dangerouslySetInnerHTML={{ __html: t("work.projects.8.date") }} />
+      ),
+      href: t("work.projects.8.href"),
+      github: t("work.projects.8.github"),
+      description: t("work.projects.8.description"),
+    },
     {
       image: Template5,
       name: t("work.projects.3.name"), // "Sistema de Gerenciamento de Pets"
@@ -108,21 +121,22 @@ const Work = () => {
       href: "https://pedropaulo-git.github.io/PortSoftware/",
       github: "https://github.com/PedroPaulo-Git/PortSoftware",
       description: t("work.projects.2.description"),
-      mobileOnly: true,
+      // mobileOnly: true,
     },
-    {
-      image: Template6,
-      name: t("work.projects.5.name"), // "Jogo Pixelado"
-      social: <IoLogoGithub />,
-      where: t("work.projects.5.where"), // "Projeto Pessoal"
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.5.date") }} />
-      ),
-      href: "https://github.com/PedroPaulo-Git/CoinClick",
-      github: "https://github.com/PedroPaulo-Git/CoinClick",
-      description: t("work.projects.5.description"),
-      mobileOnly: true,
-    },
+    // {
+    //   image: Template6,
+    //   name: t("work.projects.5.name"), // "Jogo Pixelado"
+    //   social: <IoLogoGithub />,
+    //   where: t("work.projects.5.where"), // "Projeto Pessoal"
+    //   date: (
+    //     <span dangerouslySetInnerHTML={{ __html: t("work.projects.5.date") }} />
+    //   ),
+    //   href: "https://github.com/PedroPaulo-Git/CoinClick",
+    //   github: "https://github.com/PedroPaulo-Git/CoinClick",
+    //   description: t("work.projects.5.description"),
+    //   mobileOnly: true,
+    // },
+   
   ];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -132,7 +146,7 @@ const Work = () => {
   }, [isInView]);
 
   return (
-    <div className=" py-24 sm:py-32">
+    <div className=" py-24 pb-40 sm:pt-32  sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center text-center">
           <p className="mt-2 text-2xl sm:text-2xl lg:text-4xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
@@ -185,6 +199,7 @@ const Work = () => {
                 <dt className="text-2xl font-semibold leading-7 py-2 pt-4 text-gray-main justify-between flex">
                   {feature.name}
                   <a
+                  target="blank"
                     href={feature.github}
                     className="mr-1 cursor-pointer hover:text-gray-light trans"
                   >

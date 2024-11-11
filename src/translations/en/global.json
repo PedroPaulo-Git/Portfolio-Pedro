@@ -143,8 +143,16 @@
         "date": "November 202<span class='font-sans '>4</span>",
         "href": "https://psicocasal.vercel.app/",
         "github": "https://github.com/PedroPaulo-Git/Psicologia"
+      },
+      {
+        "name": "Sales Growth Planner",
+        "description": "A mobile application developed with React Native, Expo, and TypeScript, designed to organize and display daily activities to boost sales. It uses React Calendar to show specific tasks and tips for each day, helping users focus on growth strategies. The integration with axios enables real time updates of tips and activities.",
+        "where": "Sales Growth Mobile App Project",
+        "date": "September 202<span class='font-sans '>3</span>",
+        "href": "https://github.com/uninassau-students",
+        "github": "https://github.com/uninassau-students"
       }
-    ]
+    ]  
   },
   "footer": {
     "text": "Tell me about your next project"
