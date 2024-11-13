@@ -150,7 +150,15 @@
         "date": "Setembro 202<span class='font-sans '>3</span>",
         "href": "https://github.com/uninassau-students",
         "github": "https://github.com/uninassau-students"
-      }
+      },
+      {
+        "name": "Vendas de Pods",
+        "description": "Página simples de vendas de pods desenvolvida com React e TailwindCSS, voltada para pequenos empreendedores. Focada em conversão, com layout intuitivo e otimizado para facilitar a compra e promover os produtos de forma eficaz.",
+        "where": "Página de Vendas",
+        "date": "Novembro 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/uninassau-students",
+        "github": "https://github.com/uninassau-students"
+    }    
     ]
   },
   "footer": {

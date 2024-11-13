@@ -151,7 +151,15 @@
         "date": "September 202<span class='font-sans '>3</span>",
         "href": "https://github.com/uninassau-students",
         "github": "https://github.com/uninassau-students"
-      }
+      },
+      {
+        "name": "Pod Sales",
+        "description": "A simple sales page for pods developed with React and TailwindCSS, aimed at small entrepreneurs. Focused on conversion, with an intuitive layout optimized to facilitate purchases and effectively promote products.",
+        "where": "Sales Page",
+        "date": "November 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/uninassau-students",
+        "github": "https://github.com/uninassau-students"
+    }    
     ]  
   },
   "footer": {

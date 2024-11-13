@@ -8,6 +8,7 @@ import Template6 from "../../assets/Works/TemplateGame.png";
 import Template7 from "../../assets/Works/TemplateDog.png";
 import Template8 from "../../assets/Works/TemplatePsico.png";
 import Template9 from "../../assets/Works/TemplateReactNative.png";
+import Template10 from "../../assets/Works/Templateimportss.png";
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -96,7 +97,19 @@ const Work = () => {
       github: "https://github.com/PedroPaulo-Git/MoviesRating",
       description: t("work.projects.4.description"),
     },
-
+    {
+      image: Template10,
+      name: t("work.projects.9.name"), // "venda de pods"
+      social: <IoLogoGithub />,
+      where: t("work.projects.9.where"), // "venda de pods"
+      date: (
+        <span dangerouslySetInnerHTML={{ __html: t("work.projects.9.date") }} />
+      ),
+      href: "https://re-imports.vercel.app/",
+      github: "https://github.com/PedroPaulo-Git/re_imports",
+      description: t("work.projects.9.description"),
+      // mobileOnly: true,
+    },
     {
       image: Template7,
       name: t("work.projects.6.name"), // "Dog Breed Matcher"
