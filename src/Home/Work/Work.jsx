@@ -121,6 +121,7 @@ const Work = () => {
       href: "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
       github: "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
       description: t("work.projects.6.description"),
+      mobileOnly: true,
     },
 
     {
