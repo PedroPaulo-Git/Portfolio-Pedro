@@ -8,7 +8,7 @@ import Template6 from "../../assets/Works/TemplateGame.png";
 import Template7 from "../../assets/Works/TemplateDog.png";
 import Template8 from "../../assets/Works/TemplatePsico.png";
 import Template9 from "../../assets/Works/TemplateReactNative.png";
-import Template10 from "../../assets/Works/Templateimportss.png";
+import Template10 from "../../assets/Works/TemplateImportss.png";
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -105,7 +105,7 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.9.date") }} />
       ),
-      href: "https://re-imports.vercel.app/",
+      href: "https://podsselling.vercel.app/",
       github: "https://github.com/PedroPaulo-Git/re_imports",
       description: t("work.projects.9.description"),
       // mobileOnly: true,
