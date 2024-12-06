@@ -9,6 +9,7 @@ import Template7 from "../../assets/Works/TemplateDog.png";
 import Template8 from "../../assets/Works/TemplatePsico.png";
 import Template9 from "../../assets/Works/TemplateReactNative.png";
 import Template10 from "../../assets/Works/TemplateImportss.png";
+import Template11 from "../../assets/Works/Template31Hamburgueria.png";
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -32,9 +33,28 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.0.date") }} />
       ),
-      href: "https://ideal-restaurante.vercel.app/",
-      github: "https://github.com/PedroPaulo-Git/IdealRestaurante",
+      href: t("work.projects.0.href"),
+      github: t("work.projects.0.github"),
       description: t("work.projects.0.description"),
+    },
+    {
+      image: Template11,
+      name: t("work.projects.10.name"), // "31hamburgueria"
+      social: <IoLogoGithub />,
+      where: (
+        <span
+          dangerouslySetInnerHTML={{ __html: t("work.projects.10.where") }}
+        />
+      ),
+      date: (
+        <span
+          dangerouslySetInnerHTML={{ __html: t("work.projects.10.date") }}
+        />
+      ),
+      href: t("work.projects.10.href"),
+      github: t("work.projects.10.github"),
+      description: t("work.projects.10.description"),
+      // mobileOnly: true,
     },
     {
       image: Template8,
@@ -57,11 +77,11 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.1.date") }} />
       ),
-      href: "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
-      github: "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
+      href: t("work.projects.1.href"),
+      github: t("work.projects.1.github"),
       description: t("work.projects.1.description"),
     },
- {
+    {
       image: Template9,
       name: t("work.projects.8.name"), // "React Native"
       social: <IoLogoGithub />,
@@ -81,8 +101,8 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.3.date") }} />
       ),
-      href: "https://github.com/PedroPaulo-Git/desafio-junior-1",
-      github: "https://github.com/PedroPaulo-Git/desafio-junior-1",
+      href: t("work.projects.3.href"),
+      github: t("work.projects.3.github"),
       description: t("work.projects.3.description"),
     },
     {
@@ -93,8 +113,8 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.4.date") }} />
       ),
-      href: "https://pedropaulo-git.github.io/MoviesRating/",
-      github: "https://github.com/PedroPaulo-Git/MoviesRating",
+      href: t("work.projects.4.href"),
+      github: t("work.projects.4.github"),
       description: t("work.projects.4.description"),
     },
     {
@@ -105,8 +125,8 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.9.date") }} />
       ),
-      href: "https://podsselling.vercel.app/",
-      github: "https://github.com/PedroPaulo-Git/re_imports",
+      href: t("work.projects.9.href"),
+      github: t("work.projects.9.github"),
       description: t("work.projects.9.description"),
       // mobileOnly: true,
     },
@@ -118,25 +138,25 @@ const Work = () => {
       date: (
         <span dangerouslySetInnerHTML={{ __html: t("work.projects.6.date") }} />
       ),
-      href: "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-      github: "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+      href: t("work.projects.6.href"),
+      github: t("work.projects.6.github"),
       description: t("work.projects.6.description"),
       mobileOnly: true,
     },
 
-    {
-      image: Template3,
-      name: t("work.projects.2.name"), // "Portfolio Profissional"
-      social: <IoLogoGithub />,
-      where: t("work.projects.2.where"), // "Projeto de Software House"
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.2.date") }} />
-      ),
-      href: "https://pedropaulo-git.github.io/PortSoftware/",
-      github: "https://github.com/PedroPaulo-Git/PortSoftware",
-      description: t("work.projects.2.description"),
-      // mobileOnly: true,
-    },
+    // {
+    //   image: Template3,
+    //   name: t("work.projects.2.name"), // "Portfolio Profissional"
+    //   social: <IoLogoGithub />,
+    //   where: t("work.projects.2.where"), // "Projeto de Software House"
+    //   date: (
+    //     <span dangerouslySetInnerHTML={{ __html: t("work.projects.2.date") }} />
+    //   ),
+    //   href: t("work.projects.2.href"),
+    //   github: t("work.projects.2.github"),
+    //   description: t("work.projects.2.description"),
+    //   // mobileOnly: true,
+    // },
     // {
     //   image: Template6,
     //   name: t("work.projects.5.name"), // "Jogo Pixelado"
@@ -150,7 +170,6 @@ const Work = () => {
     //   description: t("work.projects.5.description"),
     //   mobileOnly: true,
     // },
-   
   ];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -213,7 +232,7 @@ const Work = () => {
                 <dt className="text-2xl font-semibold leading-7 py-2 pt-4 text-gray-main justify-between flex">
                   {feature.name}
                   <a
-                  target="blank"
+                    target="blank"
                     href={feature.github}
                     className="mr-1 cursor-pointer hover:text-gray-light trans"
                   >

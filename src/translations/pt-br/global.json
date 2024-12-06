@@ -33,18 +33,18 @@
         "icon": "service_icon"
       }
     ]
-  },
+  },   
   "about": {
     "about_title": "Percurso Profissional",
     "about_subtitle": "Sobre Mim",
     "about_description_below": " Com uma base solida em tecnologia e design, busco constantemente a inovacao e o aprimoramento das minhas habilidades para entregar solucoes de qualidade. Meu foco e unir funcionalidade e estetica em cada projeto.",
 
-    "about_description": "Especialista em desenvolvimento de aplicacoes completas, com forte enfase em interfaces dinamicas utilizando React e habilidades robustas em back<span class='font-sans font-semibold'>-</span>end com Node.js e Postgres. Conclui o curso de Analise e Desenvolvimento de Sistemas na UNINASSAU em dezembro de 2023.",
+    "about_description": "Especialista em desenvolvimento de aplicacoes completas, com forte enfase em interfaces dinamicas utilizando React e Vue.js, e habilidades robustas em back<span class='font-sans font-semibold'>-</span>end com Node.js e Postgres. Conclui o curso de Analise e Desenvolvimento de Sistemas na UNINASSAU em dezembro de 2023.",
 
     "about_skills": [
       {
-        "title": "React e Interfaces Interativas: ",
-        "description": "Construcao de UI<span class='font-sans font-semibold'>/</span>UX responsivas focadas em usabilidade e engajamento."
+        "title": "React e Vue.js: ",
+        "description": "Construcao de interfaces dinamicas baseadas em componentes com React e Vue.js, focando em design UI<span class='font-sans font-semibold'>/</span>UX responsivo e usabilidade."
       },
       {
         "title": "Tecnologias de Back<span class='font-sans font-semibold'>-</span>end: ",
@@ -141,12 +141,11 @@
         "date": "Dezembro 202<span class='font-sans '>4</span>",
         "href": "https://psicocasal.vercel.app/",
         "github": "https://github.com/PedroPaulo-Git/Psicologia"
-      }
-      ,
+      },
       {
         "name": "Alavancagem de Vendas",
         "description": "Aplicativo mobile desenvolvido com React Native, Expo e TypeScript, que organiza e apresenta atividades diárias para impulsionar vendas. Utiliza React Calendar para exibir tarefas e dicas específicas a serem feitas a cada dia, ajudando usuários a focarem em estratégias de crescimento. A integração com axios permite atualizações em tempo real das dicas e atividades.",
-       "where": "Aplicativo Mobile",
+        "where": "Aplicativo Mobile",
         "date": "Setembro 202<span class='font-sans '>3</span>",
         "href": "https://github.com/uninassau-students",
         "github": "https://github.com/uninassau-students"
@@ -156,9 +155,17 @@
         "description": "Página simples de vendas de pods desenvolvida com React e TailwindCSS, voltada para pequenos empreendedores. Focada em conversão, com layout intuitivo e otimizado para facilitar a compra e promover os produtos de forma eficaz.",
         "where": "Página de Vendas",
         "date": "Novembro 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/uninassau-students",
-        "github": "https://github.com/uninassau-students"
-    }    
+        "href": "https://podsselling.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/re_imports"
+      },
+      {
+        "name": "31Hamburgueria",
+        "description": "Landing page desenvolvida para o restaurante 31Hamburguer, utilizando Vue.js e TailwindCSS. A página foi projetada com foco na conversão de visitantes em clientes, apresentando o cardápio de forma clara, destacando promoções e facilitando o contato com o estabelecimento. O layout foi otimizado para uma navegação rápida e intuitiva, garantindo uma ótima experiência de usuário em dispositivos móveis e desktops.",
+        "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
+        "date": "Dezembro 202<span class='font-sans '>4</span>",
+        "href": "https://31hamburgueria.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/31hamburgueria"
+      }
     ]
   },
   "footer": {

@@ -8,6 +8,7 @@ import Tailwind from '../../assets/tailwind.png';
 import ReactLogo from '../../assets/react.png'
 import Vercel from '../../assets/Vercel.png'
 import Javascript from '../../assets/js.png'
+import VueJs from '../../assets/vue.png'
 
 
 const Marquee = () => {
@@ -16,11 +17,12 @@ const marquee = [
     Git,
     PostgreSQL,
     Typescript,
-    Node,
+    Javascript,
     Tailwind,
     ReactLogo,
-    Javascript,
-    Vercel
+    VueJs,
+    Node,
+    // Vercel
 ]
   return (
     <div className="bg-[#f8f9fa] flex border-solid border-b-2 border-gray-fulllight rounded-b-[90px] text-6xl h-[23rem] items-center pt-10 -mt-20 overflow-x-hidden saturate-0">

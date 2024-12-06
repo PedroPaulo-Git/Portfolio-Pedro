@@ -36,36 +36,34 @@
   },
 
   "about": {
-    "about_title": "Professional Journey",
-
-    "about_subtitle": "About Me",
-    "about_description_below": "With a solid foundation in technology and design, I am always striving for innovation and skill improvement to deliver high<span class='font-sans bold'>-</span>quality solutions. My focus is to combine functionality and aesthetics in every project.",
-
-    "about_description": "I am a specialist in developing comprehensive applications, with a strong emphasis on dynamic interfaces using React. I possess robust skills in back<span class='Acentuacoes font-sans'>-</span>end development with Node.js and PostgreSQL. I completed my degree in Systems Analysis and Development at UNINASSAU in December 2023.",
-
-    "about_skills": [
-      {
-        "title": "React and Interactive Interfaces: ",
-        "description": "Building responsive UI<span class='font-sans semi-bold'>/</span>UX designs focused on usability and engagement."
-      },
-      {
-        "title": "Back<span class='font-sans bold'>-</span>End Technologies: ",
-        "description": "Experience with Node.js, Express, and PostgreSQL for developing robust APIs."
-      },
-      {
-        "title": "API Integration: ",
-        "description": "Utilizing Axios for efficient communication between front<span class='font-sans font-semibold'>-</span>end and back<span class='font-sans font-semibold'>-</span>end."
-      },
-      {
-        "title": "Design and Landing Pages: ",
-        "description": "Creating layouts that maximize conversion rates and enhance user experience."
-      },
-      {
-        "title": "Technical Training: ",
-        "description": "Degree in Systems Analysis and Development, with a focus on market practices."
-      }
-    ]
-  },
+  "about_title": "Professional Journey",
+  "about_subtitle": "About Me",
+  "about_description_below": "With a solid foundation in technology and design, I am always striving for innovation and skill improvement to deliver high<span class='font-sans bold'>-</span>quality solutions. My focus is to combine functionality and aesthetics in every project.",
+  "about_description": "I am a specialist in developing comprehensive applications, with a strong emphasis on dynamic interfaces using React and Vue.js. I possess robust skills in back<span class='Acentuacoes font-sans'>-</span>end development with Node.js and PostgreSQL. I completed my degree in Systems Analysis and Development at UNINASSAU in December 2023.",
+  "about_skills": [
+    {
+      "title": "React and Vue.js: ",
+      "description": "Building dynamic, component<span class='font-sans bold'>-</span>based user interfaces with React and Vue.js, focusing on responsive UI<span class='font-sans semi-bold'>/</span>UX designs and usability."
+    },    
+    {
+      "title": "Back<span class='font-sans bold'>-</span>End Technologies: ",
+      "description": "Experience with Node.js, Express, and PostgreSQL for developing robust APIs."
+    },
+    {
+      "title": "API Integration: ",
+      "description": "Utilizing Axios for efficient communication between front<span class='font-sans font-semibold'>-</span>end and back<span class='font-sans font-semibold'>-</span>end."
+    },
+    {
+      "title": "Design and Landing Pages: ",
+      "description": "Creating layouts that maximize conversion rates and enhance user experience."
+    },
+    {
+      "title": "Technical Training: ",
+      "description": "Degree in Systems Analysis and Development, with a focus on market practices."
+    }
+  ]
+}
+,
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",
     "label1": "Concluded Projects",
@@ -159,6 +157,14 @@
         "date": "November 202<span class='font-sans '>4</span>",
         "href": "https://github.com/uninassau-students",
         "github": "https://github.com/uninassau-students"
+    } ,
+    {
+      "name": "31Hamburgueria",
+      "description": "Landing page developed for the 31Hamburguer restaurant, using Vue.js and TailwindCSS. The page was designed with a focus on converting visitors into customers, presenting the menu clearly, highlighting promotions, and facilitating contact with the establishment. The layout was optimized for fast and intuitive navigation, ensuring a great user experience on both mobile and desktop devices.",
+      "where": "Landing Page for Hamburger Restaurant",
+      "date": "December 202<span class='font-sans '>4</span>",
+      "href": "https://31hamburgueria.vercel.app/",
+      "github": "https://github.com/PedroPaulo-Git/31hamburgueria"
     }    
     ]  
   },
