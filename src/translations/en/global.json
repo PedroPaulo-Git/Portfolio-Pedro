@@ -83,7 +83,7 @@
         "description": "Development of a comprehensive restaurant management platform with secure Stripe integration for payment processing, JWT authentication for secure login, and a robust admin dashboard. Built with modern technologies such as React, Vite, and Axios on the front end, and Node.js, Express, PostgreSQL, and Prisma on the back end, ensuring high performance, security, and scalability.",
         "where": "Business Solution",
         "date": "June 202<span class='font-sans '>4</span>",
-        "href": "https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/",
+        "href": "https://ideal-restaurante.vercel.app/",
         "github": "https://github.com/PedroPaulo-Git/IdealRestaurante"
       },
       {

@@ -23,7 +23,7 @@ const Work = () => {
   const features = [
     {
       image: IdealTemplate,
-      name: t("work.projects.0.name"),
+      name: t("work.projects.0.name"), //IDEAL RESTAURANTE
       social: <IoLogoGithub />,
       where: (
         <span
