@@ -6,6 +6,7 @@ import IconSuccess from "../../../assets/About/success.png";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import Certificate from "./Certificate";
 
 const GridSkils = () => {
   const [t, i18n] = useTranslation("global");
@@ -112,6 +113,15 @@ const GridSkils = () => {
             />
           </div>
         </div>
+
+{/*         
+        <div>
+          <Certificate/>
+        </div>
+         */}
+
+        {/* WHERE I PUT MY COMPONENT CERTIFICATES */}
+
       </div>
     </motion.div>
   );
