@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import useClipboard from "react-use-clipboard";
 import { LuArrowDownToLine } from "react-icons/lu";
@@ -8,33 +7,31 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
-import buttonEua from '../../assets/usa.png'
-import buttonBr from '../../assets/br.png'
+import buttonEua from "../../assets/usa.png";
+import buttonBr from "../../assets/br.png";
 
 const Header = () => {
-  const [t,i18n] = useTranslation('global')
+  const [t, i18n] = useTranslation("global");
 
-  const handleChangeLanguage = (lang)=>{
+  const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-    const newLang = linguage === 'pt-br' ? 'en' : 'pt-br';
+    const newLang = linguage === "pt-br" ? "en" : "pt-br";
     setLinguage(newLang);
-  }
-  const [linguage, setLinguage] = useState('pt-br');
-
-
+  };
+  const [linguage, setLinguage] = useState("pt-br");
 
   const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", {
     successDuration: 1000,
   });
   const [copyMessage, setCopyMessage] = useState(t("header.contact_copy"));
-  
+
   const handleCopy = () => {
     setCopied();
     setTimeout(() => {
       setCopyMessage(
         <span>
-          {t("header.contact_copied")}<span className="font-sans">!</span>
-
+          {t("header.contact_copied")}
+          <span className="font-sans">!</span>
         </span>
       );
     }, 100);
@@ -62,14 +59,12 @@ const Header = () => {
               <p className="hidden md:block text-gray-light px-4">
                 receberpedro09
                 <span className="font-serif font-semibold">@</span>gmail.com
-              
               </p>
 
               <span
                 onClick={handleCopy}
                 className="w-[90px] my-1 py-3 lg:py-4 cursor-pointer border rounded-full text-center font-semibold hidden sm:block bg-white"
               >
-               
                 {copyMessage}
               </span>
             </div>
@@ -82,8 +77,11 @@ const Header = () => {
                 Whatsapp
               </span>
             </div>
-            {linguage === 'pt-br' ?<DownloadCVButton /> : <DownloadCvEnglishButton />}
-        
+            {linguage === "pt-br" ? (
+              <DownloadCVButton />
+            ) : (
+              <DownloadCvEnglishButton />
+            )}
           </div>
         </nav>
 
@@ -118,16 +116,20 @@ const Header = () => {
               </a>
             </div>
           </div>
-      
-          {linguage === 'pt-br' ?  
-          <button onClick={()=> handleChangeLanguage("en")}> <img className="w-5" src={buttonEua} alt="" /> </button>
-           : 
-           <button onClick={()=> handleChangeLanguage("ptbr")}> <img className="w-5" src={buttonBr} alt="" /> </button>
-           }
-     
+
+          {linguage === "pt-br" ? (
+            <button onClick={() => handleChangeLanguage("en")}>
+              {" "}
+              <img className="w-5" src={buttonEua} alt="" />{" "}
+            </button>
+          ) : (
+            <button onClick={() => handleChangeLanguage("ptbr")}>
+              {" "}
+              <img className="w-5" src={buttonBr} alt="" />{" "}
+            </button>
+          )}
         </div>
         <div className="flex lg:hidden relative ">
-          
           <a
             href="https://github.com/PedroPaulo-Git"
             target="blank"
@@ -150,12 +152,18 @@ const Header = () => {
             <FaInstagram />
           </a>
           <div className="absolute right-0 -top-6">
-          {linguage === 'pt-br' ?  
-          <button onClick={()=> handleChangeLanguage("en")}> <img className="w-5" src={buttonEua} alt="" /> </button>
-           : 
-           <button onClick={()=> handleChangeLanguage("ptbr")}> <img className="w-5" src={buttonBr} alt="" /> </button>
-           }
-           </div>
+            {linguage === "pt-br" ? (
+              <button onClick={() => handleChangeLanguage("en")}>
+                {" "}
+                <img className="w-5" src={buttonEua} alt="" />{" "}
+              </button>
+            ) : (
+              <button onClick={() => handleChangeLanguage("ptbr")}>
+                {" "}
+                <img className="w-5" src={buttonBr} alt="" />{" "}
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -11,12 +11,12 @@ const Home = () => {
   return (
     <div className="h-lvh ">
       <Header />
-      <Hero/>
-      <Marquee/>
-      <Services/>
-      <About/>
-      <Work/>
-      <Footer/>
+      <Hero />
+      <Marquee />
+      <Services />
+      <About />
+      <Work />
+      <Footer />
     </div>
   );
 };

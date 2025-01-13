@@ -12,7 +12,6 @@ import { motion } from "framer-motion";
 
 import { useTranslation } from "react-i18next";
 
-
 const Footer = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -50,7 +49,7 @@ const Footer = () => {
           />
         </motion.div>
         <motion.div
-        className="w-[25rem]  text-4xl sm:text-5xl sm:w-[35rem]  lg:text-6xl lg:w-[44rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent"
+          className="w-[25rem]  text-4xl sm:text-5xl sm:w-[35rem]  lg:text-6xl lg:w-[44rem] font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent"
           variants={{
             hidden: { opacity: 0, x: 30 },
             visible: { opacity: 1, x: 0 },
@@ -59,9 +58,7 @@ const Footer = () => {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <span className="my-6  ">
-           {t('footer.text')}
-          </span>
+          <span className="my-6  ">{t("footer.text")}</span>
         </motion.div>
         <motion.div
           variants={{
@@ -72,19 +69,19 @@ const Footer = () => {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-        <div className="flex gap-3">
-          <EmailButton />
-          <a
-            onClick={handleClick}
-            className="w-[110px] relative cursor-pointer py-3 border-4 border-gray-fulllight rounded-full text-center font-normal text-sm bg-white leading-normal flex justify-center items-center gap-1"
-          >
-            {" "}
-            <div className="flex items-center gap-1 relative group">
-              <PiWhatsappLogoDuotone className="text-base" /> Whatsapp{" "}
-              <span className="absolute right-2 -bottom-1 w-5/6  h-[2px] bg-gray-light scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-            </div>
-          </a>
-        </div>
+          <div className="flex gap-3">
+            <EmailButton />
+            <a
+              onClick={handleClick}
+              className="w-[110px] relative cursor-pointer py-3 border-4 border-gray-fulllight rounded-full text-center font-normal text-sm bg-white leading-normal flex justify-center items-center gap-1"
+            >
+              {" "}
+              <div className="flex items-center gap-1 relative group">
+                <PiWhatsappLogoDuotone className="text-base" /> Whatsapp{" "}
+                <span className="absolute right-2 -bottom-1 w-5/6  h-[2px] bg-gray-light scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+              </div>
+            </a>
+          </div>
         </motion.div>
       </div>
 

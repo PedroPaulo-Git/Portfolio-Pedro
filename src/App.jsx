@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Home from "./Home/Home";
 
@@ -8,7 +7,7 @@ import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 
 i18next.init({
-  interpolation:{escapeValue:false},
+  interpolation: { escapeValue: false },
   lng: "ptbr",
   resources: {
     ptbr: {
@@ -23,7 +22,7 @@ function App() {
   return (
     <>
       <I18nextProvider i18n={i18next}>
-      <Home />
+        <Home />
       </I18nextProvider>
     </>
   );

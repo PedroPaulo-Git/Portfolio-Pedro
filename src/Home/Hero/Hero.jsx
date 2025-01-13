@@ -59,15 +59,15 @@ const Hero = () => {
             <span className="leading-tight">e negocios.</span>
           </div> */}
           <div className="flex flex-col text-[32px] lg:text-[3.4rem] xl:text-[3.4rem] font-semibold bg-gradient-to-l from-[#7c7878] to-black-main bg-clip-text text-transparent">
-      {t("hero.title", { returnObjects: true }).map((line, index) => (
-        <span key={index} className="leading-tight">
-          {line}
-        </span>
-      ))}
-    </div>
+            {t("hero.title", { returnObjects: true }).map((line, index) => (
+              <span key={index} className="leading-tight">
+                {line}
+              </span>
+            ))}
+          </div>
         </motion.div>
         <motion.div
-        className="flex gap-2"
+          className="flex gap-2"
           variants={{
             hidden: { opacity: 0, x: 30 },
             visible: { opacity: 1, x: 0 },
