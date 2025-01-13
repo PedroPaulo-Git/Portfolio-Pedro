@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Avatar from "../../assets/avatar.png";
+//import Avatar from "../../assets/avatar.png";
+import Avatar from "../../assets/newAvatar.png";
 import { PiArrowLineUpRight } from "react-icons/pi";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { useTranslation } from "react-i18next";
