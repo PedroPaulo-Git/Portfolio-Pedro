@@ -6,6 +6,7 @@
   "hero": {
     "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>, sou Pedro 👋🏽",
     "button": "Entrar em contato",
+    "buttonSeeProjects": "Ver Projetos",
     "title": ["Design e tecnologia", "para impulsionar marcas", "e negocios."]
   },
   "section_services": {

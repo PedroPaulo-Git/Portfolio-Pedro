@@ -6,6 +6,7 @@
   "hero": {
     "icon_hello": "Hi, I<span class='Acentuacoes font-sans'>'</span>m Pedro 👋🏽",
     "button": "Get in touch",
+    "buttonSeeProjects": "See Projects",
     "title": ["Tech and design", "to boost brands and", "grow businesses."]
   },
   "section_services": {

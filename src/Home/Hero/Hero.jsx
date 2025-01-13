@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Avatar from "../../assets/avatar.png";
 import { PiArrowLineUpRight } from "react-icons/pi";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 import "./backgroundhero.css";
 
@@ -65,6 +66,7 @@ const Hero = () => {
     </div>
         </motion.div>
         <motion.div
+        className="flex gap-2"
           variants={{
             hidden: { opacity: 0, x: 30 },
             visible: { opacity: 1, x: 0 },
@@ -74,13 +76,13 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
         >
           <a
-            onClick={handleClick}
-            href=""
+            // onClick={handleClick}
+            href="#projects"
             className="rounded-full flex items-center bg-gray-main p-5 px-6 mt-4 text-white text-sm"
           >
             <div className="flex items-center gap-1 relative group">
-              {t("hero.button")}
-              <PiArrowLineUpRight className="ml-2 text-lg" />
+              {t("hero.buttonSeeProjects")}
+              <MdKeyboardDoubleArrowDown className="ml-1 text-lg" />
               <span className="absolute left-0 -bottom-1 w-[80%] h-[2px] bg-gray-fulllight  scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </div>
           </a>

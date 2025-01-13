@@ -179,7 +179,7 @@ const Work = () => {
   }, [isInView]);
 
   return (
-    <div className=" py-24 pb-40 sm:pt-32  sm:py-32">
+    <div id="projects" className=" py-24 pb-40 sm:pt-32  sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center text-center">
           <p className="mt-2 text-2xl sm:text-2xl lg:text-4xl font-semibold bg-gradient-to-l from-gray-midlight to-black bg-clip-text text-transparent">
