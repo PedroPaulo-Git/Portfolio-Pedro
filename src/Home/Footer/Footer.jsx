@@ -95,7 +95,7 @@ const Footer = () => {
         </span>
         <div className="flex gap-1">
           <a
-            href="https://www.instagram.com/portsoftware/"
+            href="https://www.instagram.com/pedrodevofc/"
             target="blank"
             className="p-3 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
           >

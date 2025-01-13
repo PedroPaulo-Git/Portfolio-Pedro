@@ -109,7 +109,7 @@ const Header = () => {
               </a>
               <span className="font-serif">/</span>
               <a
-                href="https://www.instagram.com/portsoftware/"
+                href="https://www.instagram.com/pedrodevofc/"
                 target="blank"
                 className="cursor-pointer group relative"
               >
@@ -143,7 +143,7 @@ const Header = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://www.instagram.com/portsoftware/"
+            href="https://www.instagram.com/pedrodevofc/"
             target="blank"
             className=" p-2.5 text-center  rounded-full bg-white border-4 text-gray-main text-lg"
           >
