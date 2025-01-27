@@ -35,36 +35,32 @@
       }
     ]
   },
-  "about": {
-    "about_title": "Percurso Profissional",
-    "about_subtitle": "Sobre Mim",
-    "about_description_below": " Com uma base solida em tecnologia e design, busco constantemente a inovacao e o aprimoramento das minhas habilidades para entregar solucoes de qualidade. Meu foco e unir funcionalidade e estetica em cada projeto.",
-
-    "about_description": "Especialista em desenvolvimento de aplicacoes completas, com forte enfase em interfaces dinamicas utilizando React e Vue.js, e habilidades robustas em back<span class='font-sans font-semibold'>-</span>end com Node.js e Postgres. Conclui o curso de Analise e Desenvolvimento de Sistemas na UNINASSAU em dezembro de 2023.",
-
-    "about_skills": [
-      {
-        "title": "React e Vue.js: ",
-        "description": "Construcao de interfaces dinamicas baseadas em componentes com React e Vue.js, focando em design UI<span class='font-sans font-semibold'>/</span>UX responsivo e usabilidade."
-      },
-      {
-        "title": "Tecnologias de Back<span class='font-sans font-semibold'>-</span>end: ",
-        "description": "Experiencia com Node.js, Express e Postgres para desenvolvimento de APIs robustas."
-      },
-      {
-        "title": "Integracao de APIs: ",
-        "description": "Utilizacao de Axios para comunicacao eficiente entre Front<span class='font-sans font-semibold'>-</span>end e Back<span class='font-sans font-semibold'>-</span>end."
-      },
-      {
-        "title": "Design e Landing Pages: ",
-        "description": "Criacao de layouts que maximizam conversao e experiencia do usuario."
-      },
-      {
-        "title": "Formacao Tecnica: ",
-        "description": "Curso de Analise e Desenvolvimento de Sistemas, com enfase em praticas de mercado."
-      }
-    ]
-  },
+ "about": {
+  "about_title": "Percurso Profissional",
+  "about_subtitle": "Sobre Mim",
+  "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e bonitas. Acredito que inovação e aprendizado constante são o segredo para entregar projetos de qualidade.",
+  
+  "about_description": "Comecei minha jornada em tecnologia em 2021, quando entrei na faculdade de Análise e Desenvolvimento de Sistemas, concluída em 2023. Desde o início, mergulhei no mundo do JavaScript, criando projetos com React, que logo se tornou minha principal stack. Com o tempo, expandi meu conhecimento para Java e Python. Para o desenvolvimento mobile, já utilizo React Native, sempre buscando entregar aplicações completas e dinâmicas.",
+  
+  "about_skills": [
+    {
+      "title": "React e Vue.js: ",
+      "description": "Construo interfaces modernas e responsivas, sempre focando na experiência do usuário e em design funcional."
+    },
+    {
+      "title": "Tecnologias de Back<span class='font-sans'>-</span>end: ",
+      "description": "Desenvolvimento de APIs escaláveis e seguras utilizando Node.js, Express e Postgres. Também utilizo Java para projetos mais robustos e Python para criar automações e realizar análises de dados estratégicas."
+    },
+    {
+      "title": "Desenvolvimento Mobile: ",
+      "description": "Aplicações para dispositivos móveis com React Native, unindo performance e design."
+    },
+    {
+      "title": "Design e Landing Pages: ",
+      "description": "Criação de páginas e layouts otimizados para conversão, com foco em gerar leads e atender objetivos de negócios dos clientes, utilizando design UI<span class='font-sans'>/</span>UX e boas práticas de mercado."
+    }
+  ]
+},
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",
     "label1": "Projetos Concluídos",

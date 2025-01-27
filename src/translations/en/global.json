@@ -36,34 +36,33 @@
     ]
   },
 
-  "about": {
-    "about_title": "Professional Journey",
-    "about_subtitle": "About Me",
-    "about_description_below": "With a solid foundation in technology and design, I am always striving for innovation and skill improvement to deliver high<span class='font-sans bold'>-</span>quality solutions. My focus is to combine functionality and aesthetics in every project.",
-    "about_description": "I am a specialist in developing comprehensive applications, with a strong emphasis on dynamic interfaces using React and Vue.js. I possess robust skills in back<span class='Acentuacoes font-sans'>-</span>end development with Node.js and PostgreSQL. I completed my degree in Systems Analysis and Development at UNINASSAU in December 2023.",
-    "about_skills": [
-      {
-        "title": "React and Vue.js: ",
-        "description": "Building dynamic, component<span class='font-sans bold'>-</span>based user interfaces with React and Vue.js, focusing on responsive UI<span class='font-sans semi-bold'>/</span>UX designs and usability."
-      },
-      {
-        "title": "Back<span class='font-sans bold'>-</span>End Technologies: ",
-        "description": "Experience with Node.js, Express, and PostgreSQL for developing robust APIs."
-      },
-      {
-        "title": "API Integration: ",
-        "description": "Utilizing Axios for efficient communication between front<span class='font-sans font-semibold'>-</span>end and back<span class='font-sans font-semibold'>-</span>end."
-      },
-      {
-        "title": "Design and Landing Pages: ",
-        "description": "Creating layouts that maximize conversion rates and enhance user experience."
-      },
-      {
-        "title": "Technical Training: ",
-        "description": "Degree in Systems Analysis and Development, with a focus on market practices."
-      }
-    ]
-  },
+"about": {
+  "about_title": "Professional Journey",
+  "about_subtitle": "About Me",
+  "about_description_below": "I always strive to merge technology and design to create solutions that are both functional and visually appealing. I believe that innovation and continuous learning are the keys to delivering high<span class='font-sans'>-</span>quality projects.",
+  
+  "about_description": "I began my journey in technology in 2021 when I enrolled in the Systems Analysis and Development program, which I completed in 2023. From the start, I dove into the world of JavaScript, creating projects with React, which quickly became my primary stack. Over time, I expanded my knowledge to include Java and Python. For mobile development, I have been using React Native, always aiming to deliver complete and dynamic applications.",
+  
+  "about_skills": [
+    {
+      "title": "React and Vue.js: ",
+      "description": "I build modern and responsive interfaces, always focusing on user experience and functional design."
+    },
+    {
+      "title": "Back<span class='font-sans'>-</span>end Technologies: ",
+      "description": "Development of scalable and secure APIs using Node.js, Express, and Postgres. I also leverage Java for more robust projects and Python for creating automations and performing strategic data analysis."
+    },
+    {
+      "title": "Mobile Development: ",
+      "description": "Building mobile applications with React Native, combining performance and design."
+    },
+    {
+      "title": "Design and Landing Pages: ",
+      "description": "Creation of pages and layouts optimized for conversion, focusing on generating leads and meeting client business objectives using modern UI<span class='font-sans'>/</span>UX design and market best practices."
+    }
+  ]
+}
+,
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",
     "label1": "Concluded Projects",

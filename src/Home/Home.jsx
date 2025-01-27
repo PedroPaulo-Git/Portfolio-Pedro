@@ -15,8 +15,8 @@ const Home = () => {
       <Marquee />
       <Services />
       <About />
-      <Work />
-      <Footer />
+      {/* <Work /> */}
+      <Footer/>
     </div>
   );
 };

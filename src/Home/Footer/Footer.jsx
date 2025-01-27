@@ -28,7 +28,7 @@ const Footer = () => {
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
   return (
-    <footer className="bg-white rounded-t-[90px] ">
+    <footer className="bg-white mt-36 rounded-t-[90px] ">
       <div
         ref={ref}
         className="mx-auto gap-10 w-full text-center flex flex-col items-center py-20 "
