@@ -38,29 +38,30 @@
  "about": {
   "about_title": "Percurso Profissional",
   "about_subtitle": "Sobre Mim",
-  "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e bonitas. Acredito que inovação e aprendizado constante são o segredo para entregar projetos de qualidade.",
+  "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e impactantes. Acredito que inovação e aprendizado constante são essenciais para entregar projetos que realmente façam a diferença.",
   
-  "about_description": "Comecei minha jornada em tecnologia em 2021, quando entrei na faculdade de Análise e Desenvolvimento de Sistemas, concluída em 2023. Desde o início, mergulhei no mundo do JavaScript, criando projetos com React, que logo se tornou minha principal stack. Com o tempo, expandi meu conhecimento para Java e Python. Para o desenvolvimento mobile, já utilizo React Native, sempre buscando entregar aplicações completas e dinâmicas.",
+  "about_description": "Minha jornada em tecnologia começou em 2021, ao ingressar na faculdade de Análise e Desenvolvimento de Sistemas, concluída em 2023. Desde então, atuo como freelancer, desenvolvendo sistemas personalizados e páginas otimizadas com foco em design e conversão, atendendo a necessidades específicas de clientes. No campo técnico, utilizo JavaScript e React como principais ferramentas, criando interfaces robustas, escaláveis e focadas na experiência do usuário. Além disso, desenvolvo automações e análises estratégicas com Python. No desenvolvimento mobile, utilizo React Native para criar aplicações completas que combinam design intuitivo e alta performance. Atualmente, estou me aprofundando em Java, já sendo capaz de criar CRUDs utilizando Spring Boot, e sempre busco aprimorar minhas habilidades para entregar soluções de qualidade.",
   
   "about_skills": [
     {
       "title": "React e Vue.js: ",
-      "description": "Construo interfaces modernas e responsivas, sempre focando na experiência do usuário e em design funcional."
+      "description": "Desenvolvo interfaces modernas, responsivas e de alta performance, alinhando princípios de UI/UX a boas práticas de desenvolvimento."
     },
     {
       "title": "Tecnologias de Back<span class='font-sans'>-</span>end: ",
-      "description": "Desenvolvimento de APIs escaláveis e seguras utilizando Node.js, Express e Postgres. Também utilizo Java para projetos mais robustos e Python para criar automações e realizar análises de dados estratégicas."
+      "description": "Criação de APIs escaláveis e seguras com Node.js, Express e PostgreSQL. Desenvolvo automações com Python para simplificar tarefas e realizar análises estratégicas. Estou aprofundando meus conhecimentos em Java e já crio CRUDs completos com Spring Boot."
     },
     {
       "title": "Desenvolvimento Mobile: ",
-      "description": "Aplicações para dispositivos móveis com React Native, unindo performance e design."
+      "description": "Construção de aplicações móveis com React Native, entregando alta performance, design intuitivo e integração com APIs modernas para atender a necessidades específicas do cliente."
     },
     {
       "title": "Design e Landing Pages: ",
-      "description": "Criação de páginas e layouts otimizados para conversão, com foco em gerar leads e atender objetivos de negócios dos clientes, utilizando design UI<span class='font-sans'>/</span>UX e boas práticas de mercado."
+      "description": "Especialista em criação de páginas otimizadas para alta conversão, utilizando práticas avançadas de UI/UX design e ferramentas modernas para atrair leads e impulsionar os negócios dos clientes."
     }
   ]
-},
+}
+,
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",
     "label1": "Projetos Concluídos",
@@ -68,7 +69,7 @@
     "label2": "Tecnologias Dominadas",
     "value3": "3.5<span class='font-sans'>+</span>",
     "label3": "Anos de Estudos",
-    "value4": "21.900<span class='font-sans'>+</span>",
+    "value4": "200<span class='font-sans'>+</span>",
     "label4": "Horas de Cursos"
   },
   "work": {
