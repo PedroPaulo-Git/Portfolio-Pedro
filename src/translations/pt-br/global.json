@@ -36,31 +36,32 @@
     ]
   },
  "about": {
-  "about_title": "Percurso Profissional",
+  "about_title": "Jornada Profissional",
   "about_subtitle": "Sobre Mim",
-  "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e impactantes. Acredito que inovação e aprendizado constante são essenciais para entregar projetos que realmente façam a diferença.",
+  "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e visualmente atraentes. Acredito que inovação e aprendizado contínuo são as chaves para entregar projetos de alta<span class='font-sans'>-</span>qualidade.",
   
-  "about_description": "Minha jornada em tecnologia começou em 2021, ao ingressar na faculdade de Análise e Desenvolvimento de Sistemas, concluída em 2023. Desde então, atuo como freelancer, desenvolvendo sistemas personalizados e páginas otimizadas com foco em design e conversão, atendendo a necessidades específicas de clientes. No campo técnico, utilizo JavaScript e React como principais ferramentas, criando interfaces robustas, escaláveis e focadas na experiência do usuário. Além disso, desenvolvo automações e análises estratégicas com Python. No desenvolvimento mobile, utilizo React Native para criar aplicações completas que combinam design intuitivo e alta performance. Atualmente, estou me aprofundando em Java, já sendo capaz de criar CRUDs utilizando Spring Boot, e sempre busco aprimorar minhas habilidades para entregar soluções de qualidade.",
+  "about_description": "Iniciei minha jornada na tecnologia em 2021, quando ingressei no curso de Análise e Desenvolvimento de Sistemas, concluído em 2023. Desde o começo, mergulhei no mundo do JavaScript, criando projetos com React, que rapidamente se tornou minha stack principal. Com o tempo, ampliei meu conhecimento para incluir Java e Python. Para desenvolvimento mobile, venho utilizando React Native, sempre buscando entregar aplicações completas e dinâmicas.",
   
   "about_skills": [
     {
       "title": "React e Vue.js: ",
-      "description": "Desenvolvo interfaces modernas, responsivas e de alta performance, alinhando princípios de UI/UX a boas práticas de desenvolvimento."
+      "description": "Desenvolvo interfaces modernas e responsivas, sempre focando na experiência do usuário e no design funcional."
     },
     {
-      "title": "Tecnologias de Back<span class='font-sans'>-</span>end: ",
-      "description": "Criação de APIs escaláveis e seguras com Node.js, Express e PostgreSQL. Desenvolvo automações com Python para simplificar tarefas e realizar análises estratégicas. Estou aprofundando meus conhecimentos em Java e já crio CRUDs completos com Spring Boot."
+      "title": "Tecnologias Back<span class='font-sans'>-</span>end: ",
+      "description": "Desenvolvimento de APIs escaláveis e seguras usando Node.js, Express e Postgres. Também utilizo Java para projetos mais robustos e Python para criar automações e realizar análises estratégicas de dados."
     },
     {
       "title": "Desenvolvimento Mobile: ",
-      "description": "Construção de aplicações móveis com React Native, entregando alta performance, design intuitivo e integração com APIs modernas para atender a necessidades específicas do cliente."
+      "description": "Criação de aplicações móveis com React Native, unindo performance e design."
     },
     {
       "title": "Design e Landing Pages: ",
-      "description": "Especialista em criação de páginas otimizadas para alta conversão, utilizando práticas avançadas de UI/UX design e ferramentas modernas para atrair leads e impulsionar os negócios dos clientes."
+      "description": "Criação de páginas e layouts otimizados para conversão, focando na geração de leads e no atendimento aos objetivos de negócios dos clientes, utilizando design UI<span class='font-sans'>/</span>UX moderno e as melhores práticas do mercado."
     }
   ]
 }
+
 ,
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",

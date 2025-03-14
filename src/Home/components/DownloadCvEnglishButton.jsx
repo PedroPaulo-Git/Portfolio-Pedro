@@ -3,7 +3,7 @@ import React from "react";
 
 const DownloadCvEnglishButton = () => {
   const driveLink =
-    "https://drive.google.com/file/d/1TrkzBl1FiUvSjZpLjFSuWU2GX3d0B5sD/view?usp=sharing";
+    "https://drive.google.com/file/d/1K3jm-eVusLqaZgNBaGpcH5LJLyNjL5wk/view?usp=sharing";
 
   return (
     <div className="flex border rounded-full p-0.5">
