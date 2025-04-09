@@ -1,5 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import IdealTemplate from "../../assets/Works/IdealTemplete.png";
+import PortSoftwareTemplate from "../../assets/Works/TemplatePORTSOFTWARE.png";
+import CatalanoTemplate from "../../assets/Works/TemplateCATALANO.png";
+import GrillTemplate from "../../assets/Works/TemplateGRILL.png";
 import Template2 from "../../assets/Works/Templete3.png";
 import Template3 from "../../assets/Works/Templeteport.png";
 import Template4 from "../../assets/Works/Templete34.png";
@@ -21,6 +24,66 @@ const Work = () => {
   const [t, i18n] = useTranslation("global");
 
   const features = [
+    {
+      image: PortSoftwareTemplate,
+      name:(
+        <span
+          dangerouslySetInnerHTML={{ __html:  t("work.projects.11.name") }}
+        />
+      ), //PORTSOFTWARE RESTAURANTE
+      social: <IoLogoGithub />,
+      where: (
+        <span
+          dangerouslySetInnerHTML={{ __html: t("work.projects.11.where") }}
+        />
+      ),
+      date: (
+        <span dangerouslySetInnerHTML={{ __html: t("work.projects.11.date") }} />
+      ),
+      href: t("work.projects.11.href"),
+      github: t("work.projects.11.github"),
+      description: t("work.projects.11.description"),
+    },
+    {
+      image: CatalanoTemplate,
+      name:(
+        <span
+          dangerouslySetInnerHTML={{ __html:  t("work.projects.12.name") }}
+        />
+      ),
+      social: <IoLogoGithub />,
+      where: (
+        <span
+          dangerouslySetInnerHTML={{ __html: t("work.projects.12.where") }}
+        />
+      ),
+      date: (
+        <span dangerouslySetInnerHTML={{ __html: t("work.projects.12.date") }} />
+      ),
+      href: t("work.projects.12.href"),
+      github: t("work.projects.12.github"),
+      description: t("work.projects.12.description"),
+    },
+    {
+      image: GrillTemplate,
+      name:(
+        <span
+          dangerouslySetInnerHTML={{ __html:  t("work.projects.13.name") }}
+        />
+      ), //GRILL RESTAURANTE
+      social: <IoLogoGithub />,
+      where: (
+        <span
+          dangerouslySetInnerHTML={{ __html: t("work.projects.13.where") }}
+        />
+      ),
+      date: (
+        <span dangerouslySetInnerHTML={{ __html: t("work.projects.13.date") }} />
+      ),
+      href: t("work.projects.13.href"),
+      github: t("work.projects.13.github"),
+      description: t("work.projects.13.description"),
+    },
     {
       image: IdealTemplate,
       name: t("work.projects.0.name"), //IDEAL RESTAURANTE

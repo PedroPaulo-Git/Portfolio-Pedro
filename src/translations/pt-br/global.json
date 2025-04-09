@@ -35,34 +35,33 @@
       }
     ]
   },
- "about": {
-  "about_title": "Jornada Profissional",
-  "about_subtitle": "Sobre Mim",
-  "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e visualmente atraentes. Acredito que inovação e aprendizado contínuo são as chaves para entregar projetos de alta<span class='font-sans'>-</span>qualidade.",
-  
-  "about_description": "Iniciei minha jornada na tecnologia em 2021, quando ingressei no curso de Análise e Desenvolvimento de Sistemas, concluído em 2023. Desde o começo, mergulhei no mundo do JavaScript, criando projetos com React, que rapidamente se tornou minha stack principal. Com o tempo, ampliei meu conhecimento para incluir Java e Python. Para desenvolvimento mobile, venho utilizando React Native, sempre buscando entregar aplicações completas e dinâmicas.",
-  
-  "about_skills": [
-    {
-      "title": "React e Vue.js: ",
-      "description": "Desenvolvo interfaces modernas e responsivas, sempre focando na experiência do usuário e no design funcional."
-    },
-    {
-      "title": "Tecnologias Back<span class='font-sans'>-</span>end: ",
-      "description": "Desenvolvimento de APIs escaláveis e seguras usando Node.js, Express e Postgres. Também utilizo Java para projetos mais robustos e Python para criar automações e realizar análises estratégicas de dados."
-    },
-    {
-      "title": "Desenvolvimento Mobile: ",
-      "description": "Criação de aplicações móveis com React Native, unindo performance e design."
-    },
-    {
-      "title": "Design e Landing Pages: ",
-      "description": "Criação de páginas e layouts otimizados para conversão, focando na geração de leads e no atendimento aos objetivos de negócios dos clientes, utilizando design UI<span class='font-sans'>/</span>UX moderno e as melhores práticas do mercado."
-    }
-  ]
-}
+  "about": {
+    "about_title": "Jornada Profissional",
+    "about_subtitle": "Sobre Mim",
+    "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e visualmente atraentes. Acredito que inovação e aprendizado contínuo são as chaves para entregar projetos de alta<span class='font-sans'>-</span>qualidade.",
 
-,
+    "about_description": "Iniciei minha jornada na tecnologia em 2021, quando ingressei no curso de Análise e Desenvolvimento de Sistemas, concluído em 2023. Desde o começo, mergulhei no mundo do JavaScript, criando projetos com React, que rapidamente se tornou minha stack principal. Com o tempo, ampliei meu conhecimento para incluir Java e Python. Para desenvolvimento mobile, venho utilizando React Native, sempre buscando entregar aplicações completas e dinâmicas.",
+
+    "about_skills": [
+      {
+        "title": "React e Vue.js: ",
+        "description": "Desenvolvo interfaces modernas e responsivas, sempre focando na experiência do usuário e no design funcional."
+      },
+      {
+        "title": "Tecnologias Back<span class='font-sans'>-</span>end: ",
+        "description": "Desenvolvimento de APIs escaláveis e seguras usando Node.js, Express e Postgres. Também utilizo Java para projetos mais robustos e Python para criar automações e realizar análises estratégicas de dados."
+      },
+      {
+        "title": "Desenvolvimento Mobile: ",
+        "description": "Criação de aplicações móveis com React Native, unindo performance e design."
+      },
+      {
+        "title": "Design e Landing Pages: ",
+        "description": "Criação de páginas e layouts otimizados para conversão, focando na geração de leads e no atendimento aos objetivos de negócios dos clientes, utilizando design UI<span class='font-sans'>/</span>UX moderno e as melhores práticas do mercado."
+      }
+    ]
+  },
+
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",
     "label1": "Projetos Concluídos",
@@ -164,6 +163,30 @@
         "date": "Dezembro 202<span class='font-sans '>4</span>",
         "href": "https://31hamburgueria.vercel.app/",
         "github": "https://github.com/PedroPaulo-Git/31hamburgueria"
+      },
+      {
+        "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospec<span class='Acentuacoes font-sans '>çã</span>o e Tr<span class='Acentuacoes font-sans '>á</span>fego",
+        "description": "Página institucional da minha software house, a PortSoftware. Desenvolvida com React, Tailwind CSS e ShadCN, apresenta meus serviços de criação de landing pages e gestão de tráfego pago com foco em conversão. Através dessa estrutura, prospectei mais de 50 clientes de forma autônoma, alcançando uma taxa de fechamento de aproximadamente 32% (16 projetos concluídos). Uma marca voltada para performance, estratégia e soluções digitais sob medida.",
+        "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
+        "date": "Abril 2025",
+        "href": "https://www.portsoftware.com.br/",
+        "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware"
+      },
+      {
+        "name": "Landing Page de Cons<span class='Acentuacoes font-sans '>ó</span>rcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
+        "description": "Criação de uma landing page altamente otimizada para consórcios de motos Honda da Catalano Motos. Utilizei React e Tailwind CSS com foco total em performance, design clean e princípios avançados de UX/UI para maximizar conversões. Além do desenvolvimento, atuei na gestão de tráfego pago, alcançando um CPC médio de R$0,28 e CPA de R$7,50. O projeto resultou em 23 consórcios fechados, validando a eficácia do funil e da estratégia aplicada.",
+        "where": "Landing Page de cons<span class='Acentuacoes font-sans '>ó</span>rcio",
+        "date": "Março 2025",
+        "href": "https://www.catalanomotos.com.br",
+        "github": "https://github.com/PedroPaulo-Git/HondaProject"
+      },
+      {
+        "name": "Site Comercial <span class='Acentuacoes font-sans '>-</span>  Grill Burgueria",
+        "description": "Desenvolvi o site da Grill Burgueria com Next.js e Tailwind CSS, utilizando um design mobile-first e focado em UX/UI para proporcionar uma experiência fluida ao cliente final. O site conta com integração com API de pagamento e funciona também como cardápio online, o que trouxe mais agilidade e profissionalismo para o atendimento. Após a implantação, o cliente passou a utilizar o site como parte essencial do negócio, resultando em um aumento de mais de 85% na eficiência do atendimento e organização dos pedidos. A gestão de tráfego pago gerou um CPC médio de R$0,22 e CPA de R$6,80, consolidando a presença digital da marca.",
+        "where": "Site de Hamburgueria",
+        "date": "Março 2025",
+        "href": "https://ifoodgrillburguer.com/",
+        "github": "https://github.com/PedroPaulo-Git/Api-Mercado-Pago"
       }
     ]
   },

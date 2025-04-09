@@ -164,7 +164,32 @@
         "date": "December 202<span class='font-sans '>4</span>",
         "href": "https://31hamburgueria.vercel.app/",
         "github": "https://github.com/PedroPaulo-Git/31hamburgueria"
+      },
+      {
+        "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospecting and Paid Traffic",
+        "description": "Institutional page for my software house, PortSoftware. Built with React, Tailwind CSS, and ShadCN, it showcases my landing page development and paid traffic management services, with a strong focus on conversion. Through this structure, I independently prospected over 50 clients, achieving a closing rate of approximately 32% (16 completed projects). A brand focused on performance, strategy, and tailored digital solutions.",
+        "where": "Business Solution Website",
+        "date": "April 2025",
+        "href": "https://www.portsoftware.com.br/",
+        "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware"
+      },
+      {
+        "name": "Honda Motorcycle Consortium Landing Page <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
+        "description": "Creation of a high-conversion landing page for Honda motorcycle consortiums of Catalano Motos. Developed with React and Tailwind CSS, with full focus on performance, clean design, and advanced UX/UI principles to maximize conversions. In addition to development, I managed paid traffic, achieving an average CPC of R$0.28 and CPA of R$7.50. The project led to 23 consortiums sold, validating the effectiveness of the funnel and strategy applied.",
+        "where": "Motorcycle Consortium Landing Page",
+        "date": "March 2025",
+        "href": "https://www.catalanomotos.com.br",
+        "github": "https://github.com/PedroPaulo-Git/HondaProject"
+      },
+      {
+        "name": "Grill Burgueria <span class='Acentuacoes font-sans '>-</span> Commercial Website",
+        "description": "I developed the website for Grill Burgueria using Next.js and Tailwind CSS, applying a mobile-first approach and UX/UI principles to ensure a fluid user experience. The site includes payment API integration and also serves as a digital menu, significantly improving the client’s service flow. After launch, the website became essential to the business, resulting in a 85% increase in service efficiency and better order organization. Paid traffic campaigns achieved an average CPC of R$0.22 and CPA of R$6.80, strengthening the brand's online presence.",
+        "where": "Hamburger Restaurant Website",
+        "date": "March 2025",
+        "href": "https://ifoodgrillburguer.com/",
+        "github": "https://github.com/PedroPaulo-Git/Api-Mercado-Pago"
       }
+      
     ]
   },
   "footer": {
