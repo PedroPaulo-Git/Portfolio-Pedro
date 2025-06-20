@@ -1,7 +1,8 @@
 {
   "header": {
     "contact_copy": "Copiar",
-    "contact_copied": "Copiado"
+    "contact_copied": "Copiado",
+    "see_projects": "Ver Projetos"
   },
   "hero": {
     "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>, sou Pedro 👋🏽",
@@ -36,28 +37,28 @@
     ]
   },
   "about": {
-    "about_title": "Jornada Profissional",
+    "about_title": "Minha Jornada",
     "about_subtitle": "Sobre Mim",
-    "about_description_below": "Sempre busco unir tecnologia e design para criar soluções que sejam funcionais e visualmente atraentes. Acredito que inovação e aprendizado contínuo são as chaves para entregar projetos de alta<span class='font-sans'>-</span>qualidade.",
+    "about_description_below": "Apaixonado por tecnologia e design, sempre buscando criar solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es que fazem a diferen<span class='Acentuacoes font-sans '>ç</span>a.",
 
-    "about_description": "Iniciei minha jornada na tecnologia em 2021, quando ingressei no curso de Análise e Desenvolvimento de Sistemas, concluído em 2023. Desde o começo, mergulhei no mundo do JavaScript, criando projetos com React, que rapidamente se tornou minha stack principal. Com o tempo, ampliei meu conhecimento para incluir Java e Python. Para desenvolvimento mobile, venho utilizando React Native, sempre buscando entregar aplicações completas e dinâmicas.",
+    "about_description": "Comecei na tecnologia em 2021 com o curso de An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript e React se tornaram minha base desde o in<span class='Acentuacoes font-sans '>í</span>cio, e desde ent<span class='Acentuacoes font-sans '>ã</span>o n<span class='Acentuacoes font-sans '>ã</span>o parei de aprender. Hoje trabalho com React, Vue.js, Node.js, Java, Python e React Native, criando solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es completas para web e mobile.",
 
     "about_skills": [
       {
         "title": "React e Vue.js: ",
-        "description": "Desenvolvo interfaces modernas e responsivas, sempre focando na experiência do usuário e no design funcional."
+        "description": "Interfaces modernas e responsivas focadas na experi<span class='Acentuacoes font-sans '>ê</span>ncia do usu<span class='Acentuacoes font-sans '>á</span>rio."
       },
       {
-        "title": "Tecnologias Back<span class='font-sans'>-</span>end: ",
-        "description": "Desenvolvimento de APIs escaláveis e seguras usando Node.js, Express e Postgres. Também utilizo Java para projetos mais robustos e Python para criar automações e realizar análises estratégicas de dados."
+        "title": "Back<span class='font-sans'>-</span>end: ",
+        "description": "APIs escal<span class='Acentuacoes font-sans '>á</span>veis com Node.js, Express, Postgres, Java e Python."
       },
       {
-        "title": "Desenvolvimento Mobile: ",
-        "description": "Criação de aplicações móveis com React Native, unindo performance e design."
+        "title": "Mobile: ",
+        "description": "Apps nativos com React Native, unindo performance e design."
       },
       {
         "title": "Design e Landing Pages: ",
-        "description": "Criação de páginas e layouts otimizados para conversão, focando na geração de leads e no atendimento aos objetivos de negócios dos clientes, utilizando design UI<span class='font-sans'>/</span>UX moderno e as melhores práticas do mercado."
+        "description": "P<span class='Acentuacoes font-sans '>á</span>ginas otimizadas para convers<span class='Acentuacoes font-sans '>ã</span>o com UX/UI moderno."
       }
     ]
   },
@@ -75,6 +76,8 @@
   "work": {
     "work_title": "Trabalhos Selecionados",
     "work_subtitle": "Uma cole<span class='Acentuacoes font-sans '>çã</span>o dos projetos mais impactantes, escolhidos para representar a qualidade e dedica<span class='Acentuacoes font-sans '>çã</span>o em cada detalhe. Explore alguns dos meus melhores resultados.",
+    "show_more": "Ver mais projetos",
+    "show_less": "Ver menos",
     "projects": [
       {
         "name": "Plataforma de Restaurante",
@@ -166,7 +169,7 @@
       },
       {
         "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospec<span class='Acentuacoes font-sans '>çã</span>o e Tr<span class='Acentuacoes font-sans '>á</span>fego",
-        "description": "Página institucional da minha software house, a PortSoftware. Desenvolvida com React, Tailwind CSS e ShadCN, apresenta meus serviços de criação de landing pages e gestão de tráfego pago com foco em conversão. Através dessa estrutura, prospectei mais de 50 clientes de forma autônoma, alcançando uma taxa de fechamento de aproximadamente 32% (16 projetos concluídos). Uma marca voltada para performance, estratégia e soluções digitais sob medida.",
+        "description": "P<span class='Acentuacoes font-sans '>á</span>gina institucional da minha software house, a PortSoftware. Desenvolvida com React, Tailwind CSS e ShadCN, apresenta meus servi<span class='Acentuacoes font-sans '>ç</span>os de cria<span class='Acentuacoes font-sans '>çã</span>o de landing pages e gest<span class='Acentuacoes font-sans '>ã</span>o de tr<span class='Acentuacoes font-sans '>á</span>fego pago com foco em convers<span class='Acentuacoes font-sans '>ã</span>o. Atrav<span class='Acentuacoes font-sans '>é</span>s dessa estrutura, prospectei mais de 50 clientes de forma aut<span class='Acentuacoes font-sans '>ô</span>noma, alcan<span class='Acentuacoes font-sans '>ç</span>ando uma taxa de fechamento de aproximadamente 32<span class='Acentuacoes font-sans '>%</span> <span class='Acentuacoes font-sans '>(</span>16 projetos conclu<span class='Acentuacoes font-sans '>í</span>dos<span class='Acentuacoes font-sans '>)</span>.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
         "date": "Abril 2025",
         "href": "https://www.portsoftware.com.br/",
@@ -174,15 +177,15 @@
       },
       {
         "name": "Landing Page de Cons<span class='Acentuacoes font-sans '>ó</span>rcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
-        "description": "Criação de uma landing page altamente otimizada para consórcios de motos Honda da Catalano Motos. Utilizei React e Tailwind CSS com foco total em performance, design clean e princípios avançados de UX/UI para maximizar conversões. Além do desenvolvimento, atuei na gestão de tráfego pago, alcançando um CPC médio de R$0,28 e CPA de R$7,50. O projeto resultou em 23 consórcios fechados, validando a eficácia do funil e da estratégia aplicada.",
+        "description": "Landing page otimizada para cons<span class='Acentuacoes font-sans '>ó</span>rcios Honda da Catalano Motos. React e Tailwind CSS com foco em performance e UX<span class='Acentuacoes font-sans '>/</span>UI, resultando em 23 cons<span class='Acentuacoes font-sans '>ó</span>rcios fechados com CPC m<span class='Acentuacoes font-sans '>é</span>dio de R<span class='Acentuacoes font-sans '>$</span>0,28.",
         "where": "Landing Page de cons<span class='Acentuacoes font-sans '>ó</span>rcio",
-        "date": "Março 2025",
+        "date": "Mar<span class='Acentuacoes font-sans '>ç</span>o 2025",
         "href": "https://www.catalanomotos.com.br",
         "github": "https://github.com/PedroPaulo-Git/HondaProject"
       },
       {
         "name": "Site Comercial <span class='Acentuacoes font-sans '>-</span>  Grill Burgueria",
-        "description": "Desenvolvi o site da Grill Burgueria com Next.js e Tailwind CSS, utilizando um design mobile-first e focado em UX/UI para proporcionar uma experiência fluida ao cliente final. O site conta com integração com API de pagamento e funciona também como cardápio online, o que trouxe mais agilidade e profissionalismo para o atendimento. Após a implantação, o cliente passou a utilizar o site como parte essencial do negócio, resultando em um aumento de mais de 85% na eficiência do atendimento e organização dos pedidos. A gestão de tráfego pago gerou um CPC médio de R$0,22 e CPA de R$6,80, consolidando a presença digital da marca.",
+        "description": "Site desenvolvido com Next.js e Tailwind CSS, focado em UX<span class='Acentuacoes font-sans '>/</span>UI mobile<span class='Acentuacoes font-sans '>-</span>first. Integra<span class='Acentuacoes font-sans '>çã</span>o com API de pagamento e card<span class='Acentuacoes font-sans '>á</span>pio online, resultando em 85<span class='Acentuacoes font-sans '>%</span> de aumento na efici<span class='Acentuacoes font-sans '>ê</span>ncia do atendimento.",
         "where": "Site de Hamburgueria",
         "date": "Março 2025",
         "href": "https://ifoodgrillburguer.com/",

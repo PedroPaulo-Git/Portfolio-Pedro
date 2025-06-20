@@ -88,6 +88,23 @@ const Hero = () => {
             </div>
           </a>
         </motion.div>
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, x: 30 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.5, delay: 1.1 }}
+        >
+          <a
+            href="#projects"
+            className="cursor-pointer group relative text-gray-main text-sm"
+          >
+            {t("hero.buttonSeeProjects")}
+            <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-gray-500 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+          </a>
+        </motion.div>
       </div>
     </div>
   );

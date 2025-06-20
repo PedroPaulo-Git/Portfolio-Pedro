@@ -1,7 +1,8 @@
 {
   "header": {
     "contact_copy": "Copy",
-    "contact_copied": "Copied"
+    "contact_copied": "Copied",
+    "see_projects": "See Projects"
   },
   "hero": {
     "icon_hello": "Hi, I<span class='Acentuacoes font-sans'>'</span>m Pedro 👋🏽",
@@ -37,28 +38,28 @@
   },
 
 "about": {
-  "about_title": "Professional Journey",
+  "about_title": "My Journey",
   "about_subtitle": "About Me",
-  "about_description_below": "I always strive to merge technology and design to create solutions that are both functional and visually appealing. I believe that innovation and continuous learning are the keys to delivering high<span class='font-sans'>-</span>quality projects.",
+  "about_description_below": "Passionate about technology and design, always seeking to create solutions that make a difference.",
   
-  "about_description": "I began my journey in technology in 2021 when I enrolled in the Systems Analysis and Development program, which I completed in 2023. From the start, I dove into the world of JavaScript, creating projects with React, which quickly became my primary stack. Over time, I expanded my knowledge to include Java and Python. For mobile development, I have been using React Native, always aiming to deliver complete and dynamic applications.",
+  "about_description": "I started in technology in 2021 with the Systems Analysis and Development course. JavaScript and React became my foundation from the beginning, and I haven't stopped learning since. Today I work with React, Vue.js, Node.js, Java, Python and React Native, creating complete solutions for web and mobile.",
   
   "about_skills": [
     {
       "title": "React and Vue.js: ",
-      "description": "I build modern and responsive interfaces, always focusing on user experience and functional design."
+      "description": "Modern and responsive interfaces focused on user experience."
     },
     {
-      "title": "Back<span class='font-sans'>-</span>end Technologies: ",
-      "description": "Development of scalable and secure APIs using Node.js, Express, and Postgres. I also leverage Java for more robust projects and Python for creating automations and performing strategic data analysis."
+      "title": "Back<span class='font-sans'>-</span>end: ",
+      "description": "Scalable APIs with Node.js, Express, Postgres, Java and Python."
     },
     {
-      "title": "Mobile Development: ",
-      "description": "Building mobile applications with React Native, combining performance and design."
+      "title": "Mobile: ",
+      "description": "Native apps with React Native, combining performance and design."
     },
     {
       "title": "Design and Landing Pages: ",
-      "description": "Creation of pages and layouts optimized for conversion, focusing on generating leads and meeting client business objectives using modern UI<span class='font-sans'>/</span>UX design and market best practices."
+      "description": "Conversion-optimized pages with modern UX/UI."
     }
   ]
 }
@@ -76,6 +77,8 @@
   "work": {
     "work_title": "Selected Works",
     "work_subtitle": "A collection of the most impactful projects, chosen to represent quality and dedication in every detail. Explore some of my best results.",
+    "show_more": "Show more projects",
+    "show_less": "Show less",
     "projects": [
       {
         "name": "Restaurant Platform",
@@ -167,7 +170,7 @@
       },
       {
         "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospecting and Paid Traffic",
-        "description": "Institutional page for my software house, PortSoftware. Built with React, Tailwind CSS, and ShadCN, it showcases my landing page development and paid traffic management services, with a strong focus on conversion. Through this structure, I independently prospected over 50 clients, achieving a closing rate of approximately 32% (16 completed projects). A brand focused on performance, strategy, and tailored digital solutions.",
+        "description": "Institutional page for my software house, PortSoftware. Built with React, Tailwind CSS, and ShadCN, it showcases my landing page development and paid traffic management services, with a strong focus on conversion. Through this structure, I independently prospected over 50 clients, achieving a closing rate of approximately 32<span class='Acentuacoes font-sans '>%</span><span class='Acentuacoes font-sans '> </span><span class='Acentuacoes font-sans '>(</span>16 completed projects<span class='Acentuacoes font-sans '>)</span>.",
         "where": "Business Solution Website",
         "date": "April 2025",
         "href": "https://www.portsoftware.com.br/",
@@ -175,15 +178,15 @@
       },
       {
         "name": "Honda Motorcycle Consortium Landing Page <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
-        "description": "Creation of a high-conversion landing page for Honda motorcycle consortiums of Catalano Motos. Developed with React and Tailwind CSS, with full focus on performance, clean design, and advanced UX/UI principles to maximize conversions. In addition to development, I managed paid traffic, achieving an average CPC of R$0.28 and CPA of R$7.50. The project led to 23 consortiums sold, validating the effectiveness of the funnel and strategy applied.",
-        "where": "Motorcycle Consortium Landing Page",
+        "description": "Optimized landing page for Honda motorcycle consortiums at Catalano Motos. React and Tailwind CSS focused on performance and UX<span class='Acentuacoes font-sans '>/</span>UI, resulting in 23 consortiums closed with average CPC of R<span class='Acentuacoes font-sans '>$</span>0,28.",
+        "where": "Motorcycle Consortium Landing Page",  
         "date": "March 2025",
         "href": "https://www.catalanomotos.com.br",
         "github": "https://github.com/PedroPaulo-Git/HondaProject"
       },
       {
         "name": "Grill Burgueria <span class='Acentuacoes font-sans '>-</span> Commercial Website",
-        "description": "I developed the website for Grill Burgueria using Next.js and Tailwind CSS, applying a mobile-first approach and UX/UI principles to ensure a fluid user experience. The site includes payment API integration and also serves as a digital menu, significantly improving the client’s service flow. After launch, the website became essential to the business, resulting in a 85% increase in service efficiency and better order organization. Paid traffic campaigns achieved an average CPC of R$0.22 and CPA of R$6.80, strengthening the brand's online presence.",
+        "description": "Website developed with Next.js and Tailwind CSS, focused on mobile<span class='Acentuacoes font-sans '>-</span>first UX/UI. Payment API integration and online menu, resulting in 85<span class='Acentuacoes font-sans '>%</span> increase in service efficiency.",
         "where": "Hamburger Restaurant Website",
         "date": "March 2025",
         "href": "https://ifoodgrillburguer.com/",
