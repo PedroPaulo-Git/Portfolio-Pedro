@@ -1,0 +1,57 @@
+{
+    {
+        "name": "Pixel Game",
+        "description": "Prototype of a pixelated game in JavaScript, created to demonstrate battle logic. The game features dynamic combats in a retro world, illustrating fundamental programming and game design concepts.",
+        "where": "Personal Project",
+        "date": "January 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/CoinClick",
+        "github": "https://github.com/PedroPaulo-Git/CoinClick"
+      },
+      {
+        "name": "Professional Portfolio",
+        "description": "Personal portfolio developed with React, Vite, and TailwindCSS, created as part of the foundation of my software house. Focused on intuitive design and responsive functionality, the project demonstrates expertise in web solutions and strengthens the brand's digital identity.",
+        "where": "Software House Project",
+        "date": "June 202<span class='font-sans '>4</span>",
+        "href": "https://pedropaulo-git.github.io/PortSoftware/",
+        "github": "https://github.com/PedroPaulo-Git/PortSoftware"
+      },
+      {
+        "name": "Pod Sales",
+        "description": "A simple sales page for pods developed with React and TailwindCSS, aimed at small entrepreneurs. Focused on conversion, with an intuitive layout optimized to facilitate purchases and effectively promote products.",
+        "where": "Sales Page",
+        "date": "November 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/uninassau-students",
+        "github": "https://github.com/uninassau-students",
+        "image": "TemplateImportss.png"
+      },
+      
+},
+{
+    {
+        "name": "Jogo Pixelado",
+        "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
+        "where": "Projeto Pessoal",
+        "date": "Janeiro 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/CoinClick",
+        "github": "https://github.com/PedroPaulo-Git/CoinClick",
+        "image": "TemplateDog.png"
+      },
+      {
+        "name": "Portfolio Profissional",
+        "description": "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
+        "where": "Projeto de Software House",
+        "date": "Junho 202<span class='font-sans '>4</span>",
+        "href": "https://pedropaulo-git.github.io/PortSoftware/",
+        "github": "https://github.com/PedroPaulo-Git/PortSoftware",
+        "image": "TemplatePORTSOFTWARE.png"
+      },
+      {
+        "name": "Vendas de Pods",
+        "description": "Página simples de vendas de pods desenvolvida com React e TailwindCSS, voltada para pequenos empreendedores. Focada em conversão, com layout intuitivo e otimizado para facilitar a compra e promover os produtos de forma eficaz.",
+        "where": "Página de Vendas",
+        "date": "Novembro 202<span class='font-sans '>4</span>",
+        "href": "https://podsselling.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/re_imports",
+        "image": "TemplateImportss.png"
+      },
+}

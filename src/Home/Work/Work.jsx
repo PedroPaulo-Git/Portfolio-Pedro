@@ -13,202 +13,77 @@ import Template8 from "../../assets/Works/TemplatePsico.png";
 import Template9 from "../../assets/Works/TemplateReactNative.png";
 import Template10 from "../../assets/Works/TemplateImportss.png";
 import Template11 from "../../assets/Works/Template31Hamburgueria.png";
+import Template12 from '../../assets/Works/TemplateEPTA.png'
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { IoLogoGithub } from "react-icons/io5";
 import { IoArrowDown } from "react-icons/io5";
 
+const imageMap = {
+  "IdealTemplete.png": IdealTemplate,
+  "TemplatePORTSOFTWARE.png": PortSoftwareTemplate,
+  "TemplateCATALANO.png": CatalanoTemplate,
+  "TemplateGRILL.png": GrillTemplate,
+  "Templete3.png": Template2,
+  "Templeteport.png": Template3,
+  "Templete34.png": Template4,
+  "Templete5.png": Template5,
+  "TemplateGame.png": Template6,
+  "TemplateDog.png": Template7,
+  "TemplatePsico.png": Template8,
+  "TemplateReactNative.png": Template9,
+  "TemplateImportss.png": Template10,
+  "Template31Hamburgueria.png": Template11,
+  "TemplateEPTA.png": Template12,
+  // ...adicione todos os outros
+};
+
 const Work = () => {
   const { t } = useTranslation("global");
   const [showMoreProjects, setShowMoreProjects] = useState(false);
 
-  const features = [
-    {
-      // PortSoftware - Prospecção e Tráfego
-      image: PortSoftwareTemplate,
-      name: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.11.name") }}
-        />
-      ),
+  // Pega os projetos do idioma atual
+  const projects = t("work.projects", { returnObjects: true });
+
+  // Separe os projetos principais e os extras (2 últimos)
+  const mainProjects = projects.slice(0, -2);
+  const extraProjects = projects.slice(-2);
+
+  // Mapeia os projetos principais
+  const mainFeatures = mainProjects.map((project, index) => {
+    const imageSrc = imageMap[project.image] || imageMap["IdealTemplete.png"];
+    return {
+      image: imageSrc,
+      name: (<span dangerouslySetInnerHTML={{ __html: project.name }} />),
       social: <IoLogoGithub />,
-      where: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.11.where") }}
-        />
-      ),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.11.date") }} />
-      ),
-      href: t("work.projects.11.href"),
-      github: t("work.projects.11.github"),
-      description: t("work.projects.11.description"),
-    },
-    {
-      // Plataforma de Restaurante
-      image: IdealTemplate,
-      name: t("work.projects.0.name"),
+      where: <span dangerouslySetInnerHTML={{ __html: project.where }} />,
+      date: <span dangerouslySetInnerHTML={{ __html: project.date }} />,
+      href: project.href,
+      github: project.github,
+      description: project.description,
+    };
+  });
+
+  // Mapeia os extras
+  const extraFeatures = extraProjects.map((project, index) => {
+    const imageSrc = imageMap[project.image] || imageMap["IdealTemplete.png"];
+    return {
+      image: imageSrc,
+      name: (<span dangerouslySetInnerHTML={{ __html: project.name }} />),
       social: <IoLogoGithub />,
-      where: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.0.where") }}
-        />
-      ),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.0.date") }} />
-      ),
-      href: t("work.projects.0.href"),
-      github: t("work.projects.0.github"),
-      description: t("work.projects.0.description"),
-    },
-    {
-      // Landing Page de Consórcio - Catalano Motos
-      image: CatalanoTemplate,
-      name: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.12.name") }}
-        />
-      ),
-      social: <IoLogoGithub />,
-      where: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.12.where") }}
-        />
-      ),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.12.date") }} />
-      ),
-      href: t("work.projects.12.href"),
-      github: t("work.projects.12.github"),
-      description: t("work.projects.12.description"),
-    },
-    {
-      // Site Comercial - Grill Burgueria
-      image: GrillTemplate,
-      name: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.13.name") }}
-        />
-      ),
-      social: <IoLogoGithub />,
-      where: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.13.where") }}
-        />
-      ),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.13.date") }} />
-      ),
-      href: t("work.projects.13.href"),
-      github: t("work.projects.13.github"),
-      description: t("work.projects.13.description"),
-    },
-    {
-      // Landing Page Psicologia
-      image: Template11,
-      name: t("work.projects.10.name"),
-      social: <IoLogoGithub />,
-      where: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.10.where") }}
-        />
-      ),
-      date: (
-        <span
-          dangerouslySetInnerHTML={{ __html: t("work.projects.10.date") }}
-        />
-      ),
-      href: t("work.projects.10.href"),
-      github: t("work.projects.10.github"),
-      description: t("work.projects.10.description"),
-    },
-    {
-      // Vendas de Pods
-      image: Template8,
-      name: t("work.projects.7.name"),
-      social: <IoLogoGithub />,
-      where: t("work.projects.7.where"),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.7.date") }} />
-      ),
-      href: t("work.projects.7.href"),
-      github: t("work.projects.7.github"),
-      description: t("work.projects.7.description"),
-    },
-    {
-      // Landing Page Fisioterapia
-      image: Template2,
-      name: t("work.projects.1.name"),
-      social: <IoLogoGithub />,
-      where: t("work.projects.1.where"),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.1.date") }} />
-      ),
-      href: t("work.projects.1.href"),
-      github: t("work.projects.1.github"),
-      description: t("work.projects.1.description"),
-    },
-    {
-      // 31Hamburgueria
-      image: Template9,
-      name: t("work.projects.8.name"),
-      social: <IoLogoGithub />,
-      where: t("work.projects.8.where"),
-      date: (
-        <span dangerouslySetInnerHTML={{ __html: t("work.projects.8.date") }} />
-      ),
-      href: t("work.projects.8.href"),
-      github: t("work.projects.8.github"),
-      description: t("work.projects.8.description"),
-    },
-    
-    // Projetos que aparecem quando clicar no botão
-    ...(showMoreProjects ? [
-      {
-        // Sistema de Gerenciamento de Pets
-        image: Template5,
-        name: t("work.projects.3.name"),
-        social: <IoLogoGithub />,
-        where: t("work.projects.3.where"),
-        date: (
-          <span dangerouslySetInnerHTML={{ __html: t("work.projects.3.date") }} />
-        ),
-        href: t("work.projects.3.href"),
-        github: t("work.projects.3.github"),
-        description: t("work.projects.3.description"),
-      },
-      {
-        // Aplicacao de Filmes
-        image: Template4,
-        name: t("work.projects.4.name"),
-        social: <IoLogoGithub />,
-        where: t("work.projects.4.where"),
-        date: (
-          <span dangerouslySetInnerHTML={{ __html: t("work.projects.4.date") }} />
-        ),
-        href: t("work.projects.4.href"),
-        github: t("work.projects.4.github"),
-        description: t("work.projects.4.description"),
-      },
-     
-      {
-        // Dog Breed Matcher
-        image: Template7,
-        name: t("work.projects.6.name"),
-        social: <IoLogoGithub />,
-        where: t("work.projects.6.where"),
-        date: (
-          <span dangerouslySetInnerHTML={{ __html: t("work.projects.6.date") }} />
-        ),
-        href: t("work.projects.6.href"),
-        github: t("work.projects.6.github"),
-        description: t("work.projects.6.description"),
-        // mobileOnly: true,
-      },
-    
-    ] : []),
-  ];
+      where: <span dangerouslySetInnerHTML={{ __html: project.where }} />,
+      date: <span dangerouslySetInnerHTML={{ __html: project.date }} />,
+      href: project.href,
+      github: project.github,
+      description: project.description,
+    };
+  });
+
+  // Junta os features conforme o botão
+  const features = showMoreProjects
+    ? [...mainFeatures, ...extraFeatures]
+    : mainFeatures;
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });

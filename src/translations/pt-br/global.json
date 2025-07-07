@@ -8,7 +8,11 @@
     "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>, sou Pedro 👋🏽",
     "button": "Entrar em contato",
     "buttonSeeProjects": "Ver Projetos",
-    "title": ["Design e tecnologia", "para impulsionar marcas", "e negocios."]
+    "title": [
+      "Design e tecnologia",
+      "para impulsionar marcas",
+      "e negocios."
+    ]
   },
   "section_services": {
     "intro": "Colaboro com empresas para criar experi<span class='Acentuacoes'>ê</span>ncias digitais de alto impacto",
@@ -40,9 +44,7 @@
     "about_title": "Minha Jornada",
     "about_subtitle": "Sobre Mim",
     "about_description_below": "Apaixonado por tecnologia e design, sempre buscando criar solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es que fazem a diferen<span class='Acentuacoes font-sans '>ç</span>a.",
-
     "about_description": "Comecei na tecnologia em 2021 com o curso de An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript e React se tornaram minha base desde o in<span class='Acentuacoes font-sans '>í</span>cio, e desde ent<span class='Acentuacoes font-sans '>ã</span>o n<span class='Acentuacoes font-sans '>ã</span>o parei de aprender. Hoje trabalho com React, Vue.js, Node.js, Java, Python e React Native, criando solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es completas para web e mobile.",
-
     "about_skills": [
       {
         "title": "React e Vue.js: ",
@@ -62,7 +64,6 @@
       }
     ]
   },
-
   "about_grid": {
     "value1": "35<span class='font-sans'>+</span>",
     "label1": "Projetos Concluídos",
@@ -80,84 +81,22 @@
     "show_less": "Ver menos",
     "projects": [
       {
+        "name": "Gerenciador de Veículos – Teste EPTA",
+        "description": "App fullstack para gestão de veículos com autenticação JWT, dashboard e CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deploy Railway.",
+        "where": "Projeto de Teste T<span class='Acentuacoes font-sans '>é</span>cnico",
+        "date": "Julho 2025",
+        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
+        "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
+        "image": "TemplateEPTA.png"
+      },
+      {
         "name": "Plataforma de Restaurante",
         "description": "Desenvolvimento de uma plataforma completa para gestão de restaurantes, integrando Stripe para processamento de pagamentos seguros, autenticação com JWT para login seguro e painel administrativo robusto. Utiliza tecnologias modernas como React, Vite e Axios no front end e Node.js, Express, PostgreSQL e Prisma no back end para garantir alto desempenho, segurança e escalabilidade.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
         "date": "Junho 202<span class='font-sans '>4</span>",
         "href": "https://ideal-restaurante.vercel.app/",
-        "github": "https://github.com/PedroPaulo-Git/IdealRestaurante"
-      },
-      {
-        "name": "Landing Page Fisioterapia",
-        "description": "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
-        "where": "Desenvolvimento Profissional",
-        "date": "Agosto 202<span class='font-sans '>4</span>",
-        "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
-        "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta"
-      },
-      {
-        "name": "Portfolio Profissional",
-        "description": "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
-        "where": "Projeto de Software House",
-        "date": "Junho 202<span class='font-sans '>4</span>",
-        "href": "https://pedropaulo-git.github.io/PortSoftware/",
-        "github": "https://github.com/PedroPaulo-Git/PortSoftware"
-      },
-      {
-        "name": "Sistema de Gerenciamento de Pets",
-        "description": "Desenvolvimento de um sistema completo de gerenciamento de pets com funcionalidades CRUD, utilizando Next.js. O projeto foi criado para um processo seletivo, demonstrando experiência em desenvolvimento backend e frontend com foco em performance e escalabilidade.",
-        "where": "Processo Seletivo",
-        "date": "Março 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/desafio-junior-1",
-        "github": "https://github.com/PedroPaulo-Git/desafio-junior-1"
-      },
-      {
-        "name": "Aplicacao de Filmes",
-        "description": "Desenvolvimento de uma aplicação que realiza chamadas GET em uma API externa de filmes utilizando Axios. A aplicação exibe informações detalhadas sobre os filmes, incluindo avaliações por estrelas e dados relevantes, proporcionando uma experiência interativa e informativa ao usuário.",
-        "where": "Projeto Pessoal",
-        "date": "Janeiro 202<span class='font-sans '>3</span>",
-        "href": "https://pedropaulo-git.github.io/MoviesRating/",
-        "github": "https://github.com/PedroPaulo-Git/MoviesRating"
-      },
-      {
-        "name": "Jogo Pixelado",
-        "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
-        "where": "Projeto Pessoal",
-        "date": "Janeiro 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/CoinClick",
-        "github": "https://github.com/PedroPaulo-Git/CoinClick"
-      },
-      {
-        "name": "Dog Breed Matcher",
-        "description": "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
-        "where": "Projeto Pessoal",
-        "date": "Dezembro 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-        "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog"
-      },
-      {
-        "name": "Landing Page Psicologia",
-        "description": "Landing page responsiva para casal de psicólogos, com foco em conversão de clientes. Desenvolvida com React, TailwindCSS e componentes personalizados, oferece navegação intuitiva e apresentação otimizada dos serviços.",
-        "where": "Desenvolvimento Profissional",
-        "date": "Dezembro 202<span class='font-sans '>4</span>",
-        "href": "https://psicocasal.vercel.app/",
-        "github": "https://github.com/PedroPaulo-Git/Psicologia"
-      },
-      {
-        "name": "Alavancagem de Vendas",
-        "description": "Aplicativo mobile desenvolvido com React Native, Expo e TypeScript, que organiza e apresenta atividades diárias para impulsionar vendas. Utiliza React Calendar para exibir tarefas e dicas específicas a serem feitas a cada dia, ajudando usuários a focarem em estratégias de crescimento. A integração com axios permite atualizações em tempo real das dicas e atividades.",
-        "where": "Aplicativo Mobile",
-        "date": "Setembro 202<span class='font-sans '>3</span>",
-        "href": "https://github.com/uninassau-students",
-        "github": "https://github.com/uninassau-students"
-      },
-      {
-        "name": "Vendas de Pods",
-        "description": "Página simples de vendas de pods desenvolvida com React e TailwindCSS, voltada para pequenos empreendedores. Focada em conversão, com layout intuitivo e otimizado para facilitar a compra e promover os produtos de forma eficaz.",
-        "where": "Página de Vendas",
-        "date": "Novembro 202<span class='font-sans '>4</span>",
-        "href": "https://podsselling.vercel.app/",
-        "github": "https://github.com/PedroPaulo-Git/re_imports"
+        "github": "https://github.com/PedroPaulo-Git/IdealRestaurante",
+        "image": "IdealTemplete.png"
       },
       {
         "name": "31Hamburgueria",
@@ -165,7 +104,17 @@
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
         "date": "Dezembro 202<span class='font-sans '>4</span>",
         "href": "https://31hamburgueria.vercel.app/",
-        "github": "https://github.com/PedroPaulo-Git/31hamburgueria"
+        "github": "https://github.com/PedroPaulo-Git/31hamburgueria",
+        "image": "Template31Hamburgueria.png"
+      },
+      {
+        "name": "Sistema de Gerenciamento de Pets",
+        "description": "Desenvolvimento de um sistema completo de gerenciamento de pets com funcionalidades CRUD, utilizando Next.js. O projeto foi criado para um processo seletivo, demonstrando experiência em desenvolvimento backend e frontend com foco em performance e escalabilidade.",
+        "where": "Processo Seletivo",
+        "date": "Março 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/desafio-junior-1",
+        "github": "https://github.com/PedroPaulo-Git/desafio-junior-1",
+        "image": "Templete5.png"
       },
       {
         "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospec<span class='Acentuacoes font-sans '>çã</span>o e Tr<span class='Acentuacoes font-sans '>á</span>fego",
@@ -173,15 +122,44 @@
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
         "date": "Abril 2025",
         "href": "https://www.portsoftware.com.br/",
-        "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware"
+        "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware",
+        "image": "TemplatePORTSOFTWARE.png"
       },
       {
-        "name": "Landing Page de Cons<span class='Acentuacoes font-sans '>ó</span>rcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
+        "name": "Landing Page Fisioterapia",
+        "description": "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
+        "where": "Desenvolvimento Profissional",
+        "date": "Agosto 202<span class='font-sans '>4</span>",
+        "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
+        "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
+        "image": "Templete3.png"
+      },
+      {
+        "name": "Landing Page Psicologia",
+        "description": "Landing page responsiva para casal de psicólogos, com foco em conversão de clientes. Desenvolvida com React, TailwindCSS e componentes personalizados, oferece navegação intuitiva e apresentação otimizada dos serviços.",
+        "where": "Desenvolvimento Profissional",
+        "date": "Dezembro 202<span class='font-sans '>4</span>",
+        "href": "https://psicocasal.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/Psicologia",
+        "image": "TemplatePsico.png"
+      },
+      {
+        "name": "Alavancagem de Vendas",
+        "description": "Aplicativo mobile desenvolvido com React Native, Expo e TypeScript, que organiza e apresenta atividades diárias para impulsionar vendas. Utiliza React Calendar para exibir tarefas e dicas específicas a serem feitas a cada dia, ajudando usuários a focarem em estratégias de crescimento. A integração com axios permite atualizações em tempo real das dicas e atividades.",
+        "where": "Aplicativo Mobile",
+        "date": "Setembro 202<span class='font-sans '>3</span>",
+        "href": "https://github.com/uninassau-students",
+        "github": "https://github.com/uninassau-students",
+        "image": "TemplateReactNative.png"
+      },
+      {
+        "name": "Landing Page de Consórcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
         "description": "Landing page otimizada para cons<span class='Acentuacoes font-sans '>ó</span>rcios Honda da Catalano Motos. React e Tailwind CSS com foco em performance e UX<span class='Acentuacoes font-sans '>/</span>UI, resultando em 23 cons<span class='Acentuacoes font-sans '>ó</span>rcios fechados com CPC m<span class='Acentuacoes font-sans '>é</span>dio de R<span class='Acentuacoes font-sans '>$</span>0,28.",
-        "where": "Landing Page de cons<span class='Acentuacoes font-sans '>ó</span>rcio",
-        "date": "Mar<span class='Acentuacoes font-sans '>ç</span>o 2025",
+        "where": "Landing Page de consórcio",
+        "date": "Março 2025",
         "href": "https://www.catalanomotos.com.br",
-        "github": "https://github.com/PedroPaulo-Git/HondaProject"
+        "github": "https://github.com/PedroPaulo-Git/HondaProject",
+        "image": "TemplateCATALANO.png"
       },
       {
         "name": "Site Comercial <span class='Acentuacoes font-sans '>-</span>  Grill Burgueria",
@@ -189,7 +167,26 @@
         "where": "Site de Hamburgueria",
         "date": "Março 2025",
         "href": "https://ifoodgrillburguer.com/",
-        "github": "https://github.com/PedroPaulo-Git/Api-Mercado-Pago"
+        "github": "https://github.com/PedroPaulo-Git/Api-Mercado-Pago",
+        "image": "TemplateGRILL.png"
+      },
+      {
+        "name": "Aplicacao de Filmes",
+        "description": "Desenvolvimento de uma aplicação que realiza chamadas GET em uma API externa de filmes utilizando Axios. A aplicação exibe informações detalhadas sobre os filmes, incluindo avaliações por estrelas e dados relevantes, proporcionando uma experiência interativa e informativa ao usuário.",
+        "where": "Projeto Pessoal",
+        "date": "Janeiro 202<span class='font-sans '>3</span>",
+        "href": "https://pedropaulo-git.github.io/MoviesRating/",
+        "github": "https://github.com/PedroPaulo-Git/MoviesRating",
+        "image": "Templete34.png"
+      },
+      {
+        "name": "Dog Breed Matcher",
+        "description": "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
+        "where": "Projeto Pessoal",
+        "date": "Dezembro 202<span class='font-sans '>4</span>",
+        "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+        "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+        "image": "TemplateDog.png"
       }
     ]
   },
