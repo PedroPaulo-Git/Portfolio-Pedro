@@ -43,16 +43,16 @@
   "about": {
     "about_title": "Minha Jornada",
     "about_subtitle": "Sobre Mim",
-"about_description_below": "Comprometido com a tecnologia e desenvolvimento web, estou sempre aprimorando minhas compet<span class='Acentuacoes font-sans'>ê</span>ncias com projetos pr<span class='Acentuacoes font-sans'>á</span>ticos, contribui<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es constantes no GitHub e um portf<span class='Acentuacoes font-sans'>ó</span>lio focado em solu<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es reais para o mercado.",
-    "about_description": "Comecei na tecnologia em 2021 com o curso de An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript e React se tornaram minha base desde o in<span class='Acentuacoes font-sans '>í</span>cio, e desde ent<span class='Acentuacoes font-sans '>ã</span>o n<span class='Acentuacoes font-sans '>ã</span>o parei de aprender. Hoje trabalho com Node.js, React, Vue.js, APIs REST escaláveis com Express e PostgreSQL. criando solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es completas para web. Também tenho experiência com deploy em AWS EC2 e CI<span class='Acentuacoes font-sans '>/</span>CD.",
+    "about_description_below": "Comprometido com tecnologia e desenvolvimento web, estou sempre aprimorando minhas compet<span class='Acentuacoes font-sans'>ê</span>ncias por meio de projetos pr<span class='Acentuacoes font-sans'>á</span>ticos, contribui<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es constantes no GitHub e um portf<span class='Acentuacoes font-sans'>ó</span>lio focado em solu<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es reais para o mercado.",
+    "about_description": "Comecei na tecnologia em 2021 com o curso de An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript e React se tornaram minha base desde o in<span class='Acentuacoes font-sans '>í</span>cio, e desde ent<span class='Acentuacoes font-sans '>ã</span>o n<span class='Acentuacoes font-sans '>ã</span>o parei de aprender. Hoje trabalho com Node.js, React, Vue.js, APIs REST escal<span class='Acentuacoes font-sans'>á</span>veis com Express e PostgreSQL. criando solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es completas para web. Também tenho experiência com deploy em AWS EC2 e CI<span class='Acentuacoes font-sans '>/</span>CD.",
     "about_skills": [
       {
-        "title": "React e Vue.js: ",
+        "title": "Front<span class='font-sans'>-</span>end: ",
         "description": "Interfaces modernas e responsivas focadas na experi<span class='Acentuacoes font-sans'>ê</span>ncia do usu<span class='Acentuacoes font-sans'>á</span>rio, com foco em usabilidade, desempenho e SEO."
       },
       {
         "title": "Back<span class='font-sans'>-</span>end: ",
-        "description": "APIs escal<span class='Acentuacoes font-sans'>á</span>veis com Node.js, Express, Prisma e PostgreSQL. Deploys com EC2 e Railway, integra<span class='Acentuacoes font-sans'>çõ</span>es seguras, autentica<span class='Acentuacoes font-sans'>çã</span>o JWT e CI<span class='Acentuacoes font-sans'>/</span>CD. Estudando Java e Python com automa<span class='Acentuacoes font-sans'>çõ</span>es e scrapers no GitHub."
+        "description": "APIs escal<span class='Acentuacoes font-sans'>á</span>veis com Node.js, Express, Prisma e PostgreSQL. Deploys com EC2 e Railway, integra<span class='Acentuacoes font-sans'>çõ</span>es seguras, autentica<span class='Acentuacoes font-sans'>çã</span>o JWT e CI<span class='Acentuacoes font-sans'>/</span>CD.Conhecimentos b<span class='Acentuacoes font-sans'>á</span>sicos em automa<span class='Acentuacoes font-sans'>çõ</span>es e scrapers com Python."
       },
       {
         "title": "Design e Landing Pages: ",
@@ -60,32 +60,22 @@
       }
     ]
   },
-"about_grid": {
-  "value1": "15<span class='font-sans'>+</span>",
-  "label1": "Projetos Concluídos",
-  "value2": "8<span class='font-sans'>+</span>",
-  "label2": "Tecnologias Dominadas",
-  "value3": "2<span class='font-sans'>+</span>",
-  "label3": "Anos de Estudos",
-  "value4": "120<span class='font-sans'>+</span>",
-  "label4": "Horas de Cursos"
-}
-,
+  "about_grid": {
+    "value1": "10<span class='font-sans'>+</span>",
+    "label1": "Projetos Concluídos",
+    "value2": "5<span class='font-sans'>+</span>",
+    "label2": "Tecnologias Dominadas",
+    "value3": "3<span class='font-sans'>+</span>",
+    "label3": "Anos de Estudos",
+    "value4": "120<span class='font-sans'>+</span>",
+    "label4": "Horas de Cursos"
+  },
   "work": {
     "work_title": "Trabalhos Selecionados",
     "work_subtitle": "Uma cole<span class='Acentuacoes font-sans '>çã</span>o dos projetos mais impactantes, escolhidos para representar a qualidade e dedica<span class='Acentuacoes font-sans '>çã</span>o em cada detalhe. Explore alguns dos meus melhores resultados.",
     "show_more": "Ver mais projetos",
     "show_less": "Ver menos",
     "projects": [
-      {
-        "name": "Gerenciador de Veículos – Teste EPTA",
-        "description": "App fullstack para gestão de veículos com autenticação JWT, dashboard e CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deploy Railway.",
-        "where": "Projeto de Teste T<span class='Acentuacoes font-sans '>é</span>cnico",
-        "date": "Julho 2025",
-        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
-        "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
-        "image": "TemplateEPTA.png"
-      },
       {
         "name": "Plataforma de Restaurante",
         "description": "Desenvolvimento de uma plataforma completa para gestão de restaurantes, integrando Stripe para processamento de pagamentos seguros, autenticação com JWT para login seguro e painel administrativo robusto. Utiliza tecnologias modernas como React, Vite e Axios no front end e Node.js, Express, PostgreSQL e Prisma no back end para garantir alto desempenho, segurança e escalabilidade.",
@@ -105,6 +95,15 @@
         "image": "Template31Hamburgueria.png"
       },
       {
+        "name": "Gerenciador de Veículos – Teste EPTA",
+        "description": "App fullstack para gestão de veículos com autenticação JWT, dashboard e CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deploy Railway.",
+        "where": "Projeto de Teste T<span class='Acentuacoes font-sans '>é</span>cnico",
+        "date": "Julho 2025",
+        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
+        "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
+        "image": "TemplateEPTA.png"
+      },
+      {
         "name": "Sistema de Gerenciamento de Pets",
         "description": "Desenvolvimento de um sistema completo de gerenciamento de pets com funcionalidades CRUD, utilizando Next.js. O projeto foi criado para um processo seletivo, demonstrando experiência em desenvolvimento backend e frontend com foco em performance e escalabilidade.",
         "where": "Processo Seletivo",
@@ -115,7 +114,7 @@
       },
       {
         "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospec<span class='Acentuacoes font-sans '>çã</span>o e Tr<span class='Acentuacoes font-sans '>á</span>fego",
-        "description": "P<span class='Acentuacoes font-sans '>á</span>gina institucional da minha software house, a PortSoftware. Desenvolvida com React, Tailwind CSS e ShadCN, apresenta meus servi<span class='Acentuacoes font-sans '>ç</span>os de cria<span class='Acentuacoes font-sans '>çã</span>o de landing pages e gest<span class='Acentuacoes font-sans '>ã</span>o de tr<span class='Acentuacoes font-sans '>á</span>fego pago com foco em convers<span class='Acentuacoes font-sans '>ã</span>o. Atrav<span class='Acentuacoes font-sans '>é</span>s dessa estrutura, prospectei mais de 50 clientes de forma aut<span class='Acentuacoes font-sans '>ô</span>noma, alcan<span class='Acentuacoes font-sans '>ç</span>ando uma taxa de fechamento de aproximadamente 32<span class='Acentuacoes font-sans '>%</span> <span class='Acentuacoes font-sans '>(</span>16 projetos conclu<span class='Acentuacoes font-sans '>í</span>dos<span class='Acentuacoes font-sans '>)</span>.",
+        "description": "P<span class='Acentuacoes font-sans '>á</span>gina institucional da minha software house, PortSoftware, criada com React, Tailwind CSS e ShadCN. Apresenta servi<span class='Acentuacoes font-sans '>ç</span>os de landing pages e gest<span class='Acentuacoes font-sans '>ã</span>o de tr<span class='Acentuacoes font-sans '>á</span>fego pago, focados em convers<span class='Acentuacoes font-sans '>ã</span>o. Prospectei mais de 6 clientes, com 3 projetos fechados.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",
         "date": "Abril 2025",
         "href": "https://www.portsoftware.com.br/",
@@ -141,18 +140,9 @@
         "image": "TemplatePsico.png"
       },
       {
-        "name": "Alavancagem de Vendas",
-        "description": "Aplicativo mobile desenvolvido com React Native, Expo e TypeScript, que organiza e apresenta atividades diárias para impulsionar vendas. Utiliza React Calendar para exibir tarefas e dicas específicas a serem feitas a cada dia, ajudando usuários a focarem em estratégias de crescimento. A integração com axios permite atualizações em tempo real das dicas e atividades.",
-        "where": "Aplicativo Mobile",
-        "date": "Setembro 202<span class='font-sans '>3</span>",
-        "href": "https://github.com/uninassau-students",
-        "github": "https://github.com/uninassau-students",
-        "image": "TemplateReactNative.png"
-      },
-      {
-        "name": "Landing Page de Consórcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
-        "description": "Landing page otimizada para cons<span class='Acentuacoes font-sans '>ó</span>rcios Honda da Catalano Motos. React e Tailwind CSS com foco em performance e UX<span class='Acentuacoes font-sans '>/</span>UI, resultando em 23 cons<span class='Acentuacoes font-sans '>ó</span>rcios fechados com CPC m<span class='Acentuacoes font-sans '>é</span>dio de R<span class='Acentuacoes font-sans '>$</span>0,28.",
-        "where": "Landing Page de consórcio",
+        "name": "Landing Page de Cons<span class='Acentuacoes font-sans '>ó</span>rcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
+        "description": "Landing page para cons<span class='Acentuacoes font-sans '>ó</span>rcio Honda da Catalano Motos. Desenvolvida com React e Tailwind CSS, focada em performance e UX<span class='Acentuacoes font-sans '>/</span>UI. Apliquei estratégias de tr<span class='Acentuacoes font-sans '>á</span>fego pago que geraram contatos qualificados.",
+        "where": "Landing Page de cons<span class='Acentuacoes font-sans '>ó</span>rcio",
         "date": "Março 2025",
         "href": "https://www.catalanomotos.com.br",
         "github": "https://github.com/PedroPaulo-Git/HondaProject",
@@ -160,7 +150,7 @@
       },
       {
         "name": "Site Comercial <span class='Acentuacoes font-sans '>-</span>  Grill Burgueria",
-        "description": "Site desenvolvido com Next.js e Tailwind CSS, focado em UX<span class='Acentuacoes font-sans '>/</span>UI mobile<span class='Acentuacoes font-sans '>-</span>first. Integra<span class='Acentuacoes font-sans '>çã</span>o com API de pagamento e card<span class='Acentuacoes font-sans '>á</span>pio online, resultando em 85<span class='Acentuacoes font-sans '>%</span> de aumento na efici<span class='Acentuacoes font-sans '>ê</span>ncia do atendimento.",
+        "description": "Sistema para hamburgueria desenvolvido com Next.js e Tailwind CSS, com integra<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>ã</span>o de API de pagamento e card<span class='Acentuacoes font-sans'>á</span>rio online. Deploy em produ<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>ã</span>o e aplica<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>ã</span>o de estrat<span class='Acentuacoes font-sans'>é</span>gias de tr<span class='Acentuacoes font-sans'>á</span>fego pago para atra<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>ã</span>o de clientes.",
         "where": "Site de Hamburgueria",
         "date": "Março 2025",
         "href": "https://ifoodgrillburguer.com/",
@@ -175,15 +165,6 @@
         "href": "https://pedropaulo-git.github.io/MoviesRating/",
         "github": "https://github.com/PedroPaulo-Git/MoviesRating",
         "image": "Templete34.png"
-      },
-      {
-        "name": "Dog Breed Matcher",
-        "description": "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
-        "where": "Projeto Pessoal",
-        "date": "Dezembro 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-        "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-        "image": "TemplateDog.png"
       }
     ]
   },

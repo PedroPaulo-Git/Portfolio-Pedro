@@ -1,57 +1,94 @@
-{
-    {
-        "name": "Pixel Game",
-        "description": "Prototype of a pixelated game in JavaScript, created to demonstrate battle logic. The game features dynamic combats in a retro world, illustrating fundamental programming and game design concepts.",
-        "where": "Personal Project",
-        "date": "January 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/CoinClick",
-        "github": "https://github.com/PedroPaulo-Git/CoinClick"
-      },
-      {
-        "name": "Professional Portfolio",
-        "description": "Personal portfolio developed with React, Vite, and TailwindCSS, created as part of the foundation of my software house. Focused on intuitive design and responsive functionality, the project demonstrates expertise in web solutions and strengthens the brand's digital identity.",
-        "where": "Software House Project",
-        "date": "June 202<span class='font-sans '>4</span>",
-        "href": "https://pedropaulo-git.github.io/PortSoftware/",
-        "github": "https://github.com/PedroPaulo-Git/PortSoftware"
-      },
-      {
-        "name": "Pod Sales",
-        "description": "A simple sales page for pods developed with React and TailwindCSS, aimed at small entrepreneurs. Focused on conversion, with an intuitive layout optimized to facilitate purchases and effectively promote products.",
-        "where": "Sales Page",
-        "date": "November 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/uninassau-students",
-        "github": "https://github.com/uninassau-students",
-        "image": "TemplateImportss.png"
-      },
-      
-},
-{
-    {
-        "name": "Jogo Pixelado",
-        "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
-        "where": "Projeto Pessoal",
-        "date": "Janeiro 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/CoinClick",
-        "github": "https://github.com/PedroPaulo-Git/CoinClick",
-        "image": "TemplateDog.png"
-      },
-      {
-        "name": "Portfolio Profissional",
-        "description": "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
-        "where": "Projeto de Software House",
-        "date": "Junho 202<span class='font-sans '>4</span>",
-        "href": "https://pedropaulo-git.github.io/PortSoftware/",
-        "github": "https://github.com/PedroPaulo-Git/PortSoftware",
-        "image": "TemplatePORTSOFTWARE.png"
-      },
-      {
-        "name": "Vendas de Pods",
-        "description": "Página simples de vendas de pods desenvolvida com React e TailwindCSS, voltada para pequenos empreendedores. Focada em conversão, com layout intuitivo e otimizado para facilitar a compra e promover os produtos de forma eficaz.",
-        "where": "Página de Vendas",
-        "date": "Novembro 202<span class='font-sans '>4</span>",
-        "href": "https://podsselling.vercel.app/",
-        "github": "https://github.com/PedroPaulo-Git/re_imports",
-        "image": "TemplateImportss.png"
-      },
-}
+[
+  {
+    "name": "Pixel Game",
+    "description": "Prototype of a pixelated game in JavaScript, created to demonstrate battle logic. The game features dynamic combats in a retro world, illustrating fundamental programming and game design concepts.",
+    "where": "Personal Project",
+    "date": "January 202<span class='font-sans '>4</span>",
+    "href": "https://github.com/PedroPaulo-Git/CoinClick",
+    "github": "https://github.com/PedroPaulo-Git/CoinClick"
+  },
+  {
+    "name": "Professional Portfolio",
+    "description": "Personal portfolio developed with React, Vite, and TailwindCSS, created as part of the foundation of my software house. Focused on intuitive design and responsive functionality, the project demonstrates expertise in web solutions and strengthens the brand's digital identity.",
+    "where": "Software House Project",
+    "date": "June 202<span class='font-sans '>4</span>",
+    "href": "https://pedropaulo-git.github.io/PortSoftware/",
+    "github": "https://github.com/PedroPaulo-Git/PortSoftware"
+  },
+  {
+    "name": "Pod Sales",
+    "description": "A simple sales page for pods developed with React and TailwindCSS, aimed at small entrepreneurs. Focused on conversion, with an intuitive layout optimized to facilitate purchases and effectively promote products.",
+    "where": "Sales Page",
+    "date": "November 202<span class='font-sans '>4</span>",
+    "href": "https://github.com/uninassau-students",
+    "github": "https://github.com/uninassau-students",
+    "image": "TemplateImportss.png"
+  },
+
+  {
+    "name": "Dog Breed Matcher",
+    "description": "Application that fetches images of dog breeds from an API. Each image allows users to compare the appearance of the breed with their own dog, aiding in visual identification and exploring breed diversity. Developed with React and Axios.",
+    "where": "Personal Project",
+    "date": "December 202<span class='font-sans '>4</span>",
+    "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+    "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+    "image": "TemplateDog.png"
+  },
+  {
+    "name": "Sales Growth Planner",
+    "description": "A mobile application developed with React Native, Expo, and TypeScript, designed to organize and display daily activities to boost sales. It uses React Calendar to show specific tasks and tips for each day, helping users focus on growth strategies. The integration with axios enables real time updates of tips and activities.",
+    "where": "Sales Growth Mobile App",
+    "date": "September 202<span class='font-sans '>3</span>",
+    "href": "https://github.com/uninassau-students",
+    "github": "https://github.com/uninassau-students",
+    "image": "TemplateReactNative.png"
+  },
+ 
+  {
+    "name": "Jogo Pixelado",
+    "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
+    "where": "Projeto Pessoal",
+    "date": "Janeiro 202<span class='font-sans '>4</span>",
+    "href": "https://github.com/PedroPaulo-Git/CoinClick",
+    "github": "https://github.com/PedroPaulo-Git/CoinClick",
+    "image": "TemplateDog.png"
+  },
+  {
+    "name": "Portfolio Profissional",
+    "description": "Portfólio pessoal desenvolvido com React, Vite e TailwindCSS, criado como parte da fundação da minha software house. Focado em design intuitivo e funcionalidade responsiva, o projeto demonstra expertise em soluções web e fortalece a identidade digital da marca.",
+    "where": "Projeto de Software House",
+    "date": "Junho 202<span class='font-sans '>4</span>",
+    "href": "https://pedropaulo-git.github.io/PortSoftware/",
+    "github": "https://github.com/PedroPaulo-Git/PortSoftware",
+    "image": "TemplatePORTSOFTWARE.png"
+  },
+  {
+    "name": "Vendas de Pods",
+    "description": "Página simples de vendas de pods desenvolvida com React e TailwindCSS, voltada para pequenos empreendedores. Focada em conversão, com layout intuitivo e otimizado para facilitar a compra e promover os produtos de forma eficaz.",
+    "where": "Página de Vendas",
+    "date": "Novembro 202<span class='font-sans '>4</span>",
+    "href": "https://podsselling.vercel.app/",
+    "github": "https://github.com/PedroPaulo-Git/re_imports",
+    "image": "TemplateImportss.png"
+  },
+  {
+    "name": "Dog Breed Matcher",
+    "description": "Aplicação que busca imagens de raças de cães de uma API. Cada imagem permite comparar a aparência da raça com a do seu próprio cachorro, ajudando na identificação visual e explorando a diversidade de raças. Desenvolvida com React e Axios.",
+    "where": "Projeto Pessoal",
+    "date": "Dezembro 202<span class='font-sans '>4</span>",
+    "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+    "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
+    "image": "TemplateDog.png"
+  },
+  {
+    "name": "Alavancagem de Vendas",
+    "description": "Aplicativo mobile desenvolvido com React Native, Expo e TypeScript, que organiza e apresenta atividades diárias para impulsionar vendas. Utiliza React Calendar para exibir tarefas e dicas específicas a serem feitas a cada dia, ajudando usuários a focarem em estratégias de crescimento. A integração com axios permite atualizações em tempo real das dicas e atividades.",
+    "where": "Aplicativo Mobile",
+    "date": "Setembro 202<span class='font-sans '>3</span>",
+    "href": "https://github.com/uninassau-students",
+    "github": "https://github.com/uninassau-students",
+    "image": "TemplateReactNative.png"
+  }
+
+
+]

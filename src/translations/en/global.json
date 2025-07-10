@@ -47,12 +47,12 @@
   "about_description": "I started in tech in 2021 with a degree in An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript and React became my foundation from the very in<span class='Acentuacoes font-sans '>í</span>cio, and since then I haven't stopped learning. Today, I work with Node.js, React, Vue.js, and scalable REST APIs using Express and PostgreSQL, creating full web solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es. I also have experience deploying to AWS EC2 and working with CI<span class='Acentuacoes font-sans '>/</span>CD pipelines.",
   "about_skills": [
     {
-      "title": "React and Vue.js: ",
+      "title": "Front<span class='font-sans'>-</span>end: ",
       "description": "Modern and responsive interfaces focused on user experi<span class='Acentuacoes font-sans'>ê</span>ncia, usability, performance, and SEO."
     },
     {
       "title": "Back<span class='font-sans'>-</span>end: ",
-      "description": "Scalable APIs with Node.js, Express, Prisma, and PostgreSQL. Deployments on EC2 and Railway, secure integra<span class='Acentuacoes font-sans'>çõ</span>es, JWT authentica<span class='Acentuacoes font-sans'>çã</span>o, and CI<span class='Acentuacoes font-sans'>/</span>CD. Currently learning Java and Python with GitHub scrapers and automa<span class='Acentuacoes font-sans'>çõ</span>es."
+      "description": "Scalable APIs with Node.js, Express, Prisma, and PostgreSQL. Deployments on EC2 and Railway, secure integra<span class='Acentuacoes font-sans'>çõ</span>es, JWT authentica<span class='Acentuacoes font-sans'>çã</span>o, and CI<span class='Acentuacoes font-sans'>/</span>CD. Basic knowledge of automations and scrapers using Python."
     },
     {
       "title": "Design and Landing Pages: ",
@@ -62,11 +62,11 @@
 }
 ,
 "about_grid": {
-  "value1": "15<span class='font-sans'>+</span>",
+  "value1": "10<span class='font-sans'>+</span>",
   "label1": "Completed Projects",
-  "value2": "8<span class='font-sans'>+</span>",
+  "value2": "5<span class='font-sans'>+</span>",
   "label2": "Technologies Known",
-  "value3": "2<span class='font-sans'>+</span>",
+  "value3": "3<span class='font-sans'>+</span>",
   "label3": "Years Learning",
   "value4": "120<span class='font-sans'>+</span>",
   "label4": "Hours of Training"
@@ -78,15 +78,7 @@
     "show_more": "Show more projects",
     "show_less": "Show less",
     "projects": [
-      {
-        "name": "Fullstack Vehicle Manager – EPTA Test",
-        "description": "Fullstack app for vehicle management with JWT auth, dashboard, and CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deployed on Railway.",
-        "where": "Technical Test Project",
-        "date": "July 2025",
-        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
-        "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
-        "image": "TemplateEPTA.png"
-      },
+    
       {
         "name": "Restaurant Platform",
         "description": "Development of a comprehensive restaurant management platform with secure Stripe integration for payment processing, JWT authentication for secure login, and a robust admin dashboard. Built with modern technologies such as React, Vite, and Axios on the front end, and Node.js, Express, PostgreSQL, and Prisma on the back end, ensuring high performance, security, and scalability.",
@@ -96,15 +88,7 @@
         "github": "https://github.com/PedroPaulo-Git/IdealRestaurante",
         "image": "IdealTemplete.png"
       },
-      {
-        "name": "31Hamburgueria",
-        "description": "Landing page developed for the 31Hamburguer restaurant, using Vue.js and TailwindCSS. The page was designed with a focus on converting visitors into customers, presenting the menu clearly, highlighting promotions, and facilitating contact with the establishment. The layout was optimized for fast and intuitive navigation, ensuring a great user experience on both mobile and desktop devices.",
-        "where": "Landing Page for Hamburger Restaurant",
-        "date": "December 202<span class='font-sans '>4</span>",
-        "href": "https://31hamburgueria.vercel.app/",
-        "github": "https://github.com/PedroPaulo-Git/31hamburgueria",
-        "image": "Template31Hamburgueria.png"
-      },
+  
       {
         "name": "Pet Management System",
         "description": "Development of a complete pet management system with CRUD functionalities, using Next.js. The project was created for a selection process, demonstrating experience in backend and frontend development with a focus on performance and scalability.",
@@ -115,8 +99,17 @@
         "image": "Templete5.png"
       },
       {
+        "name": "Fullstack Vehicle Manager – EPTA Test",
+        "description": "Fullstack app for vehicle management with JWT auth, dashboard, and CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deployed on Railway.",
+        "where": "Technical Test Project",
+        "date": "July 2025",
+        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
+        "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
+        "image": "TemplateEPTA.png"
+      },
+      {
         "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospecting and Paid Traffic",
-        "description": "Institutional page for my software house, PortSoftware. Built with React, Tailwind CSS, and ShadCN, it showcases my landing page development and paid traffic management services, with a strong focus on conversion. Through this structure, I independently prospected over 50 clients, achieving a closing rate of approximately 32<span class='Acentuacoes font-sans '>%</span><span class='Acentuacoes font-sans '> </span><span class='Acentuacoes font-sans '>(</span>16 completed projects<span class='Acentuacoes font-sans '>)</span>.",
+      "description": "Institutional page of my software house, PortSoftware, built with React, Tailwind CSS, and ShadCN. Showcases landing page and paid traffic management services focused on conversion. Prospected over 6 clients, with 3 projects closed.",
         "where": "Business Solution Website",
         "date": "April 2025",
         "href": "https://www.portsoftware.com.br/",
@@ -141,18 +134,10 @@
         "github": "https://github.com/PedroPaulo-Git/Psicologia",
         "image": "TemplatePsico.png"
       },
-      {
-        "name": "Sales Growth Planner",
-        "description": "A mobile application developed with React Native, Expo, and TypeScript, designed to organize and display daily activities to boost sales. It uses React Calendar to show specific tasks and tips for each day, helping users focus on growth strategies. The integration with axios enables real time updates of tips and activities.",
-        "where": "Sales Growth Mobile App",
-        "date": "September 202<span class='font-sans '>3</span>",
-        "href": "https://github.com/uninassau-students",
-        "github": "https://github.com/uninassau-students",
-        "image": "TemplateReactNative.png"
-      },
+  
       {
         "name": "Honda Motorcycle Consortium Landing Page <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
-        "description": "Optimized landing page for Honda motorcycle consortiums at Catalano Motos. React and Tailwind CSS focused on performance and UX<span class='Acentuacoes font-sans '>/</span>UI, resulting in 23 consortiums closed with average CPC of R<span class='Acentuacoes font-sans '>$</span>0,28.",
+       "description": "Landing page for Honda Catalano Motos cons<span class='Acentuacoes font-sans '>ó</span>rcio. Built with React and Tailwind CSS, focused on performance and UX<span class='Acentuacoes font-sans '>/</span>UI. Applied paid tr<span class='Acentuacoes font-sans '>á</span>ffic strategies that generated qualified leads.",
         "where": "Motorcycle Consortium Landing Page",
         "date": "March 2025",
         "href": "https://www.catalanomotos.com.br",
@@ -176,16 +161,8 @@
         "href": "https://pedropaulo-git.github.io/MoviesRating/",
         "github": "https://github.com/PedroPaulo-Git/MoviesRating",
         "image": "Templete34.png"
-      },
-      {
-        "name": "Dog Breed Matcher",
-        "description": "Application that fetches images of dog breeds from an API. Each image allows users to compare the appearance of the breed with their own dog, aiding in visual identification and exploring breed diversity. Developed with React and Axios.",
-        "where": "Personal Project",
-        "date": "December 202<span class='font-sans '>4</span>",
-        "href": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-        "github": "https://github.com/PedroPaulo-Git/What-Breed-Is-My-Dog",
-        "image": "TemplateDog.png"
       }
+     
     ]
   },
   "footer": {
