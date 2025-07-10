@@ -40,40 +40,38 @@
       }
     ]
   },
-  "about": {
-    "about_title": "My Journey",
-    "about_subtitle": "About Me",
-    "about_description_below": "Passionate about technology and design, always seeking to create solutions that make a difference.",
-    "about_description": "I started in technology in 2021 with the Systems Analysis and Development course. JavaScript and React became my foundation from the beginning, and I haven't stopped learning since. Today I work with React, Vue.js, Node.js, Java, Python and React Native, creating complete solutions for web and mobile.",
-    "about_skills": [
-      {
-        "title": "React and Vue.js: ",
-        "description": "Modern and responsive interfaces focused on user experience."
-      },
-      {
-        "title": "Back<span class='font-sans'>-</span>end: ",
-        "description": "Scalable APIs with Node.js, Express, Postgres, Java and Python."
-      },
-      {
-        "title": "Mobile: ",
-        "description": "Native apps with React Native, combining performance and design."
-      },
-      {
-        "title": "Design and Landing Pages: ",
-        "description": "Conversion-optimized pages with modern UX/UI."
-      }
-    ]
-  },
-  "about_grid": {
-    "value1": "35<span class='font-sans'>+</span>",
-    "label1": "Concluded Projects",
-    "value2": "15<span class='font-sans'>+</span>",
-    "label2": "Mastered Technologies",
-    "value3": "3.5<span class='font-sans'>+</span>",
-    "label3": "Years of Study",
-    "value4": "200<span class='font-sans'>+</span>",
-    "label4": "Course Hours"
-  },
+ "about": {
+  "about_title": "My Journey",
+  "about_subtitle": "About Me",
+ "about_description_below": "Committed to technology and web development, I am constantly improving my compet<span class='Acentuacoes font-sans'>ê</span>ncias through hands-on projects, consistent GitHub contribui<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es, and a portf<span class='Acentuacoes font-sans'>ó</span>lio focused on real-world solu<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es for the market.",
+  "about_description": "I started in tech in 2021 with a degree in An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript and React became my foundation from the very in<span class='Acentuacoes font-sans '>í</span>cio, and since then I haven't stopped learning. Today, I work with Node.js, React, Vue.js, and scalable REST APIs using Express and PostgreSQL, creating full web solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es. I also have experience deploying to AWS EC2 and working with CI<span class='Acentuacoes font-sans '>/</span>CD pipelines.",
+  "about_skills": [
+    {
+      "title": "React and Vue.js: ",
+      "description": "Modern and responsive interfaces focused on user experi<span class='Acentuacoes font-sans'>ê</span>ncia, usability, performance, and SEO."
+    },
+    {
+      "title": "Back<span class='font-sans'>-</span>end: ",
+      "description": "Scalable APIs with Node.js, Express, Prisma, and PostgreSQL. Deployments on EC2 and Railway, secure integra<span class='Acentuacoes font-sans'>çõ</span>es, JWT authentica<span class='Acentuacoes font-sans'>çã</span>o, and CI<span class='Acentuacoes font-sans'>/</span>CD. Currently learning Java and Python with GitHub scrapers and automa<span class='Acentuacoes font-sans'>çõ</span>es."
+    },
+    {
+      "title": "Design and Landing Pages: ",
+      "description": "Optimized landing pages focused on convers<span class='Acentuacoes font-sans'>ã</span>o, using modern, responsive, and access<span class='Acentuacoes font-sans'>í</span>vel UX<span class='Acentuacoes font-sans'>/</span>UI design."
+    }
+  ]
+}
+,
+"about_grid": {
+  "value1": "15<span class='font-sans'>+</span>",
+  "label1": "Completed Projects",
+  "value2": "8<span class='font-sans'>+</span>",
+  "label2": "Technologies Known",
+  "value3": "2<span class='font-sans'>+</span>",
+  "label3": "Years Learning",
+  "value4": "120<span class='font-sans'>+</span>",
+  "label4": "Hours of Training"
+}
+,
   "work": {
     "work_title": "Selected Works",
     "work_subtitle": "A collection of the most impactful projects, chosen to represent quality and dedication in every detail. Explore some of my best results.",

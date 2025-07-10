@@ -43,37 +43,34 @@
   "about": {
     "about_title": "Minha Jornada",
     "about_subtitle": "Sobre Mim",
-    "about_description_below": "Apaixonado por tecnologia e design, sempre buscando criar solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es que fazem a diferen<span class='Acentuacoes font-sans '>ç</span>a.",
-    "about_description": "Comecei na tecnologia em 2021 com o curso de An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript e React se tornaram minha base desde o in<span class='Acentuacoes font-sans '>í</span>cio, e desde ent<span class='Acentuacoes font-sans '>ã</span>o n<span class='Acentuacoes font-sans '>ã</span>o parei de aprender. Hoje trabalho com React, Vue.js, Node.js, Java, Python e React Native, criando solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es completas para web e mobile.",
+"about_description_below": "Comprometido com a tecnologia e desenvolvimento web, estou sempre aprimorando minhas compet<span class='Acentuacoes font-sans'>ê</span>ncias com projetos pr<span class='Acentuacoes font-sans'>á</span>ticos, contribui<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es constantes no GitHub e um portf<span class='Acentuacoes font-sans'>ó</span>lio focado em solu<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es reais para o mercado.",
+    "about_description": "Comecei na tecnologia em 2021 com o curso de An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript e React se tornaram minha base desde o in<span class='Acentuacoes font-sans '>í</span>cio, e desde ent<span class='Acentuacoes font-sans '>ã</span>o n<span class='Acentuacoes font-sans '>ã</span>o parei de aprender. Hoje trabalho com Node.js, React, Vue.js, APIs REST escaláveis com Express e PostgreSQL. criando solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es completas para web. Também tenho experiência com deploy em AWS EC2 e CI<span class='Acentuacoes font-sans '>/</span>CD.",
     "about_skills": [
       {
         "title": "React e Vue.js: ",
-        "description": "Interfaces modernas e responsivas focadas na experi<span class='Acentuacoes font-sans '>ê</span>ncia do usu<span class='Acentuacoes font-sans '>á</span>rio."
+        "description": "Interfaces modernas e responsivas focadas na experi<span class='Acentuacoes font-sans'>ê</span>ncia do usu<span class='Acentuacoes font-sans'>á</span>rio, com foco em usabilidade, desempenho e SEO."
       },
       {
         "title": "Back<span class='font-sans'>-</span>end: ",
-        "description": "APIs escal<span class='Acentuacoes font-sans '>á</span>veis com Node.js, Express, Postgres, Java e Python."
-      },
-      {
-        "title": "Mobile: ",
-        "description": "Apps nativos com React Native, unindo performance e design."
+        "description": "APIs escal<span class='Acentuacoes font-sans'>á</span>veis com Node.js, Express, Prisma e PostgreSQL. Deploys com EC2 e Railway, integra<span class='Acentuacoes font-sans'>çõ</span>es seguras, autentica<span class='Acentuacoes font-sans'>çã</span>o JWT e CI<span class='Acentuacoes font-sans'>/</span>CD. Estudando Java e Python com automa<span class='Acentuacoes font-sans'>çõ</span>es e scrapers no GitHub."
       },
       {
         "title": "Design e Landing Pages: ",
-        "description": "P<span class='Acentuacoes font-sans '>á</span>ginas otimizadas para convers<span class='Acentuacoes font-sans '>ã</span>o com UX/UI moderno."
+        "description": "P<span class='Acentuacoes font-sans'>á</span>ginas otimizadas para convers<span class='Acentuacoes font-sans'>ã</span>o com UX<span class='Acentuacoes font-sans'>/</span>UI moderno, responsivo e acess<span class='Acentuacoes font-sans'>í</span>vel."
       }
     ]
   },
-  "about_grid": {
-    "value1": "35<span class='font-sans'>+</span>",
-    "label1": "Projetos Concluídos",
-    "value2": "15<span class='font-sans'>+</span>",
-    "label2": "Tecnologias Dominadas",
-    "value3": "3.5<span class='font-sans'>+</span>",
-    "label3": "Anos de Estudos",
-    "value4": "200<span class='font-sans'>+</span>",
-    "label4": "Horas de Cursos"
-  },
+"about_grid": {
+  "value1": "15<span class='font-sans'>+</span>",
+  "label1": "Projetos Concluídos",
+  "value2": "8<span class='font-sans'>+</span>",
+  "label2": "Tecnologias Dominadas",
+  "value3": "2<span class='font-sans'>+</span>",
+  "label3": "Anos de Estudos",
+  "value4": "120<span class='font-sans'>+</span>",
+  "label4": "Horas de Cursos"
+}
+,
   "work": {
     "work_title": "Trabalhos Selecionados",
     "work_subtitle": "Uma cole<span class='Acentuacoes font-sans '>çã</span>o dos projetos mais impactantes, escolhidos para representar a qualidade e dedica<span class='Acentuacoes font-sans '>çã</span>o em cada detalhe. Explore alguns dos meus melhores resultados.",
