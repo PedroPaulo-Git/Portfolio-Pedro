@@ -96,6 +96,15 @@
         "github": "https://github.com/PedroPaulo-Git/IdealRestaurante",
         "image": "IdealTemplete.png"
       },
+      {
+        "name": "31Hamburgueria",
+        "description": "Landing page developed for the 31Hamburguer restaurant using Vue.js and TailwindCSS. The page was designed with a focus on converting visitors into customers, presenting the menu clearly, highlighting promotions, and facilitating contact with the establishment. The layout was optimized for fast and intuitive navigation, ensuring an excellent user experience on mobile and desktop devices.",
+        "where": "Business Solution",
+        "date": "December 202<span class='font-sans '>4</span>",
+        "href": "https://31hamburgueria.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/31hamburgueria",
+        "image": "Template31Hamburgueria.png"
+      },
   
       {
         "name": "Pet Management System",

@@ -48,7 +48,7 @@ const Work = () => {
   // Pega os projetos do idioma atual
   const projects = t("work.projects", { returnObjects: true });
 
-  // Separe os projetos principais e os extras (2 últimos)
+  // Separe os projetos principais e os extras (3 últimos)
   const mainProjects = projects.slice(0, -3);
   const extraProjects = projects.slice(-3);
 
