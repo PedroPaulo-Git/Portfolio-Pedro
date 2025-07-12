@@ -14,6 +14,7 @@ import Template9 from "../../assets/Works/TemplateReactNative.png";
 import Template10 from "../../assets/Works/TemplateImportss.png";
 import Template11 from "../../assets/Works/Template31Hamburgueria.png";
 import Template12 from '../../assets/Works/TemplateEPTA.png'
+import Template13 from '../../assets/Works/TemplateBrasilBarbearia.png';
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -36,6 +37,7 @@ const imageMap = {
   "TemplateImportss.png": Template10,
   "Template31Hamburgueria.png": Template11,
   "TemplateEPTA.png": Template12,
+  "TemplateBrasilBarbearia.png":Template13
   // ...adicione todos os outros
 };
 
@@ -47,8 +49,8 @@ const Work = () => {
   const projects = t("work.projects", { returnObjects: true });
 
   // Separe os projetos principais e os extras (2 últimos)
-  const mainProjects = projects.slice(0, -2);
-  const extraProjects = projects.slice(-2);
+  const mainProjects = projects.slice(0, -3);
+  const extraProjects = projects.slice(-3);
 
   // Mapeia os projetos principais
   const mainFeatures = mainProjects.map((project, index) => {

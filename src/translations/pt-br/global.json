@@ -77,6 +77,15 @@
     "show_less": "Ver menos",
     "projects": [
       {
+        "name": "BrasilBarbearias <span class='Acentuacoes font-sans '>-</span> SaaS para Gest<span class='Acentuacoes font-sans'>ã</span>o de Barbearias",
+        "description": "Plataforma SaaS completa para gest<span class='Acentuacoes font-sans'>ã</span>o de barbearias com opera<span class='Acentuacoes font-sans'>çõ</span>es CRUD completas, autentica<span class='Acentuacoes font-sans'>çã</span>o JWT e integra<span class='Acentuacoes font-sans'>çã</span>o com Mercado Pago. Desenvolvida com Next.js, TypeScript, Express e Tailwind CSS. Inclui registro de usu<span class='Acentuacoes font-sans'>á</span>rios, login seguro com bcrypt, notifica<span class='Acentuacoes font-sans'>çõ</span>es toast e deploy na AWS EC2. Otimiza opera<span class='Acentuacoes font-sans'>çõ</span>es comerciais e melhora a acessibilidade dos clientes.",
+        "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o SaaS Empresarial",
+        "date": "Julho 2025",
+        "href": "https://brasilbarbearias.shop/",
+        "github": "https://github.com/PedroPaulo-Git/brasilbarbearias",
+        "image": "TemplateBrasilBarbearia.png"
+      },
+      {
         "name": "Plataforma de Restaurante",
         "description": "Desenvolvimento de uma plataforma completa para gestão de restaurantes, integrando Stripe para processamento de pagamentos seguros, autenticação com JWT para login seguro e painel administrativo robusto. Utiliza tecnologias modernas como React, Vite e Axios no front end e Node.js, Express, PostgreSQL e Prisma no back end para garantir alto desempenho, segurança e escalabilidade.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o Empresarial",

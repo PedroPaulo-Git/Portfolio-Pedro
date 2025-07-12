@@ -78,7 +78,15 @@
     "show_more": "Show more projects",
     "show_less": "Show less",
     "projects": [
-    
+      {
+        "name": "BrasilBarbearias <span class='Acentuacoes font-sans'>-</span> Barbershop Management SaaS",
+        "description": "Complete SaaS platform for barbershop management with full CRUD operations, JWT authentication, and Mercado Pago payment integration. Built with Next.js, TypeScript, Express, and Tailwind CSS. Features include user registration, secure login with bcrypt, toast notifications, and AWS EC2 deployment. Streamlines business operations and improves customer accessibility.",
+        "where": "SaaS Business Solution",
+        "date": "July 2025",
+        "href": "https://brasilbarbearias.shop/",
+        "github": "https://github.com/PedroPaulo-Git/brasilbarbearias",
+        "image": "TemplateBrasilBarbearia.png"
+      },
       {
         "name": "Restaurant Platform",
         "description": "Development of a comprehensive restaurant management platform with secure Stripe integration for payment processing, JWT authentication for secure login, and a robust admin dashboard. Built with modern technologies such as React, Vite, and Axios on the front end, and Node.js, Express, PostgreSQL, and Prisma on the back end, ensuring high performance, security, and scalability.",
