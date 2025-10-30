@@ -1,8 +1,8 @@
 import React from "react";
 
 const DownloadCVButton = () => {
-  const driveLink =
-    "https://drive.google.com/file/d/14Sk10FIoizuiwaFjfTrUCbN2O1SnXbdp/view?usp=sharing";
+  const driveLink = "https://drive.google.com/file/d/1FdKXZ0dWAdJEUqmlfkcuvC40XaKCnbQ7/view?usp=sharing";
+    // "https://drive.google.com/file/d/14Sk10FIoizuiwaFjfTrUCbN2O1SnXbdp/view?usp=sharing";
 
   return (
     <div className="flex border rounded-full p-0.5">

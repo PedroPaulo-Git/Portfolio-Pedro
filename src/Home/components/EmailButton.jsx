@@ -1,7 +1,7 @@
 import React from "react";
 import { AiTwotoneMail } from "react-icons/ai";
 const EmailButton = () => {
-  const email = "receberpedro09@gmail.com";
+  const email = "pedrodevofc@gmail.com";
   const subject = "Gostaria de entrar em contato";
   const body = "";
 
