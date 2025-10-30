@@ -81,7 +81,7 @@
         "description": "Plataforma SaaS completa para gest<span class='Acentuacoes font-sans'>ã</span>o de barbearias com opera<span class='Acentuacoes font-sans'>çõ</span>es CRUD completas, autentica<span class='Acentuacoes font-sans'>çã</span>o JWT e integra<span class='Acentuacoes font-sans'>çã</span>o com Mercado Pago. Desenvolvida com Next.js, TypeScript, Express e Tailwind CSS. Inclui registro de usu<span class='Acentuacoes font-sans'>á</span>rios, login seguro com bcrypt, notifica<span class='Acentuacoes font-sans'>çõ</span>es toast e deploy na AWS EC2. Otimiza opera<span class='Acentuacoes font-sans'>çõ</span>es comerciais e melhora a acessibilidade dos clientes.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o SaaS Empresarial",
         "date": "Julho 2025",
-        "href": "https://brasilbarbearias.shop/",
+        "href": "https://github.com/PedroPaulo-Git/brasilbarbearias",
         "github": "https://github.com/PedroPaulo-Git/brasilbarbearias",
         "image": "TemplateBrasilBarbearia.png"
       },
@@ -108,7 +108,7 @@
         "description": "App fullstack para gestão de veículos com autenticação JWT, dashboard e CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deploy Railway.",
         "where": "Projeto de Teste T<span class='Acentuacoes font-sans '>é</span>cnico",
         "date": "Julho 2025",
-        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
+        "href": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
         "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
         "image": "TemplateEPTA.png"
       },

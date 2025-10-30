@@ -83,7 +83,7 @@
         "description": "Complete SaaS platform for barbershop management with full CRUD operations, JWT authentication, and Mercado Pago payment integration. Built with Next.js, TypeScript, Express, and Tailwind CSS. Features include user registration, secure login with bcrypt, toast notifications, and AWS EC2 deployment. Streamlines business operations and improves customer accessibility.",
         "where": "SaaS Business Solution",
         "date": "July 2025",
-        "href": "https://brasilbarbearias.shop/",
+        "href": "https://github.com/PedroPaulo-Git/brasilbarbearias",
         "github": "https://github.com/PedroPaulo-Git/brasilbarbearias",
         "image": "TemplateBrasilBarbearia.png"
       },
@@ -120,7 +120,7 @@
         "description": "Fullstack app for vehicle management with JWT auth, dashboard, and CRUD. Next.js, React, Node.js, Prisma, PostgreSQL. Deployed on Railway.",
         "where": "Technical Test Project",
         "date": "July 2025",
-        "href": "https://teste-epta-fullstack-frontend.up.railway.app/dashboard",
+        "href": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
         "github": "https://github.com/PedroPaulo-Git/teste-epta-fullstack",
         "image": "TemplateEPTA.png"
       },
