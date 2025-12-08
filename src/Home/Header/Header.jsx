@@ -20,7 +20,7 @@ const Header = () => {
   };
   const [linguage, setLinguage] = useState("pt-br");
 
-  const [isCopied, setCopied] = useClipboard("receberpedro09@gmail.com", {
+  const [isCopied, setCopied] = useClipboard("pedrodevofc@gmail.com", {
     successDuration: 1000,
   });
   const [copyMessage, setCopyMessage] = useState(t("header.contact_copy"));
@@ -57,7 +57,7 @@ const Header = () => {
           <div className="flex items-center gap-0 text-xs">
             <div className="flex border rounded-full pr-0.5 pl-0.5 lg:pl-1 items-center ">
               <p className="hidden md:block text-gray-light px-4">
-                receberpedro09
+                pedrodevofc
                 <span className="font-serif font-semibold">@</span>gmail.com
               </p>
 

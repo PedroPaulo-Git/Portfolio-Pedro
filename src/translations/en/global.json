@@ -62,9 +62,9 @@
 }
 ,
 "about_grid": {
-  "value1": "10<span class='font-sans'>+</span>",
+  "value1": "20<span class='font-sans'>+</span>",
   "label1": "Completed Projects",
-  "value2": "5<span class='font-sans'>+</span>",
+  "value2": "10<span class='font-sans'>+</span>",
   "label2": "Technologies Known",
   "value3": "3<span class='font-sans'>+</span>",
   "label3": "Years Learning",
@@ -78,6 +78,15 @@
     "show_more": "Show more projects",
     "show_less": "Show less",
     "projects": [
+      {
+        "name": "Pass <span class='Acentuacoes font-sans'>-</span> Fleet Management System",
+        "description": "Complete fullstack platform for fleet management with full CRUD operations, and MinIO integration for file storage. Built with Fastify, Next.js 15, TypeScript, Prisma ORM, and PostgreSQL. Features include vehicle management, fueling records, incident tracking, document alerts, and image metadata management. Deployed with Docker Compose for scalability and automated migrations. Optimizes fleet operations with advanced filtering, pagination, and real<span class='Acentuacoes font-sans'>-</span>time data validation.",
+        "where": "SaaS Fleet Solution",
+        "date": "December 2025",
+        "href": "https://pass-desafiotecnico.vercel.app",
+        "github": "https://github.com/PedroPaulo-Git/pass_desafiotecnico",
+        "image": "TemplatePass.png"
+      },
       {
         "name": "BrasilBarbearias <span class='Acentuacoes font-sans'>-</span> Barbershop Management SaaS",
         "description": "Complete SaaS platform for barbershop management with full CRUD operations, JWT authentication, and Mercado Pago payment integration. Built with Next.js, TypeScript, Express, and Tailwind CSS. Features include user registration, secure login with bcrypt, toast notifications, and AWS EC2 deployment. Streamlines business operations and improves customer accessibility.",
@@ -133,15 +142,7 @@
         "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware",
         "image": "TemplatePORTSOFTWARE.png"
       },
-      {
-        "name": "Physiotherapy Landing Page",
-        "description": "A modern and responsive landing page, created with React and Tailwind to optimize user experience and ensure high performance. Focused on conversion and security, it includes integration with SSL certificates to protect data and strengthen the brand's digital presence.",
-        "where": "Professional Development",
-        "date": "August 202<span class='font-sans '>4</span>",
-        "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
-        "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
-        "image": "Templete3.png"
-      },
+
       {
         "name": "Psychology Landing Page",
         "description": "Responsive landing page for a psychologist couple, designed to maximize client conversion. Built with React, TailwindCSS, and custom components, it offers intuitive navigation and optimized presentation of services.",

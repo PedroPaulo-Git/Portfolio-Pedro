@@ -43,7 +43,25 @@
     "github": "https://github.com/uninassau-students",
     "image": "TemplateReactNative.png"
   },
- 
+  {
+    "name": "Physiotherapy Landing Page",
+    "description": "A modern and responsive landing page, created with React and Tailwind to optimize user experience and ensure high performance. Focused on conversion and security, it includes integration with SSL certificates to protect data and strengthen the brand's digital presence.",
+    "where": "Professional Development",
+    "date": "August 202<span class='font-sans '>4</span>",
+    "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
+    "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
+    "image": "Templete3.png"
+  },
+
+  {
+    "name": "Landing Page Fisioterapia",
+    "description": "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
+    "where": "Desenvolvimento Profissional",
+    "date": "Agosto 202<span class='font-sans '>4</span>",
+    "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
+    "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
+    "image": "Templete3.png"
+  },
   {
     "name": "Jogo Pixelado",
     "description": "Prototipo de um jogo pixelado em JavaScript, criado para demonstrar a logica de batalha. O jogo apresenta combates dinâmicos em um mundo retro, ilustrando conceitos fundamentais de programação e design de jogos.",
@@ -89,6 +107,4 @@
     "github": "https://github.com/uninassau-students",
     "image": "TemplateReactNative.png"
   }
-
-
 ]

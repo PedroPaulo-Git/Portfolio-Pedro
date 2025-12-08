@@ -61,9 +61,9 @@
     ]
   },
   "about_grid": {
-    "value1": "10<span class='font-sans'>+</span>",
+    "value1": "20<span class='font-sans'>+</span>",
     "label1": "Projetos Concluídos",
-    "value2": "5<span class='font-sans'>+</span>",
+    "value2": "10<span class='font-sans'>+</span>",
     "label2": "Tecnologias Dominadas",
     "value3": "3<span class='font-sans'>+</span>",
     "label3": "Anos de Estudos",
@@ -76,6 +76,15 @@
     "show_more": "Ver mais projetos",
     "show_less": "Ver menos",
     "projects": [
+         {
+        "name": "Pass <span class='Acentuacoes font-sans'>-</span> Sistema de Gest<span class='Acentuacoes font-sans'>ã</span>o de Frota",
+        "description": "Plataforma fullstack completa para gest<span class='Acentuacoes font-sans'>ã</span>o de frota de ve<span class='Acentuacoes font-sans'>í</span>culos com opera<span class='Acentuacoes font-sans'>çõ</span>es CRUD completas, integra<span class='Acentuacoes font-sans'>çã</span>o MinIO para armazenamento de arquivos. Desenvolvida com Fastify, Next.js 15, TypeScript, Prisma ORM e PostgreSQL. Inclui gest<span class='Acentuacoes font-sans'>ã</span>o de ve<span class='Acentuacoes font-sans'>í</span>culos, abastecimentos, ocorr<span class='Acentuacoes font-sans'>ê</span>ncias, alertas de documentos e metadados de imagens. Deploy com Docker Compose para escalabilidade e migra<span class='Acentuacoes font-sans'>çõ</span>es automatizadas. Otimiza opera<span class='Acentuacoes font-sans'>çõ</span>es de frota com filtragem avan<span class='Acentuacoes font-sans'>ç</span>ada, pagina<span class='Acentuacoes font-sans'>çã</span>o e valida<span class='Acentuacoes font-sans'>çã</span>o de dados em tempo<span class='Acentuacoes font-sans'>-</span>real.",
+        "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o SaaS de Frota",
+        "date": "Dezembro 2025",
+        "href": "https://pass-desafiotecnico.vercel.app",
+        "github": "https://github.com/PedroPaulo-Git/pass_desafiotecnico",
+        "image": "TemplatePass.png"
+      },
       {
         "name": "BrasilBarbearias <span class='Acentuacoes font-sans '>-</span> SaaS para Gest<span class='Acentuacoes font-sans'>ã</span>o de Barbearias",
         "description": "Plataforma SaaS completa para gest<span class='Acentuacoes font-sans'>ã</span>o de barbearias com opera<span class='Acentuacoes font-sans'>çõ</span>es CRUD completas, autentica<span class='Acentuacoes font-sans'>çã</span>o JWT e integra<span class='Acentuacoes font-sans'>çã</span>o com Mercado Pago. Desenvolvida com Next.js, TypeScript, Express e Tailwind CSS. Inclui registro de usu<span class='Acentuacoes font-sans'>á</span>rios, login seguro com bcrypt, notifica<span class='Acentuacoes font-sans'>çõ</span>es toast e deploy na AWS EC2. Otimiza opera<span class='Acentuacoes font-sans'>çõ</span>es comerciais e melhora a acessibilidade dos clientes.",
@@ -130,15 +139,7 @@
         "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware",
         "image": "TemplatePORTSOFTWARE.png"
       },
-      {
-        "name": "Landing Page Fisioterapia",
-        "description": "Landing page moderna e responsiva, criada com React e Tailwind para otimizar a experiência do usuário e garantir desempenho elevado. Focada em conversão e segurança, inclui integração com certificados SSL para proteger dados e fortalecer a presença digital da marca.",
-        "where": "Desenvolvimento Profissional",
-        "date": "Agosto 202<span class='font-sans '>4</span>",
-        "href": "https://pedropaulo-git.github.io/Geison-Fisioterapeuta/",
-        "github": "https://github.com/PedroPaulo-Git/Geison-Fisioterapeuta",
-        "image": "Templete3.png"
-      },
+
       {
         "name": "Landing Page Psicologia",
         "description": "Landing page responsiva para casal de psicólogos, com foco em conversão de clientes. Desenvolvida com React, TailwindCSS e componentes personalizados, oferece navegação intuitiva e apresentação otimizada dos serviços.",

@@ -6,10 +6,11 @@ import Typescript from "../../assets/ts.png";
 import Node from "../../assets/node.png";
 import Tailwind from "../../assets/tailwind.png";
 import ReactLogo from "../../assets/react.png";
-import Vercel from "../../assets/Vercel.png";
+// import Vercel from "../../assets/Vercel.png";
 import Javascript from "../../assets/js.png";
-import VueJs from "../../assets/vue.png";
-
+// import VueJs from "../../assets/vue.png";
+import Python from "../../assets/python.png";
+import Nextjs from "../../assets/next.png";
 const Marquee = () => {
   // vercel /vite
   const marquee = [
@@ -19,8 +20,11 @@ const Marquee = () => {
     Javascript,
     Tailwind,
     ReactLogo,
-    VueJs,
+    Nextjs,
+    // VueJs,
     Node,
+
+    Python,
     // Vercel
   ];
   return (
