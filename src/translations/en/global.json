@@ -8,11 +8,7 @@
     "icon_hello": "Hi, I<span class='Acentuacoes font-sans'>'</span>m Pedro 👋🏽",
     "button": "Get in touch",
     "buttonSeeProjects": "See Projects",
-    "title": [
-      "Tech and design",
-      "to boost brands and",
-      "grow businesses."
-    ]
+    "title": ["Tech and design", "to boost brands and", "grow businesses."]
   },
   "section_services": {
     "intro": "I collaborate with companies to create high<span class='Acentuacoes'>-</span>impact digital experiences",
@@ -40,38 +36,36 @@
       }
     ]
   },
- "about": {
-  "about_title": "My Journey",
-  "about_subtitle": "About Me",
- "about_description_below": "Committed to technology and web development, I am constantly improving my compet<span class='Acentuacoes font-sans'>ê</span>ncias through hands-on projects, consistent GitHub contribui<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es, and a portf<span class='Acentuacoes font-sans'>ó</span>lio focused on real-world solu<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es for the market.",
-  "about_description": "I started in tech in 2021 with a degree in An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript and React became my foundation from the very in<span class='Acentuacoes font-sans '>í</span>cio, and since then I haven't stopped learning. Today, I work with Node.js, React, Vue.js, and scalable REST APIs using Express and PostgreSQL, creating full web solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es. I also have experience deploying to AWS EC2 and working with CI<span class='Acentuacoes font-sans '>/</span>CD pipelines.",
-  "about_skills": [
-    {
-      "title": "Front<span class='font-sans'>-</span>end: ",
-      "description": "Modern and responsive interfaces focused on user experi<span class='Acentuacoes font-sans'>ê</span>ncia, usability, performance, and SEO."
-    },
-    {
-      "title": "Back<span class='font-sans'>-</span>end: ",
-      "description": "Scalable APIs with Node.js, Express, Prisma, and PostgreSQL. Deployments on EC2 and Railway, secure integra<span class='Acentuacoes font-sans'>çõ</span>es, JWT authentica<span class='Acentuacoes font-sans'>çã</span>o, and CI<span class='Acentuacoes font-sans'>/</span>CD. Basic knowledge of automations and scrapers using Python."
-    },
-    {
-      "title": "Design and Landing Pages: ",
-      "description": "Optimized landing pages focused on convers<span class='Acentuacoes font-sans'>ã</span>o, using modern, responsive, and access<span class='Acentuacoes font-sans'>í</span>vel UX<span class='Acentuacoes font-sans'>/</span>UI design."
-    }
-  ]
-}
-,
-"about_grid": {
-  "value1": "20<span class='font-sans'>+</span>",
-  "label1": "Completed Projects",
-  "value2": "10<span class='font-sans'>+</span>",
-  "label2": "Technologies Known",
-  "value3": "3<span class='font-sans'>+</span>",
-  "label3": "Years Learning",
-  "value4": "120<span class='font-sans'>+</span>",
-  "label4": "Hours of Training"
-}
-,
+  "about": {
+    "about_title": "My Journey",
+    "about_subtitle": "About Me",
+    "about_description_below": "Committed to technology and web development, I am constantly improving my compet<span class='Acentuacoes font-sans'>ê</span>ncias through hands<span class='Acentuacoes font-sans'>-</span>on projects, consistent GitHub contribui<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es, and a portf<span class='Acentuacoes font-sans'>ó</span>lio focused on real-world solu<span class='Acentuacoes font-sans'>ç</span><span class='Acentuacoes font-sans'>õ</span>es for the market.",
+    "about_description": "I started in tech in 2021 with a degree in An<span class='Acentuacoes font-sans '>á</span>lise e Desenvolvimento de Sistemas. JavaScript and React became my foundation from the very in<span class='Acentuacoes font-sans '>í</span>cio, and since then I haven<span class='Acentuacoes font-sans'>'</span>t stopped learning. Today, I work with Node.js, React, Vue.js, and scalable REST APIs using Express and PostgreSQL, creating full web solu<span class='Acentuacoes font-sans '>ç</span><span class='Acentuacoes font-sans '>õ</span>es. I also have experience deploying to AWS EC2 and working with CI<span class='Acentuacoes font-sans '>/</span>CD pipelines.",
+    "about_skills": [
+      {
+        "title": "Front<span class='font-sans'>-</span>end: ",
+        "description": "Modern and responsive interfaces focused on user experi<span class='Acentuacoes font-sans'>ê</span>ncia, usability, performance, and SEO."
+      },
+      {
+        "title": "Back<span class='font-sans'>-</span>end: ",
+        "description": "Scalable APIs with Node.js, Express, Prisma, and PostgreSQL. Deployments on EC2 and Railway, secure integra<span class='Acentuacoes font-sans'>çõ</span>es, JWT authentica<span class='Acentuacoes font-sans'>çã</span>o, and CI<span class='Acentuacoes font-sans'>/</span>CD. Basic knowledge of automations and scrapers using Python."
+      },
+      {
+        "title": "Design and Landing Pages: ",
+        "description": "Optimized landing pages focused on convers<span class='Acentuacoes font-sans'>ã</span>o, using modern, responsive, and access<span class='Acentuacoes font-sans'>í</span>vel UX<span class='Acentuacoes font-sans'>/</span>UI design."
+      }
+    ]
+  },
+  "about_grid": {
+    "value1": "20<span class='font-sans'>+</span>",
+    "label1": "Completed Projects",
+    "value2": "10<span class='font-sans'>+</span>",
+    "label2": "Technologies Known",
+    "value3": "3<span class='font-sans'>+</span>",
+    "label3": "Years Learning",
+    "value4": "120<span class='font-sans'>+</span>",
+    "label4": "Hours of Training"
+  },
   "work": {
     "work_title": "Selected Works",
     "work_subtitle": "A collection of the most impactful projects, chosen to represent quality and dedication in every detail. Explore some of my best results.",
@@ -114,7 +108,7 @@
         "github": "https://github.com/PedroPaulo-Git/31hamburgueria",
         "image": "Template31Hamburgueria.png"
       },
-  
+
       {
         "name": "Pet Management System",
         "description": "Development of a complete pet management system with CRUD functionalities, using Next.js. The project was created for a selection process, demonstrating experience in backend and frontend development with a focus on performance and scalability.",
@@ -135,14 +129,22 @@
       },
       {
         "name": "PortSoftware <span class='Acentuacoes font-sans '>-</span> Prospecting and Paid Traffic",
-      "description": "Institutional page of my software house, PortSoftware, built with React, Tailwind CSS, and ShadCN. Showcases landing page and paid traffic management services focused on conversion. Prospected over 6 clients, with 3 projects closed.",
+        "description": "Institutional page of my software house, PortSoftware, built with React, Tailwind CSS, and ShadCN. Showcases landing page and paid traffic management services focused on conversion. Prospected over 6 clients, with 3 projects closed.",
         "where": "Business Solution Website",
         "date": "April 2025",
         "href": "https://www.portsoftware.com.br/",
         "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware",
         "image": "TemplatePORTSOFTWARE.png"
       },
-
+      {
+        "name": "Landing Page Dontorrir",
+        "description": "Responsive landing page developed for a local dental clinic, focused on patient conversion. Built with Next.js and animations using Framer Motion<span class='font-sans '>/</span>Frame Motion; mobile<span class='font-sans '>-</span>first and fully responsive. Features reusable components, basic SEO optimization, and an integrated contact form.",
+        "where": "Professional Development",
+        "date": "December 202<span class='font-sans '>4</span>",
+        "href": "https://dontorrir.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/Dontorrir",
+        "image": "Templatedontorrir.png"
+      },
       {
         "name": "Psychology Landing Page",
         "description": "Responsive landing page for a psychologist couple, designed to maximize client conversion. Built with React, TailwindCSS, and custom components, it offers intuitive navigation and optimized presentation of services.",
@@ -152,10 +154,10 @@
         "github": "https://github.com/PedroPaulo-Git/Psicologia",
         "image": "TemplatePsico.png"
       },
-  
+
       {
         "name": "Honda Motorcycle Consortium Landing Page <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
-       "description": "Landing page for Honda Catalano Motos cons<span class='Acentuacoes font-sans '>ó</span>rcio. Built with React and Tailwind CSS, focused on performance and UX<span class='Acentuacoes font-sans '>/</span>UI. Applied paid tr<span class='Acentuacoes font-sans '>á</span>ffic strategies that generated qualified leads.",
+        "description": "Landing page for Honda Catalano Motos cons<span class='Acentuacoes font-sans '>ó</span>rcio. Built with React and Tailwind CSS, focused on performance and UX<span class='Acentuacoes font-sans '>/</span>UI. Applied paid tr<span class='Acentuacoes font-sans '>á</span>ffic strategies that generated qualified leads.",
         "where": "Motorcycle Consortium Landing Page",
         "date": "March 2025",
         "href": "https://www.catalanomotos.com.br",
@@ -180,7 +182,6 @@
         "github": "https://github.com/PedroPaulo-Git/MoviesRating",
         "image": "Templete34.png"
       }
-     
     ]
   },
   "footer": {

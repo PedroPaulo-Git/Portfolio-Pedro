@@ -16,6 +16,7 @@ import Template11 from "../../assets/Works/Template31Hamburgueria.png";
 import Template12 from '../../assets/Works/TemplateEPTA.png'
 import Template13 from '../../assets/Works/TemplateBrasilBarbearia.png';
 import Template14 from '../../assets/Works/TemplatePass.png';
+import Template15 from '../../assets/Works/Templatedontorrir.png';
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -40,6 +41,7 @@ const imageMap = {
   "TemplateEPTA.png": Template12,
   "TemplateBrasilBarbearia.png":Template13,
   "TemplatePass.png":Template14,
+  "Templatedontorrir.png": Template15,
   // ...adicione todos os outros
 };
 
@@ -51,7 +53,7 @@ const Work = () => {
   const projects = t("work.projects", { returnObjects: true });
 
   // Separe os projetos principais e os extras (3 últimos)
-  const mainProjects = projects.slice(0, -3);
+  const mainProjects = projects.slice(0, -4);
   const extraProjects = projects.slice(-4);
 
   // Mapeia os projetos principais

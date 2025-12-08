@@ -8,11 +8,7 @@
     "icon_hello": "Ol<span class='font-sans font-size:20px'>á</span>, sou Pedro 👋🏽",
     "button": "Entrar em contato",
     "buttonSeeProjects": "Ver Projetos",
-    "title": [
-      "Design e tecnologia",
-      "para impulsionar marcas",
-      "e negocios."
-    ]
+    "title": ["Design e tecnologia", "para impulsionar marcas", "e negocios."]
   },
   "section_services": {
     "intro": "Colaboro com empresas para criar experi<span class='Acentuacoes'>ê</span>ncias digitais de alto impacto",
@@ -76,7 +72,7 @@
     "show_more": "Ver mais projetos",
     "show_less": "Ver menos",
     "projects": [
-         {
+      {
         "name": "Pass <span class='Acentuacoes font-sans'>-</span> Sistema de Gest<span class='Acentuacoes font-sans'>ã</span>o de Frota",
         "description": "Plataforma fullstack completa para gest<span class='Acentuacoes font-sans'>ã</span>o de frota de ve<span class='Acentuacoes font-sans'>í</span>culos com opera<span class='Acentuacoes font-sans'>çõ</span>es CRUD completas, integra<span class='Acentuacoes font-sans'>çã</span>o MinIO para armazenamento de arquivos. Desenvolvida com Fastify, Next.js 15, TypeScript, Prisma ORM e PostgreSQL. Inclui gest<span class='Acentuacoes font-sans'>ã</span>o de ve<span class='Acentuacoes font-sans'>í</span>culos, abastecimentos, ocorr<span class='Acentuacoes font-sans'>ê</span>ncias, alertas de documentos e metadados de imagens. Deploy com Docker Compose para escalabilidade e migra<span class='Acentuacoes font-sans'>çõ</span>es automatizadas. Otimiza opera<span class='Acentuacoes font-sans'>çõ</span>es de frota com filtragem avan<span class='Acentuacoes font-sans'>ç</span>ada, pagina<span class='Acentuacoes font-sans'>çã</span>o e valida<span class='Acentuacoes font-sans'>çã</span>o de dados em tempo<span class='Acentuacoes font-sans'>-</span>real.",
         "where": "Solu<span class='Acentuacoes font-sans '>çã</span>o SaaS de Frota",
@@ -139,7 +135,15 @@
         "github": "https://github.com/PedroPaulo-Git/Project-PortSoftware",
         "image": "TemplatePORTSOFTWARE.png"
       },
-
+      {
+        "name": "Landing Page Dontorrir",
+        "description": "Landing page responsiva desenvolvida para uma cl<span class='font-sans '>í</span>nica de odontologia da minha cidade, com foco em convers<span class='font-sans '>ã</span>o de pacientes. Implementada com Next.js e anima<span class='font-sans '>ç</span><span class='font-sans '>õ</span>es usando Framer Motion; mobile<span class='font-sans '>-</span>first e totalmente responsiva. Componentes reutilizáveis, SEO básico e formul<span class='font-sans '>á</span>rio de contato integrado.",
+        "where": "Desenvolvimento Profissional",
+        "date": "Dezembro 202<span class='font-sans '>4</span>",
+        "href": "https://dontorrir.vercel.app/",
+        "github": "https://github.com/PedroPaulo-Git/Dontorrir",
+        "image": "Templatedontorrir.png"
+      },
       {
         "name": "Landing Page Psicologia",
         "description": "Landing page responsiva para casal de psicólogos, com foco em conversão de clientes. Desenvolvida com React, TailwindCSS e componentes personalizados, oferece navegação intuitiva e apresentação otimizada dos serviços.",
@@ -149,6 +153,7 @@
         "github": "https://github.com/PedroPaulo-Git/Psicologia",
         "image": "TemplatePsico.png"
       },
+
       {
         "name": "Landing Page de Cons<span class='Acentuacoes font-sans '>ó</span>rcio <span class='Acentuacoes font-sans '>-</span> Catalano Motos",
         "description": "Landing page para cons<span class='Acentuacoes font-sans '>ó</span>rcio Honda da Catalano Motos. Desenvolvida com React e Tailwind CSS, focada em performance e UX<span class='Acentuacoes font-sans '>/</span>UI. Apliquei estratégias de tr<span class='Acentuacoes font-sans '>á</span>fego pago que geraram contatos qualificados.",
