@@ -51,7 +51,7 @@ const Work = () => {
   const projects = t("work.projects", { returnObjects: true });
 
   // Separe os projetos principais e os extras (3 últimos)
-  const mainProjects = projects.slice(0, -4);
+  const mainProjects = projects.slice(0, -3);
   const extraProjects = projects.slice(-4);
 
   // Mapeia os projetos principais
