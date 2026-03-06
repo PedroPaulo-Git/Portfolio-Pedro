@@ -11,20 +11,26 @@ import Javascript from "../../assets/js.png";
 // import VueJs from "../../assets/vue.png";
 import Python from "../../assets/python.png";
 import Nextjs from "../../assets/next.png";
+import Nestjs from "../../assets/nestjs.png";
+import Prisma from "../../assets/prisma.png";
+import MySql from "../../assets/mysql.png";
+import Aws from "../../assets/aws.png";
 const Marquee = () => {
-  // vercel /vite
   const marquee = [
-    Git,
-    PostgreSQL,
+    Aws,
+    Python,
+    Nestjs,
+    Node,
+    Nextjs,
     Typescript,
     Javascript,
     Tailwind,
     ReactLogo,
-    Nextjs,
-    // VueJs,
-    Node,
+    Prisma,
+    Git,
+    PostgreSQL,
+    MySql,
 
-    Python,
     // Vercel
   ];
   return (

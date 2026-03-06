@@ -21,7 +21,7 @@ const Footer = () => {
     console.log(isInView);
   }, [isInView]);
 
-  const phoneNumber = "5581999049803"; // Seu número com código do país
+  const phoneNumber = "5581987730575"; // Seu número com código do país
   const message = encodeURIComponent("Gostaria de entrar em contato !"); // Mensagem a ser enviada
 
   const handleClick = () => {
